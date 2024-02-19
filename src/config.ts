@@ -4,8 +4,8 @@ import apps from './rawApps';
 import type { RawSubscription } from './types';
 
 const subsConfig: RawSubscription = {
-  id: 0,
-  version: 0,
+  id: 26,
+  version: 186,
   name: 'Wbx的GKD订阅',
   author: 'Wbx',
   supportUri: 'https://github.com/W7256/subscription',
