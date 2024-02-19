@@ -6,13 +6,13 @@ import type { RawSubscription } from './types';
 const subsConfig: RawSubscription = {
   id: 0,
   version: 0,
-  name: '默认订阅',
-  author: 'lisonge',
-  supportUri: 'https://github.com/gkd-kit/subscription',
+  name: 'Wbx的GKD订阅',
+  author: 'Wbx',
+  supportUri: 'https://github.com/W7256/subscription',
   updateUrl:
-    'https://registry.npmmirror.com/@gkd-kit/subscription/latest/files',
+    '',
   checkUpdateUrl:
-    'https://registry.npmmirror.com/@gkd-kit/subscription/latest/files/dist/gkd.version.json',
+    '',
   globalGroups,
   categories,
   apps,
