@@ -9,10 +9,8 @@ const subsConfig: RawSubscription = {
   name: 'Wbx的GKD订阅',
   author: 'Wbx',
   supportUri: 'https://github.com/W7256/subscription',
-  updateUrl:
-    '',
-  checkUpdateUrl:
-    '',
+  updateUrl: '',
+  checkUpdateUrl: '',
   globalGroups,
   categories,
   apps,
