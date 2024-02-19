@@ -167,29 +167,6 @@ export default defineAppConfig({
     },
     {
       enable: false,
-      key: 4,
-      name: '功能类-微信读书网页版扫码登录自动授权',
-      quickFind: true,
-      matchTime: 10000,
-      actionMaximum: 1,
-      resetMatch: 'activity',
-      activityIds: ['com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI'],
-      rules: [
-        {
-          matches: '[text="微信读书网页版"] +3 Button[text="登 录"]',
-          snapshotUrls: 'https://i.gkd.li/import/12506197',
-        },
-        {
-          matches: [
-            '[text="登录成功"]',
-            '[id="com.tencent.mm:id/g1"][desc="返回"]',
-          ],
-          snapshotUrls: 'https://i.gkd.li/import/12506201',
-        },
-      ],
-    },
-    {
-      enable: false,
       key: 5,
       name: '功能类-微信红包自动领取',
       desc: '自动领取私聊红包,群聊红包',
