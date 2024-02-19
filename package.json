@@ -43,15 +43,15 @@
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
-  "author": "lisonge",
+  "author": "Wbx",
   "license": "MIT",
-  "homepage": "https://github.com/gkd-kit/subscription#readme",
+  "homepage": "https://github.com/W7256/subscription#readme",
   "bugs": {
-    "url": "https://github.com/gkd-kit/subscription/issues"
+    "url": "https://github.com/W7256/subscription/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkd-kit/subscription.git"
+    "url": "git+https://github.com/W7256/subscription.git"
   },
   "volta": {
     "node": "20.9.0"
