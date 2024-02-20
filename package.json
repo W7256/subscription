@@ -1,5 +1,5 @@
 {
-  "name": "@W7256/subscription",
+  "name": "@wenbux/subscription",
   "type": "module",
   "version": "1.187.0",
   "main": "./dist/gkd.json5",
