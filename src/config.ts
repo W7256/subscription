@@ -6,13 +6,12 @@ import type { RawSubscription } from './types';
 const subsConfig: RawSubscription = {
   id: 26,
   version: 186,
-  name: 'Wbx的GKD订阅',
-  author: 'Wbx',
+  name: 'wbx的GKD订阅',
+  author: 'wbx',
   supportUri: 'https://github.com/W7256/subscription',
-  updateUrl:
-    'https://cdn.gitmirror.com/gh/W7256/subscription/main/dist/gkd.json5',
+  updateUrl: 'https://registry.npmmirror.com/wbx_gkd_subscription/latest/files',
   checkUpdateUrl:
-    'https://cdn.gitmirror.com/gh/W7256/subscription/main/dist/gkd.version.json5',
+    'https://registry.npmmirror.com/wbx_gkd_subscription/latest/files',
   globalGroups,
   categories,
   apps,
