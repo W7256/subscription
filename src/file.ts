@@ -76,7 +76,7 @@ export const writeConfig = async (config: RawSubscription) => {
     console.log('暂无规则变化');
     return;
   }
-
+  // newConfig.version = 0;  //版本回退为0，npm run build 后为1
   newConfig.version++;
 
   // update md
