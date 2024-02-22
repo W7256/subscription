@@ -213,5 +213,20 @@ export default defineAppConfig({
         '[text="开启个性化内容推荐"] +3 [id="tv.danmaku.bili:id/close_button"]',
       snapshotUrls: 'https://i.gkd.li/import/13448905',
     },
+
+    {
+      name: '功能类-展开简介',
+      key: 12,
+      desc: '视频简介中通常会有一些内容，此规则能帮我们自动展开简介',
+      rules: [
+        {
+          action: 'clickNode',
+          matches: ['@ViewGroup > ImageView[desc="展开更多，按钮"]'],
+          activityIds: [
+            'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
+          ],
+        },
+      ],
+    },
   ],
 });

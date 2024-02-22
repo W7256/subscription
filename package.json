@@ -1,7 +1,7 @@
 {
-  "name": "wbx_gkd_subscription",
+  "name": "@wbx/gkd_subscription",
   "type": "module",
-  "version": "1.188.0",
+  "version": "1.189.0",
   "main": "./dist/gkd.json5",
   "unpkg": "./dist/gkd.json5",
   "jsdelivr": "./dist/gkd.json5",
@@ -43,7 +43,7 @@
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
-  "author": "Wbx",
+  "author": "wbx",
   "license": "MIT",
   "homepage": "https://github.com/W7256/subscription#readme",
   "bugs": {
