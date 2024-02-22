@@ -9,9 +9,10 @@ const subsConfig: RawSubscription = {
   name: 'wbx的GKD订阅',
   author: 'wbx',
   supportUri: 'https://github.com/W7256/subscription',
-  updateUrl: 'https://registry.npmmirror.com/wbx_gkd_subscription/latest/files',
+  updateUrl:
+    'https://registry.npmmirror.com/@wenbux/gkd_subscription/latest/files',
   checkUpdateUrl:
-    'https://registry.npmmirror.com/wbx_gkd_subscription/latest/files',
+    'https://registry.npmmirror.com/@wenbux/gkd_subscription/latest/files',
   globalGroups,
   categories,
   apps,
