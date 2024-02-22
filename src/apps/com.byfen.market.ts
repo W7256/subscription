@@ -13,7 +13,8 @@ export default defineAppConfig({
       rules: [
         {
           key: 0,
-          matches: '[id="com.byted.pangle:id/tt_splash_skip_btn"]',
+          matches:
+            '[id="com.byted.pangle:id/tt_splash_skip_btn"||text^="跳过"]',
           snapshotUrls: 'https://i.gkd.li/import/13298944',
         },
         {

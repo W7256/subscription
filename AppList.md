@@ -83,7 +83,7 @@
 | MX 播放器              | [com.mxtech.videoplayer.ad](/docs/com.mxtech.videoplayer.ad.md)                                                                                                   | 1      |
 | NGA玩家社区            | [gov.pianzong.androidnga](/docs/gov.pianzong.androidnga.md)                                                                                                       | 4      |
 | NP管理器               | [npgl.jsitcx.xlpqi](/docs/npgl.jsitcx.xlpqi.md)                                                                                                                   | 2      |
-| OPPO软件商店           | [com.heytap.market](/docs/com.heytap.market.md)                                                                                                                   | 1      |
+| OPPO软件商店           | [com.heytap.market](/docs/com.heytap.market.md)                                                                                                                   | 2      |
 | OPPO商城               | [com.oppo.store](/docs/com.oppo.store.md)                                                                                                                         | 2      |
 | OPPO手机管家           | [com.coloros.phonemanager](/docs/com.coloros.phonemanager.md)                                                                                                     | 1      |
 | OurPlay加速器          | [com.excean.splay](/docs/com.excean.splay.md)                                                                                                                     | 1      |
@@ -140,6 +140,7 @@
 | 财联社                 | [com.lanjinger.choiassociatedpress](/docs/com.lanjinger.choiassociatedpress.md)                                                                                   | 1      |
 | 菜鸟                   | [com.cainiao.wireless](/docs/com.cainiao.wireless.md)                                                                                                             | 6      |
 | 彩云天气               | [com.nowcasting.activity](/docs/com.nowcasting.activity.md)                                                                                                       | 3      |
+| 测网速专家             | [com.uusense.speed](/docs/com.uusense.speed.md)                                                                                                                   | 1      |
 | 超级课程表             | [com.xtuone.android.syllabus](/docs/com.xtuone.android.syllabus.md)                                                                                               | 3      |
 | 车来了                 | [com.ygkj.chelaile.standard](/docs/com.ygkj.chelaile.standard.md)                                                                                                 | 1      |
 | 春木漫画               | [com.galaxy.qbyd](/docs/com.galaxy.qbyd.md)                                                                                                                       | 1      |
@@ -278,7 +279,7 @@
 | 快手                   | [com.smile.gifmaker](/docs/com.smile.gifmaker.md)                                                                                                                 | 4      |
 | 快手极速版             | [com.kuaishou.nebula](/docs/com.kuaishou.nebula.md)                                                                                                               | 1      |
 | 快牙                   | [com.dewmobile.kuaiya](/docs/com.dewmobile.kuaiya.md)                                                                                                             | 1      |
-| 夸克浏览器             | [com.quark.browser](/docs/com.quark.browser.md)                                                                                                                   | 4      |
+| 夸克浏览器             | [com.quark.browser](/docs/com.quark.browser.md)                                                                                                                   | 5      |
 | 酷安                   | [com.coolapk.market](/docs/com.coolapk.market.md)                                                                                                                 | 4      |
 | 酷狗音乐               | [com.kugou.android](/docs/com.kugou.android.md)                                                                                                                   | 3      |
 | 蓝岛                   | [com.loyea.adnmb](/docs/com.loyea.adnmb.md)                                                                                                                       | 1      |
@@ -392,7 +393,7 @@
 | 手机天猫               | [com.tmall.wireless](/docs/com.tmall.wireless.md)                                                                                                                 | 3      |
 | 手机知网               | [com.cnki.client](/docs/com.cnki.client.md)                                                                                                                       | 1      |
 | 书法字典大全           | [com.zivn.cloudbrush3](/docs/com.zivn.cloudbrush3.md)                                                                                                             | 1      |
-| 顺丰速运               | [com.sf.activity](/docs/com.sf.activity.md)                                                                                                                       | 2      |
+| 顺丰速运               | [com.sf.activity](/docs/com.sf.activity.md)                                                                                                                       | 3      |
 | 顺易充                 | [com.longshine.nanwang.electric.charge](/docs/com.longshine.nanwang.electric.charge.md)                                                                           | 1      |
 | 书旗小说               | [com.shuqi.controller](/docs/com.shuqi.controller.md)                                                                                                             | 4      |
 | 数字人民币             | [cn.gov.pbc.dcep](/docs/cn.gov.pbc.dcep.md)                                                                                                                       | 1      |

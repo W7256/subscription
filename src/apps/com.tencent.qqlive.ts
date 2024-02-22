@@ -8,13 +8,12 @@ export default defineAppConfig({
     {
       key: 0,
       name: '开屏广告',
-      quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
       rules: [
         {
-          matches: 'TextView[text*="跳过"][text.length<=10]',
+          matches: 'FrameLayout[id=null] > TextView[text="跳过"][id=null]',
           snapshotUrls: [
             'https://i.gkd.li/import/12700227',
             'https://i.gkd.li/import/12700122',

@@ -5,6 +5,19 @@ export default defineAppConfig({
   name: '顺丰速运',
   groups: [
     {
+      name: '开屏广告',
+      key: 0,
+      desc: '',
+      rules: [
+        {
+          action: 'clickCenter',
+          matches: ['@Button > ViewGroup > TextView[text^="跳过"]'],
+          quickFind: true,
+          activityIds: ['com.sf.activity.MainActivity'],
+        },
+      ],
+    },
+    {
       key: 1,
       name: '更新弹窗',
       activityIds: 'com.sf.activity.MainActivity',

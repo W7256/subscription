@@ -1,6 +1,8 @@
 # 顺丰速运
 
-存在 2 规则组 - [com.sf.activity](/src/apps/com.sf.activity.ts)
+存在 3 规则组 - [com.sf.activity](/src/apps/com.sf.activity.ts)
+
+## 开屏广告
 
 ## 更新弹窗
 

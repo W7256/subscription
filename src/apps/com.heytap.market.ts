@@ -22,5 +22,21 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      name: '局部广告-主页右下角广告',
+      key: 2,
+      desc: '',
+      rules: [
+        {
+          action: 'clickNode',
+          matches:
+            'RelativeLayout[id="com.heytap.market:id/view_id_float_ad"] > ImageView[desc="关闭"]',
+          matchDelay: 500,
+          activityIds: [
+            'com.heytap.cdo.client.cards.page.main.maintab.MainTabActivity',
+          ],
+        },
+      ],
+    },
   ],
 });

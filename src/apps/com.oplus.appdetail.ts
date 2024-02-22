@@ -7,7 +7,8 @@ export default defineAppConfig({
     {
       enable: false,
       key: 1,
-      name: '自动安装应用',
+      name: '功能类-自动安装应用',
+      desc: '用户自行选择完成或打开',
       rules: [
         {
           key: 0,
@@ -24,20 +25,20 @@ export default defineAppConfig({
             'https://i.gkd.li/import/13038570',
           ],
         },
-        {
-          key: 1,
-          name: '点击【完成】',
-          activityIds: 'com.oplus.appdetail.model.finish.InstallFinishActivity',
-          matches: '[id="com.oplus.appdetail:id/launch_button"][text="完成"]',
-          snapshotUrls: 'https://i.gkd.li/import/13038664',
-        },
-        {
-          key: 2,
-          name: '点击【完成】',
-          activityIds: 'com.oplus.appdetail.model.finish.InstallFinishActivity',
-          matches: '[id="com.oplus.appdetail:id/done_button"][text="完成"]',
-          snapshotUrls: 'https://i.gkd.li/import/13054849',
-        },
+        // {
+        //   key: 1,
+        //   name: '点击【完成】',
+        //   activityIds: 'com.oplus.appdetail.model.finish.InstallFinishActivity',
+        //   matches: '[id="com.oplus.appdetail:id/launch_button"][text="完成"]',
+        //   snapshotUrls: 'https://i.gkd.li/import/13038664',
+        // },
+        // {
+        //   key: 2,
+        //   name: '点击【完成】',
+        //   activityIds: 'com.oplus.appdetail.model.finish.InstallFinishActivity',
+        //   matches: '[id="com.oplus.appdetail:id/done_button"][text="完成"]',
+        //   snapshotUrls: 'https://i.gkd.li/import/13054849',
+        // },
       ],
     },
   ],

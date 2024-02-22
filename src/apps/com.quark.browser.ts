@@ -14,6 +14,24 @@ export default defineAppConfig({
       ],
     },
     {
+      name: '功能类-同时删除源文件',
+      key: 1,
+      enable: false,
+      desc: '删文件时自动勾选删除源文件',
+      rules: [
+        {
+          action: 'clickCenter',
+          matches: ['[text="同时删除源文件"]'],
+          actionDelay: 500,
+          quickFind: true,
+          actionMaximum: 1,
+          matchDelay: 200,
+          resetMatch: 'activity',
+          activityIds: ['com.ucpro.BrowserActivity'],
+        },
+      ],
+    },
+    {
       enable: false,
       key: 2,
       name: '设置默认浏览器提示',

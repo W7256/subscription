@@ -56,7 +56,7 @@ export default defineAppConfig({
     },
     {
       key: 0,
-      name: '卡片广告',
+      name: '分段广告-信息流广告',
       desc: '点击卡片右上角按钮->免广告-点击不感兴趣->选择关闭原因-点击不感兴趣',
       quickFind: true,
       activityIds: [
@@ -97,6 +97,7 @@ export default defineAppConfig({
           key: 3,
           name: '选择关闭原因-点击不感兴趣',
           matches: ['@LinearLayout > TextView[text="不感兴趣"]'],
+          action: 'clickNode',
           snapshotUrls: [
             'https://i.gkd.li/import/12472633',
             'https://i.gkd.li/import/12655713',
