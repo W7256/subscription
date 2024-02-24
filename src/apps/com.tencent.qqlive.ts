@@ -13,6 +13,7 @@ export default defineAppConfig({
       resetMatch: 'app',
       rules: [
         {
+          action: 'clickCenter',
           matches: 'FrameLayout[id=null] > TextView[text="跳过"][id=null]',
           snapshotUrls: [
             'https://i.gkd.li/import/12700227',
