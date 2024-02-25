@@ -2,6 +2,13 @@
 
 存在 3 规则组 - [info.muge.appshare](/src/apps/info.muge.appshare.ts)
 
+## 功能类-自动签到
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13931265)
+- [快照-1](https://i.gkd.li/import/13931279)
+
 ## 开屏广告
 
 - [快照-0](https://i.gkd.li/import/12683168)
@@ -20,10 +27,3 @@
 - [快照-0](https://i.gkd.li/import/13761259)
 - [快照-1](https://i.gkd.li/import/13712716)
 - [快照-2](https://i.gkd.li/import/13758909)
-
-## 功能类-自动签到
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13931265)
-- [快照-1](https://i.gkd.li/import/13931279)

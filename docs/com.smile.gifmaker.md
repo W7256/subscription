@@ -2,6 +2,13 @@
 
 存在 4 规则组 - [com.smile.gifmaker](/src/apps/com.smile.gifmaker.ts)
 
+## 你可能感兴趣的人
+
+默认禁用 - 自动点击【关闭】
+
+- [快照-0](https://i.gkd.li/import/12708620)
+- [快照-1](https://i.gkd.li/import/12708707)
+
 ## 青少年模式弹窗
 
 默认禁用
@@ -22,10 +29,3 @@
 
 - [快照-0](https://i.gkd.li/import/12708671)
 - [快照-1](https://i.gkd.li/import/12708676)
-
-## 你可能感兴趣的人
-
-默认禁用 - 自动点击【关闭】
-
-- [快照-0](https://i.gkd.li/import/12708620)
-- [快照-1](https://i.gkd.li/import/12708707)

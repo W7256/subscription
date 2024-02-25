@@ -2,9 +2,29 @@
 
 存在 14 规则组 - [com.ss.android.ugc.aweme](/src/apps/com.ss.android.ugc.aweme.ts)
 
+## 关闭更新弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12534016)
+- [快照-1](https://i.gkd.li/import/13328599)
+
+## 关闭朋友推荐弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12525387)
+- [快照-1](https://i.gkd.li/import/12525389)
+
 ## 关闭青少年弹窗
 
 默认禁用
+
+## 关闭商城推荐
+
+默认禁用 - 点击【不感兴趣】
+
+- [快照-0](https://i.gkd.li/import/13800207)
 
 ## 关闭用户推荐
 
@@ -16,31 +36,18 @@
 - [快照-3](https://i.gkd.li/import/12675129)
 - [快照-4](https://i.gkd.li/import/12675245)
 
-## 关闭朋友推荐弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12525387)
-- [快照-1](https://i.gkd.li/import/12525389)
-
-## 关闭更新弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12534016)
-- [快照-1](https://i.gkd.li/import/13328599)
-
-## 首页左上角广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12749276)
-
 ## 广告弹窗
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12769137)
+
+## 请求开启通知提示信息
+
+默认禁用 - 自动点击“暂不”
+
+- [快照-0](https://i.gkd.li/import/12675129)
+- [快照-1](https://i.gkd.li/import/13669790)
 
 ## 去商店评分
 
@@ -56,19 +63,24 @@
 
 - [快照-0](https://i.gkd.li/import/13256087)
 
-## 请求开启通知提示信息
+## 视频播放中途插入的打招呼界面
 
-默认禁用 - 自动点击“暂不”
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/12675129)
-- [快照-1](https://i.gkd.li/import/13669790)
+- [快照-0](https://i.gkd.li/import/13379307)
 
-## 自动勾选原图
+## 首页左上角广告
 
-默认禁用 - 聊天发送图片时自动勾选原图
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/12846036)
-- [快照-1](https://i.gkd.li/import/12846040)
+- [快照-0](https://i.gkd.li/import/12749276)
+
+## 添加快捷方式到桌面
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13338556)
+- [快照-1](https://i.gkd.li/import/13669682)
 
 ## 休息提醒
 
@@ -78,21 +90,9 @@
 - [快照-1](https://i.gkd.li/import/13372604)
 - [快照-2](https://i.gkd.li/import/13372725)
 
-## 添加快捷方式到桌面
+## 自动勾选原图
 
-默认禁用
+默认禁用 - 聊天发送图片时自动勾选原图
 
-- [快照-0](https://i.gkd.li/import/13338556)
-- [快照-1](https://i.gkd.li/import/13669682)
-
-## 视频播放中途插入的打招呼界面
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13379307)
-
-## 关闭商城推荐
-
-默认禁用 - 点击【不感兴趣】
-
-- [快照-0](https://i.gkd.li/import/13800207)
+- [快照-0](https://i.gkd.li/import/12846036)
+- [快照-1](https://i.gkd.li/import/12846040)

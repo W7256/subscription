@@ -17,6 +17,12 @@
 - [快照-0](https://i.gkd.li/import/12647000)
 - [快照-1](https://i.gkd.li/import/13360282)
 
+## 消息页面-通知开关
+
+默认禁用 - 点击x按钮，不开启系统通知
+
+- [快照-0](https://i.gkd.li/import/12647068)
+
 ## 右侧悬浮广告
 
 默认禁用
@@ -25,9 +31,3 @@
 - [快照-1](https://i.gkd.li/import/12647052)
 - [快照-2](https://i.gkd.li/import/12647127)
 - [快照-3](https://i.gkd.li/import/13402782)
-
-## 消息页面-通知开关
-
-默认禁用 - 点击x按钮，不开启系统通知
-
-- [快照-0](https://i.gkd.li/import/12647068)

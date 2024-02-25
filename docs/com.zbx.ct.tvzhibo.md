@@ -2,12 +2,11 @@
 
 存在 3 规则组 - [com.zbx.ct.tvzhibo](/src/apps/com.zbx.ct.tvzhibo.ts)
 
-## 弹窗广告
+## 播放页面-弹窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13739951)
-- [快照-1](https://i.gkd.li/import/13766516)
+- [快照-0](https://i.gkd.li/import/13739932)
 
 ## 浮窗广告
 
@@ -16,8 +15,9 @@
 - [快照-0](https://i.gkd.li/import/13740079)
 - [快照-1](https://i.gkd.li/import/13740126)
 
-## 播放页面-弹窗广告
+## 弹窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13739932)
+- [快照-0](https://i.gkd.li/import/13739951)
+- [快照-1](https://i.gkd.li/import/13766516)

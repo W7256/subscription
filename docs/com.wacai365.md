@@ -9,13 +9,13 @@
 - [快照-0](https://i.gkd.li/import/13249620)
 - [快照-1](https://i.gkd.li/import/13772291)
 
+## 开屏广告
+
+- [快照-0](https://i.gkd.li/import/14021540)
+- [快照-1](https://i.gkd.li/import/13399124)
+
 ## 全屏广告-弹窗广告
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13249666)
-
-## 开屏广告
-
-- [快照-0](https://i.gkd.li/import/14021540)
-- [快照-1](https://i.gkd.li/import/13399124)

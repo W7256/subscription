@@ -2,13 +2,17 @@
 
 存在 5 规则组 - [com.twitter.android](/src/apps/com.twitter.android.ts)
 
-## 信息流广告-主页
+## 评价弹窗
 
-默认禁用 - 点击右上角关闭,点击我不喜欢
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/12798795)
-- [快照-1](https://i.gkd.li/import/12813235)
-- [快照-2](https://i.gkd.li/import/12798810)
+- [快照-0](https://i.gkd.li/import/13774150)
+
+## 通知提示-请求通知权限弹窗
+
+默认禁用 - 点击"Not now"
+
+- [快照-0](https://i.gkd.li/import/13930126)
 
 ## 信息流广告-帖子详情页、搜索页
 
@@ -37,14 +41,10 @@
 - [快照-3](https://i.gkd.li/import/12904603)
 - [快照-4](https://i.gkd.li/import/12798810)
 
-## 评价弹窗
+## 信息流广告-主页
 
-默认禁用
+默认禁用 - 点击右上角关闭,点击我不喜欢
 
-- [快照-0](https://i.gkd.li/import/13774150)
-
-## 通知提示-请求通知权限弹窗
-
-默认禁用 - 点击"Not now"
-
-- [快照-0](https://i.gkd.li/import/13930126)
+- [快照-0](https://i.gkd.li/import/12798795)
+- [快照-1](https://i.gkd.li/import/12813235)
+- [快照-2](https://i.gkd.li/import/12798810)

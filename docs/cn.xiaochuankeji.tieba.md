@@ -8,18 +8,18 @@
 
 - [快照-0](https://i.gkd.li/import/12660882)
 
-## 青少年模式弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12660929)
-
 ## 评论区广告卡片
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12661011)
 - [快照-1](https://i.gkd.li/import/12661028)
+
+## 青少年模式弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12660929)
 
 ## 系统通知弹窗
 

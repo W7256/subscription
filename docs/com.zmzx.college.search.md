@@ -2,11 +2,36 @@
 
 存在 9 规则组 - [com.zmzx.college.search](/src/apps/com.zmzx.college.search.ts)
 
-## 首页-推送通知
+## 局部广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12867853)
+- [快照-0](https://i.gkd.li/import/13849755)
+- [快照-1](https://i.gkd.li/import/13063381)
+
+## 局部广告-教材内底部广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13929965)
+
+## 局部广告-教材内弹窗广告1
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13929945)
+
+## 局部广告-教材内弹窗广告2
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13929981)
+
+## 请求好评弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13476308)
 
 ## 全屏广告
 
@@ -19,13 +44,6 @@
 - [快照-4](https://i.gkd.li/import/13522998)
 - [快照-5](https://i.gkd.li/import/13523288)
 - [快照-6](https://i.gkd.li/import/12893408)
-
-## 局部广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13849755)
-- [快照-1](https://i.gkd.li/import/13063381)
 
 ## 升级弹窗
 
@@ -40,26 +58,8 @@
 
 - [快照-0](https://i.gkd.li/import/13440939)
 
-## 请求好评弹窗
+## 首页-推送通知
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13476308)
-
-## 局部广告-教材内弹窗广告1
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13929945)
-
-## 局部广告-教材内弹窗广告2
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13929981)
-
-## 局部广告-教材内底部广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13929965)
+- [快照-0](https://i.gkd.li/import/12867853)

@@ -2,6 +2,12 @@
 
 存在 2 规则组 - [com.sgcc.wsgw.cn](/src/apps/com.sgcc.wsgw.cn.ts)
 
+## 版本更新
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13501638)
+
 ## 首页弹窗广告
 
 默认禁用
@@ -11,9 +17,3 @@
 - [快照-2](https://i.gkd.li/import/13247655)
 - [快照-3](https://i.gkd.li/import/13247655)
 - [快照-4](https://i.gkd.li/import/12745042)
-
-## 版本更新
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13501638)

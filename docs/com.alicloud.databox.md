@@ -2,12 +2,11 @@
 
 存在 4 规则组 - [com.alicloud.databox](/src/apps/com.alicloud.databox.ts)
 
-## 自动签到
+## 版本更新
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12929318)
-- [快照-1](https://i.gkd.li/import/13038304)
+- [快照-0](https://i.gkd.li/import/13806865)
 
 ## 活动弹窗
 
@@ -21,8 +20,9 @@
 
 - [快照-0](https://i.gkd.li/import/13596924)
 
-## 版本更新
+## 自动签到
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13806865)
+- [快照-0](https://i.gkd.li/import/12929318)
+- [快照-1](https://i.gkd.li/import/13038304)

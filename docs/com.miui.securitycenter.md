@@ -2,11 +2,12 @@
 
 存在 3 规则组 - [com.miui.securitycenter](/src/apps/com.miui.securitycenter.ts)
 
-## 自动继续安装
+## 忽略体检分数
 
-默认禁用 - USB安装应用,点击继续安装
+默认禁用 - 退出时忽略体检优化分数
 
-- [快照-0](https://i.gkd.li/import/13269875)
+- [快照-0](https://i.gkd.li/import/13474504)
+- [快照-1](https://i.gkd.li/import/13476770)
 
 ## 禁止获取定位
 
@@ -15,9 +16,8 @@
 - [快照-0](https://i.gkd.li/import/13474517)
 - [快照-1](https://i.gkd.li/import/13476592)
 
-## 忽略体检分数
+## 自动继续安装
 
-默认禁用 - 退出时忽略体检优化分数
+默认禁用 - USB安装应用,点击继续安装
 
-- [快照-0](https://i.gkd.li/import/13474504)
-- [快照-1](https://i.gkd.li/import/13476770)
+- [快照-0](https://i.gkd.li/import/13269875)

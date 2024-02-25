@@ -2,10 +2,6 @@
 
 存在 2 规则组 - [com.paokeji.yiqu](/src/apps/com.paokeji.yiqu.ts)
 
-## 开屏广告
-
-- [快照-0](https://i.gkd.li/import/14031922)
-
 ## 局部广告
 
 默认禁用
@@ -24,3 +20,7 @@
 - [快照-11](https://i.gkd.li/import/13809629)
 - [快照-12](https://i.gkd.li/import/13829312)
 - [快照-13](https://i.gkd.li/import/13837855)
+
+## 开屏广告
+
+- [快照-0](https://i.gkd.li/import/14031922)

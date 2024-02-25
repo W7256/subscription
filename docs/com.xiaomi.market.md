@@ -2,17 +2,11 @@
 
 存在 5 规则组 - [com.xiaomi.market](/src/apps/com.xiaomi.market.ts)
 
-## 首页悬浮窗广告
+## 个性化推荐弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13248808)
-
-## 应用升级界面-顶部广告横幅
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13197334)
+- [快照-0](https://i.gkd.li/import/13624971)
 
 ## 忽略升级
 
@@ -32,8 +26,14 @@
 - [快照-1](https://i.gkd.li/import/13197306)
 - [快照-2](https://i.gkd.li/import/13691701)
 
-## 个性化推荐弹窗
+## 首页悬浮窗广告
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13624971)
+- [快照-0](https://i.gkd.li/import/13248808)
+
+## 应用升级界面-顶部广告横幅
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13197334)

@@ -2,11 +2,11 @@
 
 存在 3 规则组 - [com.taobao.idlefish](/src/apps/com.taobao.idlefish.ts)
 
-## 通知提示
+## 更新提示
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13538351)
+- [快照-0](https://i.gkd.li/import/13832272)
 
 ## 权限提示
 
@@ -14,8 +14,8 @@
 
 - [快照-0](https://i.gkd.li/import/13620277)
 
-## 更新提示
+## 通知提示
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13832272)
+- [快照-0](https://i.gkd.li/import/13538351)

@@ -5,6 +5,7 @@ import type PkgT from '../package.json';
 import { parseSelector } from './selector';
 import type { RawApp, RawAppGroup, IArray, RawSubscription } from './types';
 import JSON5 from 'json5';
+import { pinyin } from 'pinyin-pro';
 
 const iArrayToArray = <T>(array: IArray<T> = []): T[] => {
   return Array<T>().concat(array);
@@ -186,6 +187,22 @@ export const checkConfig = (newConfig: RawSubscription) => {
     const deprecatedKeys = app.deprecatedKeys || [];
     const keys = new Set<number>();
     const oldGroups = oldConfig.apps?.find((a) => a.id == app.id)?.groups || [];
+
+    //对规则组里的规则按拼音进行排序
+    app.groups.sort((a, b) => {
+      // 将中文名字转换为拼音
+      const aPinyin = pinyin(a.name, {
+        separator: '',
+        toneType: 'none',
+      });
+      const bPinyin = pinyin(b.name, {
+        separator: '',
+        toneType: 'none',
+      });
+      // 根据拼音顺序进行排序
+      return aPinyin.localeCompare(bPinyin, 'zh-Hans-CN');
+    });
+
     app.groups?.forEach((g) => {
       const oldGroup = oldGroups.find((og) => og.key == g.key);
       if (!oldGroup || !_.isEqual(oldGroup, g)) {

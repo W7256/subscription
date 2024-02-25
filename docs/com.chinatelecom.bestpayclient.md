@@ -8,6 +8,13 @@
 
 - [快照-0](https://i.gkd.li/import/13391544)
 
+## 年底积分活动弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13543032)
+- [快照-1](https://i.gkd.li/import/13625037)
+
 ## 弹窗广告
 
 默认禁用
@@ -24,10 +31,3 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13402711)
-
-## 年底积分活动弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13543032)
-- [快照-1](https://i.gkd.li/import/13625037)

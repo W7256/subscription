@@ -10,14 +10,6 @@
 - [快照-0](https://i.gkd.li/import/12901417)
 - [快照-1](https://i.gkd.li/import/12908742)
 
-## VIP广告弹窗
-
-默认禁用 - 点击底部圆形x图标关闭弹窗
-
-- [示例-0](https://github.com/gkd-kit/inspect/assets/38517192/433dd71c-4fe5-41c9-a2da-dd3ac29f8dd4)
-
-- [快照-0](https://i.gkd.li/import/12914026)
-
 ## 推荐广告卡片
 
 默认禁用 - 点击卡片右上角[广告],点击不感兴趣[直接关闭]
@@ -27,3 +19,11 @@
 
 - [快照-0](https://i.gkd.li/import/12914077)
 - [快照-1](https://i.gkd.li/import/12914078)
+
+## VIP广告弹窗
+
+默认禁用 - 点击底部圆形x图标关闭弹窗
+
+- [示例-0](https://github.com/gkd-kit/inspect/assets/38517192/433dd71c-4fe5-41c9-a2da-dd3ac29f8dd4)
+
+- [快照-0](https://i.gkd.li/import/12914026)

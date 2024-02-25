@@ -2,6 +2,30 @@
 
 存在 10 规则组 - [com.baidu.tieba](/src/apps/com.baidu.tieba.ts)
 
+## 吧内-悬浮卡通-进吧逛逛
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13322337)
+- [快照-1](https://i.gkd.li/import/13328738)
+
+## 功能类-贴吧内签到并关闭弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13776801)
+- [快照-1](https://i.gkd.li/import/13776424)
+
+## 广告弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13060891)
+- [快照-1](https://i.gkd.li/import/13222361)
+- [快照-2](https://i.gkd.li/import/13168383)
+- [快照-3](https://i.gkd.li/import/13322120)
+- [快照-4](https://i.gkd.li/import/13328246)
+
 ## 开屏广告
 
 - [快照-0](https://i.gkd.li/import/12775906)
@@ -11,6 +35,12 @@
 - [快照-4](https://i.gkd.li/import/13322227)
 - [快照-5](https://i.gkd.li/import/13168386)
 
+## 升级弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12496934)
+
 ## 申请消息提醒弹窗
 
 默认禁用
@@ -18,6 +48,19 @@
 - [快照-0](https://i.gkd.li/import/13536170)
 - [快照-1](https://i.gkd.li/import/13675694)
 - [快照-2](https://i.gkd.li/import/13804455)
+
+## 首页-推荐-列表顶部卡片式广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13060892)
+
+## 帖子底部内容推荐卡片
+
+默认禁用 - 关闭时弹窗选原因
+
+- [快照-0](https://i.gkd.li/import/12775882)
+- [快照-1](https://i.gkd.li/import/12775914)
 
 ## 信息流广告
 
@@ -35,35 +78,6 @@
 - [快照-9](https://i.gkd.li/import/13459289)
 - [快照-10](https://i.gkd.li/import/12775914)
 
-## 首页-推荐-列表顶部卡片式广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13060892)
-
-## 升级弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12496934)
-
-## 帖子底部内容推荐卡片
-
-默认禁用 - 关闭时弹窗选原因
-
-- [快照-0](https://i.gkd.li/import/12775882)
-- [快照-1](https://i.gkd.li/import/12775914)
-
-## 广告弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13060891)
-- [快照-1](https://i.gkd.li/import/13222361)
-- [快照-2](https://i.gkd.li/import/13168383)
-- [快照-3](https://i.gkd.li/import/13322120)
-- [快照-4](https://i.gkd.li/import/13328246)
-
 ## 悬浮小广告
 
 默认禁用
@@ -73,17 +87,3 @@
 - [快照-2](https://i.gkd.li/import/13296280)
 - [快照-3](https://i.gkd.li/import/13625336)
 - [快照-4](https://i.gkd.li/import/13627881)
-
-## 吧内-悬浮卡通-进吧逛逛
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13322337)
-- [快照-1](https://i.gkd.li/import/13328738)
-
-## 功能类-贴吧内签到并关闭弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13776801)
-- [快照-1](https://i.gkd.li/import/13776424)

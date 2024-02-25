@@ -2,11 +2,12 @@
 
 存在 4 规则组 - [com.apkpure.aegon](/src/apps/com.apkpure.aegon.ts)
 
-## 热门推荐关闭
+## 更新界面-软件推荐
 
-默认禁用 - 关闭应用推广
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/13466647)
+- [快照-0](https://i.gkd.li/import/13466329)
+- [快照-1](https://i.gkd.li/import/13466610)
 
 ## 更新与已安装界面-查看更多
 
@@ -14,12 +15,11 @@
 
 - [快照-0](https://i.gkd.li/import/13466329)
 
-## 更新界面-软件推荐
+## 热门推荐关闭
 
-默认禁用
+默认禁用 - 关闭应用推广
 
-- [快照-0](https://i.gkd.li/import/13466329)
-- [快照-1](https://i.gkd.li/import/13466610)
+- [快照-0](https://i.gkd.li/import/13466647)
 
 ## 添加桌面快捷方式
 

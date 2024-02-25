@@ -2,11 +2,44 @@
 
 存在 10 规则组 - [com.huawei.android.thememanager](/src/apps/com.huawei.android.thememanager.ts)
 
+## 分类页“免费领取”
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12647393)
+
+## 更新弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12727318)
+
 ## 开屏广告
 
 - [快照-0](https://i.gkd.li/import/12657379)
 - [快照-1](https://i.gkd.li/import/13069736)
 - [快照-2](https://i.gkd.li/import/13762181)
+
+## 请求通知权限弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12918192)
+
+## 首页活动弹窗-默认禁用
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12657939)
+- [快照-1](https://i.gkd.li/import/12667815)
+
+## 主题详情信息流广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12647311)
+- [快照-1](https://i.gkd.li/import/12647346)
+- [快照-2](https://i.gkd.li/import/12647326)
 
 ## 主题详情页“下应用领主题”横幅
 
@@ -28,20 +61,6 @@
 
 - [快照-0](https://i.gkd.li/import/12647268)
 
-## 主题详情信息流广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12647311)
-- [快照-1](https://i.gkd.li/import/12647346)
-- [快照-2](https://i.gkd.li/import/12647326)
-
-## 分类页“免费领取”
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12647393)
-
 ## 主页面（推荐、分类、我的）广告
 
 默认禁用
@@ -51,22 +70,3 @@
 - [快照-2](https://i.gkd.li/import/12647650)
 - [快照-3](https://i.gkd.li/import/12657822)
 - [快照-4](https://i.gkd.li/import/12647655)
-
-## 首页活动弹窗-默认禁用
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12657939)
-- [快照-1](https://i.gkd.li/import/12667815)
-
-## 更新弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12727318)
-
-## 请求通知权限弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12918192)

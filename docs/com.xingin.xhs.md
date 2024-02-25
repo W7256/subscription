@@ -2,6 +2,13 @@
 
 存在 3 规则组 - [com.xingin.xhs](/src/apps/com.xingin.xhs.ts)
 
+## 更新弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13246890)
+- [快照-1](https://i.gkd.li/import/13741680)
+
 ## 通知权限弹窗
 
 默认禁用
@@ -11,13 +18,6 @@
 - [快照-2](https://i.gkd.li/import/13256145)
 - [快照-3](https://i.gkd.li/import/13255627)
 - [快照-4](https://i.gkd.li/import/13250418)
-
-## 更新弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13246890)
-- [快照-1](https://i.gkd.li/import/13741680)
 
 ## 信息流广告
 

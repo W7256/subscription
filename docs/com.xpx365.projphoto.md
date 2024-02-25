@@ -2,10 +2,6 @@
 
 存在 2 规则组 - [com.xpx365.projphoto](/src/apps/com.xpx365.projphoto.ts)
 
-## 开屏广告
-
-- [快照-0](https://i.gkd.li/import/13827755)
-
 ## 广告弹窗
 
 默认禁用
@@ -15,3 +11,7 @@
 - [快照-2](https://i.gkd.li/import/13762195)
 - [快照-3](https://i.gkd.li/import/13762196)
 - [快照-4](https://i.gkd.li/import/13695668)
+
+## 开屏广告
+
+- [快照-0](https://i.gkd.li/import/13827755)

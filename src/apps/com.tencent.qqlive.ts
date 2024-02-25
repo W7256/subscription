@@ -8,7 +8,7 @@ export default defineAppConfig({
     {
       key: 0,
       name: '开屏广告',
-      matchTime: 5000,
+      matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
       rules: [

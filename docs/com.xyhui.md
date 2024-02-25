@@ -2,6 +2,20 @@
 
 存在 3 规则组 - [com.xyhui](/src/apps/com.xyhui.ts)
 
+## 升级提示
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12908853)
+- [快照-1](https://i.gkd.li/import/12908865)
+
+## 首页-右侧浮窗广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12846543)
+- [快照-1](https://i.gkd.li/import/12868119)
+
 ## 弹窗广告
 
 默认禁用
@@ -25,17 +39,3 @@
 - [快照-16](https://i.gkd.li/import/13259198)
 - [快照-17](https://i.gkd.li/import/13259183)
 - [快照-18](https://i.gkd.li/import/13458692)
-
-## 首页-右侧浮窗广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12846543)
-- [快照-1](https://i.gkd.li/import/12868119)
-
-## 升级提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12908853)
-- [快照-1](https://i.gkd.li/import/12908865)

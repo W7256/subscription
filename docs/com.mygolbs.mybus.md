@@ -2,6 +2,12 @@
 
 存在 5 规则组 - [com.mygolbs.mybus](/src/apps/com.mygolbs.mybus.ts)
 
+## 顶栏小广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12790841)
+
 ## 广告卡片
 
 默认禁用
@@ -28,20 +34,14 @@
 
 - [快照-0](https://i.gkd.li/import/12790762)
 
-## 顶栏小广告
+## 签到成功弹窗
 
-默认禁用
+默认禁用 - 自动点击x按钮
 
-- [快照-0](https://i.gkd.li/import/12790841)
+- [快照-0](https://i.gkd.li/import/12716035)
 
 ## 请求通知权限弹窗
 
 默认禁用 - 自动点击【取消】
 
 - [快照-0](https://i.gkd.li/import/12715980)
-
-## 签到成功弹窗
-
-默认禁用 - 自动点击x按钮
-
-- [快照-0](https://i.gkd.li/import/12716035)

@@ -9,6 +9,12 @@
 - [快照-0](https://i.gkd.li/import/13379094)
 - [快照-1](https://i.gkd.li/import/13379426)
 
+## 加油页面-优惠券弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12642857)
+
 ## 截屏分享
 
 默认禁用 - 关闭截屏时app弹出的分享弹窗
@@ -29,9 +35,3 @@
 - [快照-1](https://i.gkd.li/import/12642845)
 - [快照-2](https://i.gkd.li/import/12818770)
 - [快照-3](https://i.gkd.li/import/13764540)
-
-## 加油页面-优惠券弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12642857)

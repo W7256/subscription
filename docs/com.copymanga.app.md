@@ -2,6 +2,27 @@
 
 存在 5 规则组 - [com.copymanga.app](/src/apps/com.copymanga.app.ts)
 
+## 关闭提示
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13233180)
+
+## 关闭赞助提示
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12851627)
+
+## 卡片式广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12504525)
+- [快照-1](https://i.gkd.li/import/13761154)
+- [快照-2](https://i.gkd.li/import/12851671)
+- [快照-3](https://i.gkd.li/import/12909005)
+
 ## 弹窗广告
 
 默认禁用
@@ -26,29 +47,8 @@
 - [快照-17](https://i.gkd.li/import/12925052)
 - [快照-18](https://i.gkd.li/import/12925095)
 
-## 卡片式广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12504525)
-- [快照-1](https://i.gkd.li/import/13761154)
-- [快照-2](https://i.gkd.li/import/12851671)
-- [快照-3](https://i.gkd.li/import/12909005)
-
-## 关闭赞助提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12851627)
-
 ## 自动确认线路
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13233179)
-
-## 关闭提示
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13233180)

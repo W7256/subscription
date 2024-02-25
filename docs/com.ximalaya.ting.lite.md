@@ -2,15 +2,21 @@
 
 存在 5 规则组 - [com.ximalaya.ting.lite](/src/apps/com.ximalaya.ting.lite.ts)
 
-## 首页-推荐-卡片广告
+## 关闭开启通知弹窗
 
 默认禁用
+
+- [快照-0](https://i.gkd.li/import/13256505)
 
 ## 广告弹窗
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13218286)
+
+## 首页-推荐-卡片广告
+
+默认禁用
 
 ## 小说推荐弹窗
 
@@ -23,9 +29,3 @@
 默认禁用 - 点击右上角圆形x
 
 - [快照-0](https://i.gkd.li/import/13256447)
-
-## 关闭开启通知弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13256505)

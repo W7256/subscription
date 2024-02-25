@@ -2,6 +2,12 @@
 
 存在 2 规则组 - [so.tita](/src/apps/so.tita.ts)
 
+## 观看视频去除广告提示弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12800350)
+
 ## 应用内第三方 SDK 广告
 
 默认禁用
@@ -25,9 +31,3 @@
 - [快照-16](https://i.gkd.li/import/12800616)
 - [快照-17](https://i.gkd.li/import/12800642)
 - [快照-18](https://i.gkd.li/import/12800659)
-
-## 观看视频去除广告提示弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12800350)

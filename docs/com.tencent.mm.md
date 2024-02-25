@@ -1,6 +1,29 @@
 # 微信
 
-存在 20 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 19 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+
+## 分段广告-订阅号文章广告
+
+默认禁用 - ⚠ 此规则有概率误触。自动点击关闭按钮，必须同时启用【订阅号文章广告反馈】规则
+
+- [快照-0](https://i.gkd.li/import/12642232)
+- [快照-1](https://i.gkd.li/import/13199281)
+- [快照-2](https://i.gkd.li/import/12646837)
+- [快照-3](https://i.gkd.li/import/12678937)
+- [快照-4](https://i.gkd.li/import/12714427)
+- [快照-5](https://i.gkd.li/import/12700183)
+- [快照-6](https://i.gkd.li/import/12701503)
+- [快照-7](https://i.gkd.li/import/12714424)
+
+## 分段广告-订阅号文章广告反馈
+
+默认禁用 - ⚠ 此规则有概率误触。自动点击反馈理由，配合【订阅号文章广告】规则使用
+
+- [快照-0](https://i.gkd.li/import/12642234)
+- [快照-1](https://i.gkd.li/import/12722301)
+- [快照-2](https://i.gkd.li/import/12722331)
+- [快照-3](https://i.gkd.li/import/12642238)
+- [快照-4](https://i.gkd.li/import/12700191)
 
 ## 分段广告-朋友圈广告
 
@@ -17,6 +40,13 @@
 - [快照-6](https://i.gkd.li/import/12907642)
 - [快照-7](https://i.gkd.li/import/13926578)
 
+## 分段广告-朋友圈广告[繁体]
+
+默认禁用 - 点击广告卡片右上角[廣告],出现菜单点击[關閉此廣告],确认关闭
+
+- [快照-0](https://i.gkd.li/import/13791200)
+- [快照-1](https://i.gkd.li/import/13791202)
+
 ## 分段广告-朋友圈广告[英文]
 
 默认禁用 - 点击广告卡片右上角[Sponsored],直接关闭/出现菜单点击[Close the ad],确认关闭
@@ -25,12 +55,15 @@
 - [快照-1](https://i.gkd.li/import/12905838)
 - [快照-2](https://i.gkd.li/import/12905846)
 
-## 分段广告-朋友圈广告[繁体]
+## 分段广告-小程序-内部广告
 
-默认禁用 - 点击广告卡片右上角[廣告],出现菜单点击[關閉此廣告],确认关闭
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/13791200)
-- [快照-1](https://i.gkd.li/import/13791202)
+- [快照-0](https://i.gkd.li/import/13199282)
+- [快照-1](https://i.gkd.li/import/13407275)
+- [快照-2](https://i.gkd.li/import/13378208)
+- [快照-3](https://i.gkd.li/import/13200044)
+- [快照-4](https://i.gkd.li/import/13200048)
 
 ## 功能类-电脑微信快捷自动登录
 
@@ -39,11 +72,12 @@
 - [快照-0](https://i.gkd.li/import/13522625)
 - [快照-1](https://i.gkd.li/import/13522577)
 
-## 功能类-浏览器扫码微信登录自动授权
+## 功能类-订阅号-展开更早的消息
 
-默认禁用 - 自动允许使用头像昵称等
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/13065462)
+- [快照-0](https://i.gkd.li/import/13790550)
+- [快照-1](https://i.gkd.li/import/13790949)
 
 ## 功能类-第三方APP申请使用授权弹窗
 
@@ -51,12 +85,24 @@
 
 - [快照-0](https://i.gkd.li/import/12663602)
 
-## 功能类-微信读书网页版扫码登录自动授权
+## 功能类-浏览器扫码微信登录自动授权
+
+默认禁用 - 自动允许使用头像昵称等
+
+- [快照-0](https://i.gkd.li/import/13065462)
+
+## 功能类-青少年模式自动点击验证密码
+
+默认禁用 - 点击“验证密码”以申请临时访问
+
+- [快照-0](https://i.gkd.li/import/13588338)
+- [快照-1](https://i.gkd.li/import/13631987)
+
+## 功能类-网页版文件传输助手扫码自动授权
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12506197)
-- [快照-1](https://i.gkd.li/import/12506201)
+- [快照-0](https://i.gkd.li/import/12793745)
 
 ## 功能类-微信红包自动领取
 
@@ -69,18 +115,11 @@
 - [快照-2](https://i.gkd.li/import/12567698)
 - [快照-3](https://i.gkd.li/import/12567637)
 
-## 分段广告-订阅号文章广告
+## 功能类-自动查看原图
 
-默认禁用 - ⚠ 此规则有概率误触。自动点击关闭按钮，必须同时启用【订阅号文章广告反馈】规则
+默认禁用 - 自动点击底部左侧[查看原图（*M）]按钮
 
-- [快照-0](https://i.gkd.li/import/12642232)
-- [快照-1](https://i.gkd.li/import/13199281)
-- [快照-2](https://i.gkd.li/import/12646837)
-- [快照-3](https://i.gkd.li/import/12678937)
-- [快照-4](https://i.gkd.li/import/12714427)
-- [快照-5](https://i.gkd.li/import/12700183)
-- [快照-6](https://i.gkd.li/import/12701503)
-- [快照-7](https://i.gkd.li/import/12714424)
+- [快照-0](https://i.gkd.li/import/13523031)
 
 ## 功能类-自动选中发送原图
 
@@ -90,21 +129,19 @@
 - [快照-1](https://i.gkd.li/import/12840865)
 - [快照-2](https://i.gkd.li/import/12686640)
 
-## 分段广告-订阅号文章广告反馈
+## 青少年模式
 
-默认禁用 - ⚠ 此规则有概率误触。自动点击反馈理由，配合【订阅号文章广告】规则使用
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/12642234)
-- [快照-1](https://i.gkd.li/import/12722301)
-- [快照-2](https://i.gkd.li/import/12722331)
-- [快照-3](https://i.gkd.li/import/12642238)
-- [快照-4](https://i.gkd.li/import/12700191)
+- [快照-0](https://i.gkd.li/import/13538145)
+- [快照-1](https://i.gkd.li/import/13575195)
 
-## 功能类-自动查看原图
+## 全屏广告-提瓦特助手小程序-弹窗广告
 
-默认禁用 - 自动点击底部左侧[查看原图（*M）]按钮
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/13523031)
+- [快照-0](https://i.gkd.li/import/12926021)
+- [快照-1](https://i.gkd.li/import/13459614)
 
 ## 全屏广告-微信小程序-开屏广告
 
@@ -118,52 +155,8 @@
 - [快照-5](https://i.gkd.li/import/12785246)
 - [快照-6](https://i.gkd.li/import/13407275)
 
-## 功能类-网页版文件传输助手扫码自动授权
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12793745)
-
-## 全屏广告-提瓦特助手小程序-弹窗广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12926021)
-- [快照-1](https://i.gkd.li/import/13459614)
-
-## 分段广告-小程序-内部广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13199282)
-- [快照-1](https://i.gkd.li/import/13407275)
-- [快照-2](https://i.gkd.li/import/13378208)
-- [快照-3](https://i.gkd.li/import/13200044)
-- [快照-4](https://i.gkd.li/import/13200048)
-
 ## 全屏广告-小程序-京东购物
 
 默认禁用 - 低价包邮广告
 
 - [快照-0](https://i.gkd.li/import/13298294)
-
-## 青少年模式
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13538145)
-- [快照-1](https://i.gkd.li/import/13575195)
-
-## 功能类-青少年模式自动点击验证密码
-
-默认禁用 - 点击“验证密码”以申请临时访问
-
-- [快照-0](https://i.gkd.li/import/13588338)
-- [快照-1](https://i.gkd.li/import/13631987)
-
-## 功能类-订阅号-展开更早的消息
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13790550)
-- [快照-1](https://i.gkd.li/import/13790949)

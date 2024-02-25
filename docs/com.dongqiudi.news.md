@@ -2,6 +2,12 @@
 
 存在 6 规则组 - [com.dongqiudi.news](/src/apps/com.dongqiudi.news.ts)
 
+## 更新弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12620586)
+
 ## 开屏广告
 
 - [快照-0](https://i.gkd.li/import/12620568)
@@ -16,11 +22,11 @@
 
 - [快照-0](https://i.gkd.li/import/12621980)
 
-## 更新弹窗
+## 首页-广告弹窗
 
-默认禁用
+默认禁用 - 点击底部【x】关闭
 
-- [快照-0](https://i.gkd.li/import/12620586)
+- [快照-0](https://i.gkd.li/import/13260467)
 
 ## 首页信息流广告
 
@@ -29,12 +35,6 @@
 - [快照-0](https://i.gkd.li/import/12620656)
 - [快照-1](https://i.gkd.li/import/12620654)
 - [快照-2](https://i.gkd.li/import/12620788)
-
-## 首页-广告弹窗
-
-默认禁用 - 点击底部【x】关闭
-
-- [快照-0](https://i.gkd.li/import/13260467)
 
 ## 数据页弹窗广告
 

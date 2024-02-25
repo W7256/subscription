@@ -2,6 +2,12 @@
 
 存在 4 规则组 - [com.google.android.youtube](/src/apps/com.google.android.youtube.ts)
 
+## 订阅浮窗广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13797512)
+
 ## 视频播放-跳过广告
 
 默认禁用
@@ -23,9 +29,3 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12877357)
-
-## 订阅浮窗广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13797512)

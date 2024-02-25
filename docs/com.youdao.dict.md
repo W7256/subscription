@@ -2,6 +2,12 @@
 
 存在 5 规则组 - [com.youdao.dict](/src/apps/com.youdao.dict.ts)
 
+## 更新弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13627912)
+
 ## 卡片式广告
 
 默认禁用
@@ -10,6 +16,12 @@
 - [快照-1](https://i.gkd.li/import/13800055)
 - [快照-2](https://i.gkd.li/import/12668583)
 - [快照-3](https://i.gkd.li/import/13800056)
+
+## 评价弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13540941)
 
 ## 全屏广告
 
@@ -25,15 +37,3 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13263706)
-
-## 评价弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13540941)
-
-## 更新弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13627912)

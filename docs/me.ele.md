@@ -9,6 +9,18 @@
 - [快照-0](https://i.gkd.li/import/12650280)
 - [快照-1](https://i.gkd.li/import/13206819)
 
+## 吃货卡续费弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13295007)
+
+## 付款后广告弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13205301)
+
 ## 红包弹窗
 
 默认禁用
@@ -34,30 +46,18 @@
 - [快照-6](https://i.gkd.li/import/13710574)
 - [快照-7](https://i.gkd.li/import/13710591)
 
-## 付款后广告弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13205301)
-
-## 吃货卡续费弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13295007)
-
-## 首页-底部浮窗广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13710588)
-
 ## 开启定位提醒
 
 默认禁用 - 自动点击X
 
 - [快照-0](https://i.gkd.li/import/13710588)
 - [快照-1](https://i.gkd.li/import/13710585)
+
+## 首页-底部浮窗广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13710588)
 
 ## 通知提示-获取订单信息通知
 

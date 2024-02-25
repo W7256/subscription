@@ -2,6 +2,40 @@
 
 存在 7 规则组 - [com.xunlei.downloadprovider](/src/apps/com.xunlei.downloadprovider.ts)
 
+## 【下载页】广告卡片
+
+默认禁用 - 需选二次弹窗关闭原因
+
+- [快照-0](https://i.gkd.li/import/12881865)
+- [快照-1](https://i.gkd.li/import/12892893)
+- [快照-2](https://i.gkd.li/import/12901395)
+- [快照-3](https://i.gkd.li/import/128818775)
+- [快照-4](https://i.gkd.li/import/13198070)
+- [快照-5](https://i.gkd.li/import/13484249)
+
+## 更新弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13228920)
+
+## 会员续费广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12707698)
+- [快照-1](https://i.gkd.li/import/13448909)
+- [快照-2](https://i.gkd.li/import/12882928)
+- [快照-3](https://i.gkd.li/import/12882939)
+- [快照-4](https://i.gkd.li/import/13259268)
+
+## 视频详情-直播推荐
+
+默认禁用 - 自动点击【减少推荐】
+
+- [快照-0](https://i.gkd.li/import/12707701)
+- [快照-1](https://i.gkd.li/import/12707710)
+
 ## 视频详情页广告
 
 默认禁用
@@ -13,12 +47,11 @@
 - [快照-4](https://i.gkd.li/import/12882988)
 - [快照-5](https://i.gkd.li/import/13228423)
 
-## 视频详情-直播推荐
+## 搜索页面-顶部banner广告
 
-默认禁用 - 自动点击【减少推荐】
+默认禁用
 
-- [快照-0](https://i.gkd.li/import/12707701)
-- [快照-1](https://i.gkd.li/import/12707710)
+- [快照-0](https://i.gkd.li/import/12882892)
 
 ## 应用内广告弹窗
 
@@ -44,36 +77,3 @@
 - [快照-17](https://i.gkd.li/import/12881976)
 - [快照-18](https://i.gkd.li/import/13761275)
 - [快照-19](https://i.gkd.li/import/12879452)
-
-## 【下载页】广告卡片
-
-默认禁用 - 需选二次弹窗关闭原因
-
-- [快照-0](https://i.gkd.li/import/12881865)
-- [快照-1](https://i.gkd.li/import/12892893)
-- [快照-2](https://i.gkd.li/import/12901395)
-- [快照-3](https://i.gkd.li/import/128818775)
-- [快照-4](https://i.gkd.li/import/13198070)
-- [快照-5](https://i.gkd.li/import/13484249)
-
-## 搜索页面-顶部banner广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12882892)
-
-## 更新弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13228920)
-
-## 会员续费广告
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12707698)
-- [快照-1](https://i.gkd.li/import/13448909)
-- [快照-2](https://i.gkd.li/import/12882928)
-- [快照-3](https://i.gkd.li/import/12882939)
-- [快照-4](https://i.gkd.li/import/13259268)
