@@ -51,6 +51,14 @@ const categories: RawCategory[] = [
     name: '功能类',
     // 非广告, 点击某些功能按钮
   },
+  {
+    key: 10,
+    name: '活动弹窗',
+  },
+  {
+    key: 11,
+    name: '广告弹窗',
+  },
 ];
 
 export default categories;

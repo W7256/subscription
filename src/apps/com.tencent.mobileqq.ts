@@ -32,7 +32,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 1,
-      name: '消息页面-顶部广告',
+      name: '局部广告-消息页面顶部广告',
       desc: '规则误触,待修复,需要快照准确定位', // 当从聊天界面点击链接进入网页时会误触
       activityIds: 'com.tencent.mobileqq.activity.SplashActivity',
       rules: [
@@ -49,7 +49,7 @@ export default defineAppConfig({
         },
         {
           key: 1,
-          name: '消息页面-顶部惊喜礼包',
+          name: '局部广告消息页面顶部惊喜礼包',
           matches:
             '[text*="惊喜礼包"] + FrameLayout + ImageView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/import/13426912',
@@ -124,7 +124,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '频道页面广告',
+      name: '广告弹窗-频道页面广告',
       rules: [
         {
           name: '弹窗广告',
@@ -152,7 +152,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 4,
-      name: '顶部SVIP广告',
+      name: '局部广告-顶部SVIP广告',
       desc: '消息界面-搜索框和消息记录之间的广告卡片,点击关闭右侧x',
       activityIds: 'com.tencent.mobileqq.activity.SplashActivity',
       rules:
@@ -197,7 +197,7 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '扫一扫-登录确认',
+      name: '功能类-扫一扫-登录确认',
       desc: '自动点击登录。包括 PC 登录确认、QQ 互联登录确认。',
       quickFind: true,
       rules: [
@@ -247,7 +247,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 10,
-      name: '自动勾选原图',
+      name: '功能类-自动勾选原图',
       desc: '发送图片时自动勾选原图',
       activityIds: [
         'com.tencent.mobileqq.activity.SplashActivity',
@@ -265,7 +265,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 11,
-      name: '自动查看原图',
+      name: '功能类-自动查看原图',
       desc: '查看图片时自动点击原图',
       activityIds: 'com.tencent.richframework.gallery.QQGalleryActivity',
       rules: '[desc="查看原图"][checked=false]',
@@ -277,7 +277,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 12,
-      name: 'QQ小世界评论区广告',
+      name: '分段广告-QQ小世界评论区广告',
       desc: '点击广告-弹出原因框-关闭此条广告',
       activityIds: [
         'com.tencent.mobileqq.activity.SplashActivity',
@@ -300,8 +300,8 @@ export default defineAppConfig({
     },
     {
       key: 13,
-      name: 'QQ小程序开屏广告',
-      desc: '点击右下角跳过',
+      name: '开屏广告-QQ小程序',
+      desc: '',
       activityIds: [
         'com.tencent.mobileqq.mini.appbrand.ui.AppBrandUI',
         'com.tencent.mobileqq.activity.miniaio.MiniChatActivity',
@@ -361,7 +361,7 @@ export default defineAppConfig({
     },
     {
       key: 17,
-      name: '更新弹窗',
+      name: '更新提示-更新弹窗',
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '@[desc="关闭"] - ViewGroup > [text="立即体验"||text="立即升级"]',
@@ -432,7 +432,7 @@ export default defineAppConfig({
     },
     {
       key: 21,
-      name: '首页广告弹窗',
+      name: '广告弹窗-首页广告弹窗',
       rules: [
         {
           key: 0,

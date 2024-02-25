@@ -2,24 +2,31 @@
 
 存在 8 规则组 - [me.ele](/src/apps/me.ele.ts)
 
-## 版本更新
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12650280)
-- [快照-1](https://i.gkd.li/import/13206819)
-
 ## 吃货卡续费弹窗
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13295007)
 
+## 定位提示-开启定位
+
+默认禁用 - 点击X
+
+- [快照-0](https://i.gkd.li/import/13710588)
+- [快照-1](https://i.gkd.li/import/13710585)
+
 ## 付款后广告弹窗
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13205301)
+
+## 更新提示-版本更新
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12650280)
+- [快照-1](https://i.gkd.li/import/13206819)
 
 ## 红包弹窗
 
@@ -46,14 +53,7 @@
 - [快照-6](https://i.gkd.li/import/13710574)
 - [快照-7](https://i.gkd.li/import/13710591)
 
-## 开启定位提醒
-
-默认禁用 - 自动点击X
-
-- [快照-0](https://i.gkd.li/import/13710588)
-- [快照-1](https://i.gkd.li/import/13710585)
-
-## 首页-底部浮窗广告
+## 局部广告-首页底部浮窗
 
 默认禁用
 

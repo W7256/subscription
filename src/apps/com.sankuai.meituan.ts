@@ -7,7 +7,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '更新弹窗',
+      name: '更新提示-更新弹窗',
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -98,7 +98,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      name: '首页右侧抽奖小广告',
+      name: '局部广告-首页右侧抽奖小广告',
       activityIds: [
         'com.meituan.android.pt.homepage.activity.MainActivity',
         'com.miui.home.launcher.Launcher',
@@ -112,7 +112,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 7,
-      name: '请求定位弹窗',
+      name: '定位提示-请求定位',
       desc: '首页/外卖界面-【打开位置开关弹窗】-点击右侧x关闭',
       activityIds: [
         'com.meituan.android.pt.homepage.activity.MainActivity',
@@ -131,7 +131,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 8,
-      name: '请求开启通知权限弹窗',
+      name: '通知提示-请求开启通知权限',
       desc: '点击跳过',
       quickFind: true,
       actionMaximum: 1,

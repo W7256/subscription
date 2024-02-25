@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 0,
-      name: '自动签到',
+      name: '功能类-自动签到',
       activityIds: 'com.alicloud.databox.MainActivity',
       rules: [
         {
@@ -35,7 +35,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '时光设备间-自动点击“开心收下”',
+      name: '功能类-时光设备间-自动点击“开心收下”',
       activityIds:
         'com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main',
       actionMaximum: 1,
@@ -46,7 +46,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '版本更新',
+      name: '更新提示-版本更新',
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',

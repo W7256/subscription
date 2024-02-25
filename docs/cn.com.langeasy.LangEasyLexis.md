@@ -2,14 +2,14 @@
 
 存在 2 规则组 - [cn.com.langeasy.LangEasyLexis](/src/apps/cn.com.langeasy.LangEasyLexis.ts)
 
-## 右下角弹窗
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/13759025)
-
-## 自动签到
+## 功能类-自动签到
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13610321)
+
+## 活动弹窗-右下角弹窗
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13759025)

@@ -2,17 +2,11 @@
 
 存在 10 规则组 - [com.jingdong.app.mall](/src/apps/com.jingdong.app.mall.ts)
 
-## 购物车界面-砸金蛋
+## 功能类-京东账号登录授权
 
-默认禁用
+默认禁用 - 自动点击【确认登录】
 
-- [快照-0](https://i.gkd.li/import/12642266)
-
-## 购物车界面-支付成功广告弹窗
-
-默认禁用 - 自动点击正下方的【x】
-
-- [快照-0](https://i.gkd.li/import/13446362)
+- [快照-0](https://i.gkd.li/import/12901734)
 
 ## 广告弹窗
 
@@ -25,11 +19,25 @@
 - [快照-4](https://i.gkd.li/import/13258996)
 - [快照-5](https://i.gkd.li/import/13336847)
 
-## 京东账号登录授权
+## 广告弹窗-购物车界面-支付成功广告
 
-默认禁用 - 自动点击【确认登录】
+默认禁用 - 自动点击正下方的【x】
 
-- [快照-0](https://i.gkd.li/import/12901734)
+- [快照-0](https://i.gkd.li/import/13446362)
+
+## 局部广告-“我的”界面-悬浮广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12642270)
+- [快照-1](https://i.gkd.li/import/12774910)
+- [快照-2](https://i.gkd.li/import/13242002)
+
+## 局部广告-购物车界面-砸金蛋
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12642266)
 
 ## 首页-底部横幅广告
 
@@ -48,12 +56,6 @@
 - [快照-2](https://i.gkd.li/import/13072091)
 - [快照-3](https://i.gkd.li/import/12837870)
 
-## 首页弹窗-打开通知
-
-默认禁用 - 自动点击正下方的【x】
-
-- [快照-0](https://i.gkd.li/import/13463618)
-
 ## 通知提示-请求打开通知
 
 默认禁用
@@ -63,13 +65,11 @@
 - [快照-2](https://i.gkd.li/import/13917163)
 - [快照-3](https://i.gkd.li/import/12839865)
 
-## 我的界面-悬浮广告
+## 通知提示-首页弹窗-打开通知
 
-默认禁用
+默认禁用 - 点击正下方的【x】
 
-- [快照-0](https://i.gkd.li/import/12642270)
-- [快照-1](https://i.gkd.li/import/12774910)
-- [快照-2](https://i.gkd.li/import/13242002)
+- [快照-0](https://i.gkd.li/import/13463618)
 
 ## 支付界面-产品推荐
 

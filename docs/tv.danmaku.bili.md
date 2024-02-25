@@ -2,12 +2,32 @@
 
 存在 12 规则组 - [tv.danmaku.bili](/src/apps/tv.danmaku.bili.ts)
 
-## 动态推荐广告卡片
+## 分段广告-动态页推荐广告卡片
 
-默认禁用 - 点击卡片右上角[广告]按钮-点击不感兴趣
+默认禁用
 
 - [快照-0](https://i.gkd.li/import/12700222)
 - [快照-1](https://i.gkd.li/import/12700243)
+
+## 分段广告-视频底部与评论区中间卡片式广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/12642260)
+- [快照-1](https://i.gkd.li/import/12705266)
+- [快照-2](https://i.gkd.li/import/12776568)
+- [快照-3](https://i.gkd.li/import/12707070)
+- [快照-4](https://i.gkd.li/import/12642261)
+- [快照-5](https://i.gkd.li/import/13495649)
+
+## 分段广告-首页推荐视频卡片广告
+
+默认禁用
+
+- [快照-0](https://i.gkd.li/import/13256570)
+- [快照-1](https://i.gkd.li/import/13256605)
+- [快照-2](https://i.gkd.li/import/13625309)
+- [快照-3](https://i.gkd.li/import/13742257)
 
 ## 更新弹窗
 
@@ -28,42 +48,30 @@
 
 默认禁用 - 视频简介中通常会有一些内容，此规则能帮我们自动展开简介
 
-## 开屏广告
-
-开屏广告,任意界面切回APP开屏广告
-
-- [快照-0](https://i.gkd.li/import/12705270)
-
-## 评论区顶部公告横幅
+## 局部广告-评论区顶部公告横幅
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12785461)
 - [快照-1](https://i.gkd.li/import/12775156)
 
-## 请求通知权限弹窗
+## 局部广告-直播间卡片广告
 
-默认禁用
+默认禁用 - 直播间底部售卖卡片-点击右上角x
 
-- [快照-0](https://i.gkd.li/import/13229159)
-- [快照-1](https://i.gkd.li/import/13614090)
+- [快照-0](https://i.gkd.li/import/13200549)
+
+## 开屏广告
+
+开屏广告,任意界面切回APP开屏广告
+
+- [快照-0](https://i.gkd.li/import/12705270)
 
 ## 青少年模式弹窗
 
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13746766)
-
-## 视频底部与评论区中间卡片式广告
-
-默认禁用 - 需点击二次弹窗 屏蔽原因
-
-- [快照-0](https://i.gkd.li/import/12642260)
-- [快照-1](https://i.gkd.li/import/12705266)
-- [快照-2](https://i.gkd.li/import/12776568)
-- [快照-3](https://i.gkd.li/import/12707070)
-- [快照-4](https://i.gkd.li/import/12642261)
-- [快照-5](https://i.gkd.li/import/13495649)
 
 ## 视频悬浮广告
 
@@ -75,17 +83,9 @@
 - [快照-1](https://i.gkd.li/import/13308344)
 - [快照-2](https://i.gkd.li/import/13538048)
 
-## 首页-推荐视频卡片广告
+## 通知提示-请求通知权限弹窗
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/13256570)
-- [快照-1](https://i.gkd.li/import/13256605)
-- [快照-2](https://i.gkd.li/import/13625309)
-- [快照-3](https://i.gkd.li/import/13742257)
-
-## 直播间卡片广告
-
-默认禁用 - 直播间底部售卖卡片-点击右上角x
-
-- [快照-0](https://i.gkd.li/import/13200549)
+- [快照-0](https://i.gkd.li/import/13229159)
+- [快照-1](https://i.gkd.li/import/13614090)

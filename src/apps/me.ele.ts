@@ -7,7 +7,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '版本更新',
+      name: '更新提示-版本更新',
       quickFind: true,
       // matchTime: 10000, 部分更新提示不在10s内
       actionMaximum: 1,
@@ -116,7 +116,7 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '首页-底部浮窗广告',
+      name: '局部广告-首页底部浮窗',
       activityIds: 'me.ele.application.ui.Launcher.LauncherActivity',
       rules:
         'LinearLayout >n FrameLayout >n ViewGroup[childCount=3] + ViewGroup[clickable=true]',
@@ -124,8 +124,8 @@ export default defineAppConfig({
     },
     {
       key: 8,
-      name: '开启定位提醒',
-      desc: '自动点击X',
+      name: '定位提示-开启定位',
+      desc: '点击X',
       enable: false,
       quickFind: true,
       rules: [

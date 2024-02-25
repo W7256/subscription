@@ -32,7 +32,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '包裹页面-地图底部横条广告',
+      name: '局部广告-包裹页面-地图底部横条广告',
       activityIds: [
         'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
       ],
@@ -52,8 +52,8 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '开启消息弹窗',
-      desc: '自动点击关闭。',
+      name: '通知提示-开启消息弹窗',
+      desc: '点击关闭。',
       enable: false,
       quickFind: true,
       activityIds: [
@@ -64,7 +64,7 @@ export default defineAppConfig({
     },
     {
       key: 6,
-      name: '请求好评弹窗',
+      name: '广告弹窗-请求好评弹窗',
       activityIds: 'com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity',
       rules: '@[text="取消"] + [text="好评"]',
       snapshotUrls: 'https://i.gkd.li/import/13692761',

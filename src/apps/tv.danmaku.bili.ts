@@ -18,7 +18,7 @@ export default defineAppConfig({
     },
     {
       key: 0,
-      name: '评论区顶部公告横幅',
+      name: '局部广告-评论区顶部公告横幅',
       quickFind: true,
       excludeActivityIds: [
         'com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3', // 直播间
@@ -43,8 +43,8 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '动态推荐广告卡片',
-      desc: '点击卡片右上角[广告]按钮-点击不感兴趣',
+      name: '分段广告-动态页推荐广告卡片',
+      desc: '',
       quickFind: true,
       matchDelay: 5000,
       activityIds: 'tv.danmaku.bili.MainActivityV2',
@@ -65,8 +65,8 @@ export default defineAppConfig({
     {
       enable: false,
       key: 4,
-      name: '视频底部与评论区中间卡片式广告',
-      desc: '需点击二次弹窗 屏蔽原因',
+      name: '分段广告-视频底部与评论区中间卡片式广告',
+      desc: '',
       quickFind: true,
       activityIds: [
         'com.bilibili.video.videodetail.VideoDetailsActivity',
@@ -147,7 +147,7 @@ export default defineAppConfig({
     },
     {
       key: 8,
-      name: '直播间卡片广告',
+      name: '局部广告-直播间卡片广告',
       desc: '直播间底部售卖卡片-点击右上角x',
       quickFind: true,
       matchTime: 10000,
@@ -159,7 +159,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 9,
-      name: '请求通知权限弹窗',
+      name: '通知提示-请求通知权限弹窗',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -177,7 +177,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 10,
-      name: '首页-推荐视频卡片广告', // 流程与 key=4 视频底部广告 基本一致
+      name: '分段广告-首页推荐视频卡片广告', // 流程与 key=4 视频底部广告 基本一致
       quickFind: true,
       activityIds: 'tv.danmaku.bili.MainActivityV2',
       rules: [

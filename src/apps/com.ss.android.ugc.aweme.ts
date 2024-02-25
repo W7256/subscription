@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 0,
-      name: '关闭青少年弹窗',
+      name: '功能类-关闭青少年弹窗',
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -14,7 +14,7 @@ export default defineAppConfig({
     },
     {
       key: 1,
-      name: '关闭用户推荐',
+      name: '功能类-关闭用户推荐',
       rules: [
         {
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
@@ -54,7 +54,7 @@ export default defineAppConfig({
 
       quickFind: true,
       activityIds: ['com.ss.android.ugc.aweme.main.MainActivity'],
-      name: '关闭朋友推荐弹窗',
+      name: '功能类-关闭朋友推荐弹窗',
       rules: '[text="朋友推荐"] +2 [id="com.ss.android.ugc.aweme:id/close"]',
       snapshotUrls: [
         'https://i.gkd.li/import/12525387',
@@ -63,7 +63,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '关闭更新弹窗',
+      name: '更新提示-关闭更新弹窗',
 
       quickFind: true,
       actionMaximum: 1,
@@ -96,7 +96,7 @@ export default defineAppConfig({
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
-      name: '去商店评分',
+      name: '广告弹窗-去商店评分',
       desc: '点击[取消]',
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
       rules: '@[text="取消"] +2 [text="五星好评"]',
@@ -117,8 +117,8 @@ export default defineAppConfig({
     {
       enable: false,
       key: 10,
-      name: '请求开启通知提示信息',
-      desc: '自动点击“暂不”',
+      name: '通知提示-请求开启通知提示信息',
+      desc: '点击“暂不”',
       actionMaximum: 1,
       resetMatch: 'app',
       quickFind: true,
@@ -140,7 +140,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 11,
-      name: '自动勾选原图',
+      name: '功能类-自动勾选原图',
       desc: '聊天发送图片时自动勾选原图',
       quickFind: true,
       activityIds:
@@ -202,7 +202,7 @@ export default defineAppConfig({
     },
     {
       key: 15,
-      name: '关闭商城推荐',
+      name: '广告弹窗-关闭商城推荐',
       desc: '点击【不感兴趣】',
       rules: '@[text="不感兴趣"][clickable=true] + [text="去商城搜索更多"]',
       snapshotUrls: 'https://i.gkd.li/import/13800207',
