@@ -45,7 +45,7 @@
 | TwiTake                | [downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver](/docs/downloadtwittervideo.twitterdownloader.twittervideodownloader.twittersaver.md) | 1      |
 | VMOS Pro               | [com.vmos.pro](/docs/com.vmos.pro.md)                                                                                                                             | 1      |
 | Voice                  | [com.google.android.apps.googlevoice](/docs/com.google.android.apps.googlevoice.md)                                                                               | 1      |
-| WPS                    | [cn.wps.moffice_eng](/docs/cn.wps.moffice_eng.md)                                                                                                                 | 6      |
+| WPS                    | [cn.wps.moffice_eng](/docs/cn.wps.moffice_eng.md)                                                                                                                 | 7      |
 | WeiboBig               | [com.sina.weibocare](/docs/com.sina.weibocare.md)                                                                                                                 | 1      |
 | YouTube Music          | [com.google.android.apps.youtube.music](/docs/com.google.android.apps.youtube.music.md)                                                                           | 1      |
 | Zepp Life              | [com.xiaomi.hm.health](/docs/com.xiaomi.hm.health.md)                                                                                                             | 1      |
@@ -124,6 +124,7 @@
 | 班级小管家             | [com.banjixiaoguanjia.app](/docs/com.banjixiaoguanjia.app.md)                                                                                                     | 1      |
 | 宝宝生活记录           | [com.bluemobile.flutterbabylife](/docs/com.bluemobile.flutterbabylife.md)                                                                                         | 1      |
 | 宝宝树孕育             | [com.babytree.apps.pregnancy](/docs/com.babytree.apps.pregnancy.md)                                                                                               | 2      |
+| 贝贝                   | [com.copper.length](/docs/com.copper.length.md)                                                                                                                   | 1      |
 | 倍思                   | [com.baseus.intelligent](/docs/com.baseus.intelligent.md)                                                                                                         | 1      |
 | 必剪                   | [com.bilibili.studio](/docs/com.bilibili.studio.md)                                                                                                               | 2      |
 | 哔哩哔哩               | [tv.danmaku.bili](/docs/tv.danmaku.bili.md)                                                                                                                       | 12     |
@@ -453,6 +454,7 @@
 | 网易邮箱               | [com.netease.mobimail](/docs/com.netease.mobimail.md)                                                                                                             | 3      |
 | 网易邮箱大师           | [com.netease.mail](/docs/com.netease.mail.md)                                                                                                                     | 4      |
 | 网易云音乐             | [com.netease.cloudmusic](/docs/com.netease.cloudmusic.md)                                                                                                         | 11     |
+| 完美世界电竞           | [com.pwrd.steam.esports](/docs/com.pwrd.steam.esports.md)                                                                                                         | 1      |
 | 完美校园               | [com.newcapec.mobile.ncp](/docs/com.newcapec.mobile.ncp.md)                                                                                                       | 2      |
 | 万能遥控               | [com.duokan.phone.remotecontroller](/docs/com.duokan.phone.remotecontroller.md)                                                                                   | 2      |
 | 万年历                 | [com.youloft.calendar](/docs/com.youloft.calendar.md)                                                                                                             | 1      |

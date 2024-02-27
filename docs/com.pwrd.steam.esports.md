@@ -2,6 +2,10 @@
 
 存在 1 规则组 - [com.pwrd.steam.esports](/src/apps/com.pwrd.steam.esports.ts)
 
-## 开屏广告
+## 通知提示-打开推送通知
 
-- [快照-0](https://i.gkd.li/import/13362949)
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/de5d251c-d592-421c-93c2-2f2ce12d35e1)
+
+- [快照-0](https://i.gkd.li/import/14414463)
