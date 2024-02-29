@@ -34,7 +34,7 @@ export default defineAppConfig({
     {
       key: 2,
       name: '功能类-选择院校属性',
-      desc: '选好专业后，在筛选页面点击全部，以筛选特定属性院校,将规则复制到本地后，将text后的211改为985或其它即可',
+      desc: '选好专业后，在筛选页面点击"院校属性"，以筛选特定属性院校,将规则复制到本地后，将text后的211改为985或其它即可',
       activityIds: 'com.tal.qz.courselistlibrary.QzWebViewActivity',
       rules: [
         {
