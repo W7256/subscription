@@ -55,6 +55,16 @@
 - [快照-0](https://i.gkd.li/import/12785461)
 - [快照-1](https://i.gkd.li/import/12775156)
 
+## 局部广告-视频悬浮广告
+
+默认禁用 - 领取大会员月卡,B站免流星卡
+
+- [示例-0](https://github.com/gkd-kit/inspect/assets/38517192/110db806-3f8b-4cd2-a445-06c5f5eb21eb)
+
+- [快照-0](https://i.gkd.li/import/12892611)
+- [快照-1](https://i.gkd.li/import/13308344)
+- [快照-2](https://i.gkd.li/import/13538048)
+
 ## 局部广告-直播间卡片广告
 
 默认禁用 - 直播间底部售卖卡片-点击右上角x
@@ -72,16 +82,6 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13746766)
-
-## 视频悬浮广告
-
-默认禁用 - 领取大会员月卡,B站免流星卡
-
-- [示例-0](https://github.com/gkd-kit/inspect/assets/38517192/110db806-3f8b-4cd2-a445-06c5f5eb21eb)
-
-- [快照-0](https://i.gkd.li/import/12892611)
-- [快照-1](https://i.gkd.li/import/13308344)
-- [快照-2](https://i.gkd.li/import/13538048)
 
 ## 通知提示-请求通知权限弹窗
 

@@ -2,7 +2,7 @@
 
 存在 1 规则组 - [com.pwrd.steam.esports](/src/apps/com.pwrd.steam.esports.ts)
 
-## 通知提示-打开推送通知
+## 通知提示-请求打开推送通知
 
 默认禁用
 

@@ -8,7 +8,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 8,
-      name: '通知提示-请求通知权限',
+      name: '权限提示-请求通知权限',
       desc: '点击取消',
       quickFind: true,
       activityIds: [
@@ -24,7 +24,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 9,
-      name: '定位提示-请求定位权限',
+      name: '定位提示-请求开启定位',
       desc: '点击取消',
       quickFind: true,
       activityIds: 'com.hellobike.atlas.business.portal.PortalActivity',
@@ -91,6 +91,23 @@ export default defineAppConfig({
       rules:
         '@View[text="跳过"] <2 View <2 View <<n FrameLayout[id="com.jingyao.easybike:id/h5_pc_container"]',
       snapshotUrls: ['https://i.gkd.li/import/13837543'],
+    },
+    {
+      key: 16,
+      name: '权限提示-请求定位权限',
+      desc: '点击稍后再说',
+      rules: [
+        {
+          action: 'clickNode',
+          quickFind: true,
+          activityIds: 'com.hellobike.atlas.business.portal.PortalActivity',
+          matches:
+            '@Button[text="稍后再说"][id="android:id/button2"] + Button[id="android:id/button1"][text="去授权"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/638fc723-a636-463f-b4c7-a5aa7bb4c8b2',
+          snapshotUrls: 'https://i.gkd.li/import/14443144',
+        },
+      ],
     },
   ],
 });

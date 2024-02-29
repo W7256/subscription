@@ -126,7 +126,7 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '视频悬浮广告',
+      name: '局部广告-视频悬浮广告',
       desc: '领取大会员月卡,B站免流星卡',
       quickFind: true,
       matchTime: 10000,

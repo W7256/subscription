@@ -220,7 +220,7 @@
 | 海南航空               | [com.rytong.hnair](/docs/com.rytong.hnair.md)                                                                                                                     | 1      |
 | 海南一卡通             | [com.onecard.hainan](/docs/com.onecard.hainan.md)                                                                                                                 | 1      |
 | 海鸥加速器             | [tool.seagull.v](/docs/tool.seagull.v.md)                                                                                                                         | 2      |
-| 哈啰                   | [com.jingyao.easybike](/docs/com.jingyao.easybike.md)                                                                                                             | 8      |
+| 哈啰                   | [com.jingyao.easybike](/docs/com.jingyao.easybike.md)                                                                                                             | 9      |
 | 航旅纵横               | [com.umetrip.android.msky.app](/docs/com.umetrip.android.msky.app.md)                                                                                             | 4      |
 | 杭州公共交通           | [com.dtdream.publictransit](/docs/com.dtdream.publictransit.md)                                                                                                   | 1      |
 | 杭州市民卡             | [com.smk](/docs/com.smk.md)                                                                                                                                       | 1      |
@@ -257,6 +257,7 @@
 | 交通银行               | [com.bankcomm.Bankcomm](/docs/com.bankcomm.Bankcomm.md)                                                                                                           | 2      |
 | 交易猫                 | [com.jym.mall](/docs/com.jym.mall.md)                                                                                                                             | 1      |
 | 驾校一点通             | [com.jxedt](/docs/com.jxedt.md)                                                                                                                                   | 2      |
+| 街猫                   | [com.hello.pet](/docs/com.hello.pet.md)                                                                                                                           | 1      |
 | 解压专家               | [com.fileunzip.zxwknight](/docs/com.fileunzip.zxwknight.md)                                                                                                       | 2      |
 | 京东                   | [com.jingdong.app.mall](/docs/com.jingdong.app.mall.md)                                                                                                           | 10     |
 | 京东到家               | [com.jingdong.pdj](/docs/com.jingdong.pdj.md)                                                                                                                     | 2      |
@@ -271,6 +272,7 @@
 | 囧次元                 | [com.viva.note](/docs/com.viva.note.md)                                                                                                                           | 2      |
 | 剧多多                 | [com.juduoduo.app](/docs/com.juduoduo.app.md)                                                                                                                     | 1      |
 | 拷貝漫畫               | [com.copymanga.app](/docs/com.copymanga.app.md)                                                                                                                   | 5      |
+| 考研帮                 | [com.tal.kaoyan](/docs/com.tal.kaoyan.md)                                                                                                                         | 2      |
 | kds宽带山              | [net.pchome.kds](/docs/net.pchome.kds.md)                                                                                                                         | 1      |
 | 可可影视               | [com.keke.ysh1.tz08051h](/docs/com.keke.ysh1.tz08051h.md)                                                                                                         | 1      |
 | 肯德基                 | [com.yek.android.kfc.activitys](/docs/com.yek.android.kfc.activitys.md)                                                                                           | 1      |

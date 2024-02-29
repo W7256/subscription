@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '通知提示-打开推送通知',
+      name: '通知提示-请求打开推送通知',
       desc: '',
       rules: [
         {

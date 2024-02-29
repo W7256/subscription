@@ -20,7 +20,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '新版本弹窗',
+      name: '更新提示-新版本弹窗',
       activityIds: [
         'com.douyu.module.update.view.UpdateDialog',
         'com.douyu.module.home.pages.main.MainActivity',

@@ -1,8 +1,8 @@
 # 哈啰
 
-存在 8 规则组 - [com.jingyao.easybike](/src/apps/com.jingyao.easybike.ts)
+存在 9 规则组 - [com.jingyao.easybike](/src/apps/com.jingyao.easybike.ts)
 
-## 定位提示-请求定位权限
+## 定位提示-请求开启定位
 
 默认禁用 - 点击取消
 
@@ -38,7 +38,15 @@
 
 - [快照-0](https://i.gkd.li/import/12650071)
 
-## 通知提示-请求通知权限
+## 权限提示-请求定位权限
+
+默认禁用 - 点击稍后再说
+
+- [示例-0](https://m.gkd.li/110102406/638fc723-a636-463f-b4c7-a5aa7bb4c8b2)
+
+- [快照-0](https://i.gkd.li/import/14443144)
+
+## 权限提示-请求通知权限
 
 默认禁用 - 点击取消
 
