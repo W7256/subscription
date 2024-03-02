@@ -52,5 +52,18 @@ const globalGroups: RawGlobalGroup[] = [
     ],
     apps: diabledAppIds.map((id) => ({ id, enable: false })),
   },
+  {
+    key: 1,
+    name: '同意用户协议',
+    order: -9,
+    rules: [
+      {
+        key: 0,
+        actionMaximum: 1,
+        resetMatch: 'app',
+        matches: 'TextView[text*="同意"][text*="协议"] - *',
+      },
+    ],
+  },
 ];
 export default globalGroups;

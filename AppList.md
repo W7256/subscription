@@ -272,7 +272,7 @@
 | 囧次元                 | [com.viva.note](/docs/com.viva.note.md)                                                                                                                           | 2      |
 | 剧多多                 | [com.juduoduo.app](/docs/com.juduoduo.app.md)                                                                                                                     | 1      |
 | 拷貝漫畫               | [com.copymanga.app](/docs/com.copymanga.app.md)                                                                                                                   | 5      |
-| 考研帮                 | [com.tal.kaoyan](/docs/com.tal.kaoyan.md)                                                                                                                         | 2      |
+| 考研帮                 | [com.tal.kaoyan](/docs/com.tal.kaoyan.md)                                                                                                                         | 3      |
 | kds宽带山              | [net.pchome.kds](/docs/net.pchome.kds.md)                                                                                                                         | 1      |
 | 可可影视               | [com.keke.ysh1.tz08051h](/docs/com.keke.ysh1.tz08051h.md)                                                                                                         | 1      |
 | 肯德基                 | [com.yek.android.kfc.activitys](/docs/com.yek.android.kfc.activitys.md)                                                                                           | 1      |

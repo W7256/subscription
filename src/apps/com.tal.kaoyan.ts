@@ -39,7 +39,7 @@ export default defineAppConfig({
       rules: [
         {
           key: 1,
-          name: '点击学校属性',
+          name: '点击\'学校属性\'',
           action: 'clickNode',
           matches: 'View > Button + @Button[text="学校属性"]',
           exampleUrls:
@@ -55,6 +55,44 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/110102406/edbcd7b2-524c-4dfe-8b6b-dda61dd4e5aa',
           snapshotUrls: 'https://i.gkd.li/import/14445368',
+        },
+      ],
+    },
+    {
+      key: 3,
+      name: '功能类-选择\'学科门类\'及专业',
+      desc: '在找专业页面点击\'学科门类\',随后选择某具体专业。复制本规则到本地后，将desc后的\'工学\'及text后的\'信息与通信工程\'改为需要的门类即可',
+      activityIds: 'com.tal.qz.courselistlibrary.QzWebViewActivity',
+      rules: [
+        {
+          key: 1,
+          name: '点击\'学科门类\'',
+          action: 'clickNode',
+          matches: 'View >n Button[text="学科门类"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/5761c5b6-6f8d-40cc-92b4-58c9377be15f',
+          snapshotUrls: 'https://i.gkd.li/import/14468436',
+        },
+        {
+          key: 2,
+          preKeys: 1,
+          name: '点击某指定门类',
+          action: 'clickNode',
+          matches: 'View >n @View[desc="工学"] > TextView',
+          exampleUrls:
+            'https://m.gkd.li/110102406/c0602d13-7b9d-4c45-808e-90207e7b1e5c',
+          snapshotUrls: 'https://i.gkd.li/import/14468492',
+        },
+        {
+          key: 3,
+          preKeys: [1, 2],
+          name: '点击某具体专业',
+          action: 'clickNode',
+          matches:
+            'View > TextView[text="全部"] +n TextView[text="信息与通信工程"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/c0602d13-7b9d-4c45-808e-90207e7b1e5c',
+          snapshotUrls: 'https://i.gkd.li/import/14468492',
         },
       ],
     },
