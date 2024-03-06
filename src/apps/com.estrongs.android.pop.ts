@@ -7,17 +7,25 @@ export default defineAppConfig({
     {
       key: 0,
       name: '全屏广告',
+      activityIds: [
+        'com.fighter.loader.view.InteractTemplateAdDialog',
+        'com.estrongs.android.pop.view.FileExplorerActivity',
+      ],
       rules: [
         {
-          activityIds: 'com.fighter.loader.view.InteractTemplateAdDialog',
-          matches: '[id="com.estrongs.android.pop:id/iv_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/12509667',
+          matches:
+            'RelativeLayout[id="com.estrongs.android.pop:id/interact_ad_root"] > ImageView[id="com.estrongs.android.pop:id/iv_close"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/d95033e9-535c-44fe-a82a-7261aa4d17eb',
+          snapshotUrls: 'https://i.gkd.li/import/14506992',
         },
         {
-          activityIds: 'com.estrongs.android.pop.view.FileExplorerActivity',
           matches:
-            'TextView[text!=null] < FrameLayout - ImageView - FrameLayout > ImageView',
-          snapshotUrls: 'https://i.gkd.li/import/12509669',
+            'TextView[text^="应用名称"] < LinearLayout - FrameLayout >(2-n) FrameLayout > ImageView',
+          exampleUrls:
+            'https://m.gkd.li/110102406/b79b4e3d-df86-423c-a020-7e3846e07907',
+          snapshotUrls: 'https://i.gkd.li/import/14506950',
         },
       ],
     },

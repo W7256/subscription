@@ -1,6 +1,6 @@
 # 微信
 
-存在 19 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 21 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 分段广告-订阅号文章广告
 
@@ -115,6 +115,10 @@
 - [快照-2](https://i.gkd.li/import/12567698)
 - [快照-3](https://i.gkd.li/import/12567637)
 
+## 功能类-语音转文字
+
+默认禁用 - 仅未听过的语音可以转，仅测试私聊，未测试群聊
+
 ## 功能类-自动查看原图
 
 默认禁用 - 自动点击底部左侧[查看原图（*M）]按钮
@@ -128,6 +132,18 @@
 - [快照-0](https://i.gkd.li/import/12686641)
 - [快照-1](https://i.gkd.li/import/12840865)
 - [快照-2](https://i.gkd.li/import/12686640)
+
+## 局部广告-公众号推文内评论区上方广告
+
+默认禁用 - 体验较差，建议关闭
+
+- [示例-0](https://m.gkd.li/110102406/216d438d-b250-4d9f-b5d7-001a29fbcb2f)
+- [示例-1](https://m.gkd.li/110102406/92798f2b-d705-4bef-bad1-683563664f52)
+- [示例-2](https://m.gkd.li/110102406/774e0a30-ab5d-46bc-8322-1b15e01887c3)
+
+- [快照-0](https://i.gkd.li/import/14472922)
+- [快照-1](https://i.gkd.li/import/14472928)
+- [快照-2](https://i.gkd.li/import/14472965)
 
 ## 青少年模式
 

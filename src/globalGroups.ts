@@ -56,12 +56,18 @@ const globalGroups: RawGlobalGroup[] = [
     key: 1,
     name: '同意用户协议',
     order: -9,
+    actionMaximum: 1,
+    resetMatch: 'activity',
+    actionMaximumKey: 1,
     rules: [
       {
         key: 0,
-        actionMaximum: 1,
-        resetMatch: 'app',
         matches: 'TextView[text*="同意"][text*="协议"] - *',
+      },
+      {
+        key: 1,
+        matches:
+          'TextView[text*="同意"] +n TextView[text*="协议"] -n ImageView',
       },
     ],
   },

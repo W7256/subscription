@@ -1,6 +1,6 @@
 # 哔哩哔哩
 
-存在 12 规则组 - [tv.danmaku.bili](/src/apps/tv.danmaku.bili.ts)
+存在 13 规则组 - [tv.danmaku.bili](/src/apps/tv.danmaku.bili.ts)
 
 ## 分段广告-动态页推荐广告卡片
 
@@ -28,6 +28,16 @@
 - [快照-1](https://i.gkd.li/import/13256605)
 - [快照-2](https://i.gkd.li/import/13625309)
 - [快照-3](https://i.gkd.li/import/13742257)
+
+## 分段广告-首页游戏广告
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/e9d89ec4-e85b-4c67-a1a6-ecf2f4cb516e)
+- [示例-1](https://m.gkd.li/110102406/42dcdd30-75eb-4790-acaa-6bd23d12b945)
+
+- [快照-0](https://i.gkd.li/import/14478514)
+- [快照-1](https://i.gkd.li/import/14478551)
 
 ## 更新弹窗
 

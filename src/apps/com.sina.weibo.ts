@@ -7,17 +7,19 @@ export default defineAppConfig({
   groups: [
     {
       key: 3,
-      name: '兴趣领域推荐',
+      name: '功能类-跳过兴趣领域推荐',
       desc: '出现在长久未登录的账户再次登录时',
       quickFind: true,
       activityIds: 'com.sina.weibo.account.interest.InterestActivity',
       rules:
         '[id="com.sina.weibo:id/rl_account_title_bar"] > [id="com.sina.weibo:id/tv_title_bar_skip"][text="跳过"]',
+      exampleUrls:
+        'https://m.gkd.li/110102406/7a72b7a2-83ee-45b2-98dd-0b44d7f85f9e',
       snapshotUrls: 'https://i.gkd.li/import/12531405',
     },
     {
       key: 4,
-      name: '精选博主推荐',
+      name: '功能类-跳过精选博主推荐',
       desc: '出现在长久未登录的账户再次登录时',
       quickFind: true,
       activityIds: 'com.sina.weibo.account.recommend.RecommendActivity',
@@ -25,6 +27,8 @@ export default defineAppConfig({
         '[id="com.sina.weibo:id/tv_option"&&text="取消勾选"]',
         '[id="com.sina.weibo:id/new_next_btn"&&text="进入微博（已选0个）"]',
       ],
+      exampleUrls:
+        'https://m.gkd.li/110102406/9754d589-c715-48bb-a3fd-66c067bcdba3',
       snapshotUrls: [
         'https://i.gkd.li/import/12531433',
         'https://i.gkd.li/import/12531434',
@@ -32,36 +36,41 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '博文内容区与评论区中间卡片式广告',
+      name: '局部广告-博文内容区与评论区中间卡片式广告',
       desc: '点击右上角x',
       quickFind: true,
+      activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
       rules: [
         {
           key: 0,
-          activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
           matches:
             '[id="com.sina.weibo:id/left_img_container"] + LinearLayout >2 [id="com.sina.weibo:id/close"][clickable=true]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/9754d589-c715-48bb-a3fd-66c067bcdba3',
           snapshotUrls: 'https://i.gkd.li/import/12673043',
         },
         {
           key: 1,
-          activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
           matches:
             '[id="com.sina.weibo:id/left_video_container"] + LinearLayout >2 [id="com.sina.weibo:id/close"][clickable=true]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/846458e3-f1f9-4c08-9998-0c56f4a980b5',
           snapshotUrls: 'https://i.gkd.li/import/13635551',
         },
         {
           key: 2,
-          activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
           matches:
             '[id="com.sina.weibo:id/corner_marker_view"] >2 [id="com.sina.weibo:id/right_top_tag"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/572e3990-b872-4605-8b4e-e7b69651dc45',
           snapshotUrls: 'https://i.gkd.li/import/12673051',
         },
         {
           key: 3,
-          activityIds: 'com.sina.weibo.feed.DetailWeiboActivity',
           matches:
             '[id="com.sina.weibo:id/tvTrendsTitle"] + [id="com.sina.weibo:id/iv_ad_x"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/a3ecf2cc-a486-4f8d-ac22-b4448e85f4a6',
           snapshotUrls: 'https://i.gkd.li/import/13787207',
         },
       ],
@@ -197,7 +206,7 @@ export default defineAppConfig({
     },
     {
       key: 14,
-      name: '请求定位权限弹窗',
+      name: '权限提示-请求定位权限弹窗',
       quickFind: true,
       rules: [
         {

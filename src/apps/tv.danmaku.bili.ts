@@ -213,7 +213,6 @@ export default defineAppConfig({
         '[text="开启个性化内容推荐"] +3 [id="tv.danmaku.bili:id/close_button"]',
       snapshotUrls: 'https://i.gkd.li/import/13448905',
     },
-
     {
       name: '功能类-展开简介',
       key: 12,
@@ -225,6 +224,33 @@ export default defineAppConfig({
           activityIds: [
             'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
           ],
+        },
+      ],
+    },
+    {
+      name: '分段广告-首页游戏广告',
+      key: 13,
+      activityIds: 'tv.danmaku.bili.MainActivityV2',
+      rules: [
+        {
+          key: 1,
+          name: '点击广告右下角三个点',
+          matches:
+            'TextView[text$="分"] - * < LinearLayout +(3+n) * + FrameLayout[id="tv.danmaku.bili:id/more"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/e9d89ec4-e85b-4c67-a1a6-ecf2f4cb516e',
+          snapshotUrls: 'https://i.gkd.li/import/14478514',
+        },
+        {
+          key: 2,
+          preKeys: 1,
+          name: '不感兴趣',
+          matches: 'TextView[text="不感兴趣"] < RelativeLayout',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/42dcdd30-75eb-4790-acaa-6bd23d12b945',
+          snapshotUrls: 'https://i.gkd.li/import/14478551',
         },
       ],
     },

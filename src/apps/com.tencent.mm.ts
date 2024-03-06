@@ -491,5 +491,56 @@ export default defineAppConfig({
         },
       ],
     },
+    //20已弃用
+    {
+      key: 21,
+      name: '局部广告-公众号推文内评论区上方广告',
+      desc: '体验较差，建议关闭',
+      activityIds:
+        'com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI',
+      rules: [
+        {
+          key: 1,
+          name: '点击广告按钮',
+          matches: 'TextView[text="广告"] < View',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/216d438d-b250-4d9f-b5d7-001a29fbcb2f',
+          snapshotUrls: 'https://i.gkd.li/import/14472922',
+        },
+        {
+          key: 2,
+          preKeys: 1,
+          name: '点击不感兴趣',
+          matches: 'TextView[text="不感兴趣"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/92798f2b-d705-4bef-bad1-683563664f52',
+          snapshotUrls: 'https://i.gkd.li/import/14472928',
+        },
+        {
+          key: 3,
+          preKeys: [1, 2],
+          name: '点击与我无关',
+          matches: 'TextView[text="与我无关"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/774e0a30-ab5d-46bc-8322-1b15e01887c3',
+          snapshotUrls: 'https://i.gkd.li/import/14472965',
+        },
+      ],
+    },
+    {
+      key: 22,
+      name: '功能类-语音转文字',
+      desc: '仅未听过的语音可以转，仅测试私聊，未测试群聊',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.tencent.mm.ui.LauncherUI',
+          matches: 'TextView[text="转文字"][id="com.tencent.mm:id/blu"]',
+        },
+      ],
+    },
   ],
 });

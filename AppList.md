@@ -127,7 +127,7 @@
 | 贝贝                   | [com.copper.length](/docs/com.copper.length.md)                                                                                                                   | 1      |
 | 倍思                   | [com.baseus.intelligent](/docs/com.baseus.intelligent.md)                                                                                                         | 1      |
 | 必剪                   | [com.bilibili.studio](/docs/com.bilibili.studio.md)                                                                                                               | 2      |
-| 哔哩哔哩               | [tv.danmaku.bili](/docs/tv.danmaku.bili.md)                                                                                                                       | 12     |
+| 哔哩哔哩               | [tv.danmaku.bili](/docs/tv.danmaku.bili.md)                                                                                                                       | 13     |
 | 哔哩哔哩HD             | [tv.danmaku.bilibilihd](/docs/tv.danmaku.bilibilihd.md)                                                                                                           | 2      |
 | 哔哩哔哩漫画           | [com.bilibili.comic](/docs/com.bilibili.comic.md)                                                                                                                 | 1      |
 | 比亚迪王朝             | [com.byd.aeri.caranywhere](/docs/com.byd.aeri.caranywhere.md)                                                                                                     | 1      |
@@ -173,6 +173,7 @@
 | 动漫之家社区           | [com.dmzjsq.manhua](/docs/com.dmzjsq.manhua.md)                                                                                                                   | 1      |
 | 懂球帝                 | [com.dongqiudi.news](/docs/com.dongqiudi.news.md)                                                                                                                 | 6      |
 | 豆瓣                   | [com.douban.frodo](/docs/com.douban.frodo.md)                                                                                                                     | 9      |
+| 抖看小剧场             | [com.sjm.baby.nf](/docs/com.sjm.baby.nf.md)                                                                                                                       | 1      |
 | 抖音                   | [com.ss.android.ugc.aweme](/docs/com.ss.android.ugc.aweme.md)                                                                                                     | 14     |
 | 抖音                   | [com.ss.android.ugc.aweme.mobile](/docs/com.ss.android.ugc.aweme.mobile.md)                                                                                       | 1      |
 | 抖音极速版             | [com.ss.android.ugc.aweme.lite](/docs/com.ss.android.ugc.aweme.lite.md)                                                                                           | 4      |
@@ -272,6 +273,7 @@
 | 囧次元                 | [com.viva.note](/docs/com.viva.note.md)                                                                                                                           | 2      |
 | 剧多多                 | [com.juduoduo.app](/docs/com.juduoduo.app.md)                                                                                                                     | 1      |
 | 拷貝漫畫               | [com.copymanga.app](/docs/com.copymanga.app.md)                                                                                                                   | 5      |
+| 考试宝                 | [com.kaoshibaodian.app](/docs/com.kaoshibaodian.app.md)                                                                                                           | 2      |
 | 考研帮                 | [com.tal.kaoyan](/docs/com.tal.kaoyan.md)                                                                                                                         | 3      |
 | kds宽带山              | [net.pchome.kds](/docs/net.pchome.kds.md)                                                                                                                         | 1      |
 | 可可影视               | [com.keke.ysh1.tz08051h](/docs/com.keke.ysh1.tz08051h.md)                                                                                                         | 1      |
@@ -467,7 +469,7 @@
 | 维护大师               | [com.example.maintenancemaster](/docs/com.example.maintenancemaster.md)                                                                                           | 1      |
 | 微视                   | [com.tencent.weishi](/docs/com.tencent.weishi.md)                                                                                                                 | 1      |
 | 微拾                   | [com.pleasure.trace_wechat](/docs/com.pleasure.trace_wechat.md)                                                                                                   | 2      |
-| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 19     |
+| 微信                   | [com.tencent.mm](/docs/com.tencent.mm.md)                                                                                                                         | 21     |
 | 微信读书               | [com.tencent.weread](/docs/com.tencent.weread.md)                                                                                                                 | 2      |
 | 微音乐                 | [com.zhouyu.music](/docs/com.zhouyu.music.md)                                                                                                                     | 2      |
 | 文件                   | [com.android.documentsui](/docs/com.android.documentsui.md)                                                                                                       | 2      |

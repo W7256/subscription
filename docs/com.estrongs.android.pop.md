@@ -14,5 +14,8 @@
 
 默认禁用
 
-- [快照-0](https://i.gkd.li/import/12509667)
-- [快照-1](https://i.gkd.li/import/12509669)
+- [示例-0](https://m.gkd.li/110102406/d95033e9-535c-44fe-a82a-7261aa4d17eb)
+- [示例-1](https://m.gkd.li/110102406/b79b4e3d-df86-423c-a020-7e3846e07907)
+
+- [快照-0](https://i.gkd.li/import/14506992)
+- [快照-1](https://i.gkd.li/import/14506950)
