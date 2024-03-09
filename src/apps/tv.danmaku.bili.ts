@@ -246,7 +246,7 @@ export default defineAppConfig({
           key: 2,
           preKeys: 1,
           name: '不感兴趣',
-          matches: 'TextView[text="不感兴趣"] < RelativeLayout',
+          matches: 'TextView[text="不感兴趣"] < LinearLayout',
           action: 'clickNode',
           exampleUrls:
             'https://m.gkd.li/110102406/42dcdd30-75eb-4790-acaa-6bd23d12b945',

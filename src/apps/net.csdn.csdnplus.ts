@@ -53,7 +53,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '信息流广告',
+      name: '分段广告-信息流广告',
       quickFind: true,
       activityIds: ['net.csdn.csdnplus.activity.MainActivity'],
       rules: [
@@ -94,7 +94,7 @@ export default defineAppConfig({
       matchTime: 10000,
       actionMaximum: 1,
       resetMatch: 'app',
-      name: '请求推送通知弹窗',
+      name: '权限提示-请求推送通知弹窗',
       activityIds: 'net.csdn.csdnplus.activity.MainActivity',
       rules: {
         matches: [
@@ -123,6 +123,48 @@ export default defineAppConfig({
           activityIds: 'net.csdn.csdnplus.mvvm.ui.activity.BlogDetailActivity',
           matches: 'FrameLayout[id="android:id/content"] [text="不感兴趣"]',
           snapshotUrls: 'https://i.gkd.li/import/13830858',
+        },
+      ],
+    },
+    {
+      key: 12,
+      name: '分段广告-文章底部广告',
+      rules: [
+        {
+          key: 1,
+          activityIds: 'net.csdn.csdnplus.mvvm.ui.activity.BlogDetailActivity',
+          matches:
+            'FrameLayout[id="net.csdn.csdnplus:id/fl_bottom_ad_container"] > FrameLayout > FrameLayout > ViewGroup > ViewGroup > ViewGroup > ImageView',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/e6f27606-c998-4210-9ea4-42d8d9a35dfc',
+          snapshotUrls: 'https://i.gkd.li/import/14547003',
+        },
+        {
+          key: 2,
+          preKeys: [1],
+          name: '不感兴趣',
+          activityIds: 'net.csdn.csdnplus.mvvm.ui.activity.BlogDetailActivity',
+          matches: 'TextView[text="不感兴趣"] < LinearLayout',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/33fc6ff3-c6bd-40f3-b884-9cd931824517',
+          snapshotUrls: 'https://i.gkd.li/import/14547054',
+        },
+      ],
+    },
+    {
+      key: 13,
+      name: '局部广告-浮窗广告',
+      rules: [
+        {
+          activityIds: 'net.csdn.csdnplus.activity.WebEduActivity',
+          matches:
+            'View[desc="vip?utm_source=vip_cth_xzxqy_xfc"] + TextView[text="x"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/0148d62b-d0c1-46fa-a8cc-48777530301a',
+          snapshotUrls: 'https://i.gkd.li/import/14547079',
         },
       ],
     },

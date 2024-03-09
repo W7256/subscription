@@ -8,7 +8,7 @@
 | BUFF                   | [com.netease.buff](/docs/com.netease.buff.md)                                                                                                                     | 1      |
 | Blued                  | [com.soft.blued](/docs/com.soft.blued.md)                                                                                                                         | 1      |
 | CFMOTO                 | [com.lxt.cfmoto](/docs/com.lxt.cfmoto.md)                                                                                                                         | 1      |
-| CSDN                   | [net.csdn.csdnplus](/docs/net.csdn.csdnplus.md)                                                                                                                   | 6      |
+| CSDN                   | [net.csdn.csdnplus](/docs/net.csdn.csdnplus.md)                                                                                                                   | 8      |
 | CTM Buddy              | [com.ctm](/docs/com.ctm.md)                                                                                                                                       | 2      |
 | Cellular-Z             | [make.more.r2d2.cellular_z](/docs/make.more.r2d2.cellular_z.md)                                                                                                   | 2      |
 | ECOVACS HOME           | [com.eco.global.app](/docs/com.eco.global.app.md)                                                                                                                 | 1      |
@@ -274,7 +274,7 @@
 | 剧多多                 | [com.juduoduo.app](/docs/com.juduoduo.app.md)                                                                                                                     | 1      |
 | 拷貝漫畫               | [com.copymanga.app](/docs/com.copymanga.app.md)                                                                                                                   | 5      |
 | 考试宝                 | [com.kaoshibaodian.app](/docs/com.kaoshibaodian.app.md)                                                                                                           | 2      |
-| 考研帮                 | [com.tal.kaoyan](/docs/com.tal.kaoyan.md)                                                                                                                         | 3      |
+| 考研帮                 | [com.tal.kaoyan](/docs/com.tal.kaoyan.md)                                                                                                                         | 4      |
 | kds宽带山              | [net.pchome.kds](/docs/net.pchome.kds.md)                                                                                                                         | 1      |
 | 可可影视               | [com.keke.ysh1.tz08051h](/docs/com.keke.ysh1.tz08051h.md)                                                                                                         | 1      |
 | 肯德基                 | [com.yek.android.kfc.activitys](/docs/com.yek.android.kfc.activitys.md)                                                                                           | 1      |

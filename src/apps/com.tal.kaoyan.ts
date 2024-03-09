@@ -7,12 +7,12 @@ export default defineAppConfig({
     {
       key: 1,
       name: '功能类-选择院校所在地区',
-      desc: '选好专业后，在筛选页面点击"所在地区"，以筛选特定地区的院校,将规则复制到本地后，将text后的"北京"改为需要的地区即可',
+      desc: '将此规则复制到本地使用。将text后的北京改为其它即可',
       activityIds: 'com.tal.qz.courselistlibrary.QzWebViewActivity',
       rules: [
         {
           key: 1,
-          name: '点击所在地区',
+          name: '点击“所在地区”',
           action: 'clickNode',
           matches: 'View > @Button[text="所在地区"] +4 Button',
           exampleUrls:
@@ -21,7 +21,7 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          name: '点击某指定地区',
+          name: '选择某指定地区',
           preKeys: 1,
           action: 'clickNode',
           matches: 'View >n Button + Button[text="北京"]',
@@ -34,12 +34,12 @@ export default defineAppConfig({
     {
       key: 2,
       name: '功能类-选择院校属性',
-      desc: '选好专业后，在筛选页面点击"院校属性"，以筛选特定属性院校,将规则复制到本地后，将text后的211改为985或其它即可',
+      desc: '将此规则复制到本地使用。将text后的211改为985或其它即可',
       activityIds: 'com.tal.qz.courselistlibrary.QzWebViewActivity',
       rules: [
         {
           key: 1,
-          name: '点击\'学校属性\'',
+          name: '点击学校属性',
           action: 'clickNode',
           matches: 'View > Button + @Button[text="学校属性"]',
           exampleUrls:
@@ -49,7 +49,7 @@ export default defineAppConfig({
         {
           key: 2,
           preKeys: 1,
-          name: '点击某指定属性',
+          name: '选择某指定的属性',
           action: 'clickNode',
           matches: 'View > Button[text^="全部"] +n Button[text="211"]',
           exampleUrls:
@@ -60,13 +60,13 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '功能类-选择\'学科门类\'及专业',
-      desc: '在找专业页面点击\'学科门类\',随后选择某具体专业。复制本规则到本地后，将desc后的\'工学\'及text后的\'信息与通信工程\'改为需要的门类即可',
+      name: '功能类-选择\'学科门类\'',
+      desc: '将此规则复制到本地编辑后使用。将desc后的工学改为其它即可',
       activityIds: 'com.tal.qz.courselistlibrary.QzWebViewActivity',
       rules: [
         {
           key: 1,
-          name: '点击\'学科门类\'',
+          name: '点击“学科门类”',
           action: 'clickNode',
           matches: 'View >n Button[text="学科门类"]',
           exampleUrls:
@@ -76,7 +76,7 @@ export default defineAppConfig({
         {
           key: 2,
           preKeys: 1,
-          name: '点击某指定门类',
+          name: '选择某指定的门类',
           action: 'clickNode',
           matches: 'View >n @View[desc="工学"] > TextView',
           exampleUrls:
@@ -88,11 +88,26 @@ export default defineAppConfig({
           preKeys: [1, 2],
           name: '点击某具体专业',
           action: 'clickNode',
-          matches:
-            'View > TextView[text="全部"] +n TextView[text="信息与通信工程"]',
+          matches: 'View > TextView[text="全部"] +n TextView[text="电子信息"]',
           exampleUrls:
             'https://m.gkd.li/110102406/c0602d13-7b9d-4c45-808e-90207e7b1e5c',
           snapshotUrls: 'https://i.gkd.li/import/14468492',
+        },
+      ],
+    },
+    {
+      key: 4,
+      name: '广告弹窗',
+      rules: [
+        {
+          key: 1,
+          quickFind: true,
+          activityIds: 'com.tal.kaoyan.ui.activity.HomeTabActivity',
+          matches: 'ImageView[id="com.tal.kaoyan:id/ivAdViewClose"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/229e56f0-b62b-408f-95f2-d6f0fdcc50b5',
+          snapshotUrls: 'https://i.gkd.li/import/14538056',
         },
       ],
     },

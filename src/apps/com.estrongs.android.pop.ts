@@ -14,7 +14,7 @@ export default defineAppConfig({
       rules: [
         {
           matches:
-            'RelativeLayout[id="com.estrongs.android.pop:id/interact_ad_root"] > ImageView[id="com.estrongs.android.pop:id/iv_close"]',
+            'RelativeLayout > ImageView[id="com.estrongs.android.pop:id/iv_close"]',
           action: 'clickNode',
           exampleUrls:
             'https://m.gkd.li/110102406/d95033e9-535c-44fe-a82a-7261aa4d17eb',
