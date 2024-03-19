@@ -20,7 +20,7 @@
 | Instagram              | [com.instagram.android](/docs/com.instagram.android.md)                                                                                                           | 1      |
 | JavDB                  | [xxx.pornhub.fuck](/docs/xxx.pornhub.fuck.md)                                                                                                                     | 1      |
 | Keep                   | [com.gotokeep.keep](/docs/com.gotokeep.keep.md)                                                                                                                   | 5      |
-| LIBVIO                 | [lab.vie.two](/docs/lab.vie.two.md)                                                                                                                               | 1      |
+| LIBVIO                 | [lab.vie.two](/docs/lab.vie.two.md)                                                                                                                               | 2      |
 | MINO 4K                | [com.qjy.youqulife.io](/docs/com.qjy.youqulife.io.md)                                                                                                             | 1      |
 | Nico                   | [com.superrhino.rarering](/docs/com.superrhino.rarering.md)                                                                                                       | 1      |
 | OMOFUN                 | [com.ksf.yyx](/docs/com.ksf.yyx.md)                                                                                                                               | 3      |
@@ -71,7 +71,7 @@
 | Blued极速版            | [com.danlan.xiaolan](/docs/com.danlan.xiaolan.md)                                                                                                                 | 2      |
 | CC加速器               | [cn.ccspeed](/docs/cn.ccspeed.md)                                                                                                                                 | 1      |
 | CliCli动漫             | [com.viva.time_todo](/docs/com.viva.time_todo.md)                                                                                                                 | 1      |
-| ES文件浏览器           | [com.estrongs.android.pop](/docs/com.estrongs.android.pop.md)                                                                                                     | 2      |
+| ES文件浏览器           | [com.estrongs.android.pop](/docs/com.estrongs.android.pop.md)                                                                                                     | 3      |
 | ETC车宝                | [com.uroad.carclub](/docs/com.uroad.carclub.md)                                                                                                                   | 1      |
 | Fa米家                 | [com.x2era.xcloud.app](/docs/com.x2era.xcloud.app.md)                                                                                                             | 1      |
 | GPS工具箱              | [com.leduoworks.gpstoolbox](/docs/com.leduoworks.gpstoolbox.md)                                                                                                   | 1      |
@@ -133,7 +133,7 @@
 | 比亚迪王朝             | [com.byd.aeri.caranywhere](/docs/com.byd.aeri.caranywhere.md)                                                                                                     | 1      |
 | 比翼多开               | [com.svm.hbyy](/docs/com.svm.hbyy.md)                                                                                                                             | 1      |
 | 薄荷健康               | [com.boohee.one](/docs/com.boohee.one.md)                                                                                                                         | 3      |
-| 不背单词               | [cn.com.langeasy.LangEasyLexis](/docs/cn.com.langeasy.LangEasyLexis.md)                                                                                           | 2      |
+| 不背单词               | [cn.com.langeasy.LangEasyLexis](/docs/cn.com.langeasy.LangEasyLexis.md)                                                                                           | 3      |
 | 步道乐跑               | [com.lptiyu.tanke](/docs/com.lptiyu.tanke.md)                                                                                                                     | 1      |
 | 布丁扫描               | [com.wibo.bigbang.ocr](/docs/com.wibo.bigbang.ocr.md)                                                                                                             | 1      |
 | 不厌书法               | [com.buyanchuantong.buyanshufa](/docs/com.buyanchuantong.buyanshufa.md)                                                                                           | 1      |
@@ -284,7 +284,7 @@
 | 快手                   | [com.smile.gifmaker](/docs/com.smile.gifmaker.md)                                                                                                                 | 4      |
 | 快手极速版             | [com.kuaishou.nebula](/docs/com.kuaishou.nebula.md)                                                                                                               | 1      |
 | 快牙                   | [com.dewmobile.kuaiya](/docs/com.dewmobile.kuaiya.md)                                                                                                             | 1      |
-| 夸克浏览器             | [com.quark.browser](/docs/com.quark.browser.md)                                                                                                                   | 5      |
+| 夸克浏览器             | [com.quark.browser](/docs/com.quark.browser.md)                                                                                                                   | 6      |
 | 酷安                   | [com.coolapk.market](/docs/com.coolapk.market.md)                                                                                                                 | 4      |
 | 酷狗音乐               | [com.kugou.android](/docs/com.kugou.android.md)                                                                                                                   | 3      |
 | 蓝岛                   | [com.loyea.adnmb](/docs/com.loyea.adnmb.md)                                                                                                                       | 1      |
@@ -523,7 +523,7 @@
 | 携程旅行               | [ctrip.android.view](/docs/ctrip.android.view.md)                                                                                                                 | 1      |
 | 稀饭动漫               | [com.xfani.app](/docs/com.xfani.app.md)                                                                                                                           | 1      |
 | 西瓜视频               | [com.ss.android.article.video](/docs/com.ss.android.article.video.md)                                                                                             | 4      |
-| 喜马拉雅               | [com.ximalaya.ting.android](/docs/com.ximalaya.ting.android.md)                                                                                                   | 13     |
+| 喜马拉雅               | [com.ximalaya.ting.android](/docs/com.ximalaya.ting.android.md)                                                                                                   | 14     |
 | 喜马拉雅极速版         | [com.ximalaya.ting.lite](/docs/com.ximalaya.ting.lite.md)                                                                                                         | 5      |
 | 心动日常               | [com.youloft.icloser](/docs/com.youloft.icloser.md)                                                                                                               | 2      |
 | 醒图                   | [com.xt.retouch](/docs/com.xt.retouch.md)                                                                                                                         | 1      |

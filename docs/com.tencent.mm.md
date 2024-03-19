@@ -25,6 +25,18 @@
 - [快照-3](https://i.gkd.li/import/12642238)
 - [快照-4](https://i.gkd.li/import/12700191)
 
+## 分段广告-订阅号文章内广告
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/216d438d-b250-4d9f-b5d7-001a29fbcb2f)
+- [示例-1](https://m.gkd.li/110102406/92798f2b-d705-4bef-bad1-683563664f52)
+- [示例-2](https://m.gkd.li/110102406/774e0a30-ab5d-46bc-8322-1b15e01887c3)
+
+- [快照-0](https://i.gkd.li/import/14472922)
+- [快照-1](https://i.gkd.li/import/14472928)
+- [快照-2](https://i.gkd.li/import/14472965)
+
 ## 分段广告-朋友圈广告
 
 默认禁用 - 点击广告卡片右上角广告,直接关闭/出现菜单,确认关闭
@@ -75,6 +87,9 @@
 ## 功能类-订阅号-展开更早的消息
 
 默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/17a9fdcd-0e38-4fd2-b11b-7f1974aabd30)
+- [示例-1](https://m.gkd.li/110102406/01b01a88-8de2-4835-b1bf-1c2b3a89fa4c)
 
 - [快照-0](https://i.gkd.li/import/13790550)
 - [快照-1](https://i.gkd.li/import/13790949)
@@ -132,18 +147,6 @@
 - [快照-0](https://i.gkd.li/import/12686641)
 - [快照-1](https://i.gkd.li/import/12840865)
 - [快照-2](https://i.gkd.li/import/12686640)
-
-## 局部广告-公众号推文内评论区上方广告
-
-默认禁用 - 体验较差，建议关闭
-
-- [示例-0](https://m.gkd.li/110102406/216d438d-b250-4d9f-b5d7-001a29fbcb2f)
-- [示例-1](https://m.gkd.li/110102406/92798f2b-d705-4bef-bad1-683563664f52)
-- [示例-2](https://m.gkd.li/110102406/774e0a30-ab5d-46bc-8322-1b15e01887c3)
-
-- [快照-0](https://i.gkd.li/import/14472922)
-- [快照-1](https://i.gkd.li/import/14472928)
-- [快照-2](https://i.gkd.li/import/14472965)
 
 ## 青少年模式
 

@@ -71,5 +71,21 @@ export default defineAppConfig({
       rules: 'ImageView[id="com.quark.browser:id/close_img"][clickable=true]',
       snapshotUrls: 'https://i.gkd.li/import/13292571',
     },
+    {
+      key: 5,
+      name: '功能类-同时删除源文件',
+      activityIds: 'com.ucpro.BrowserActivity',
+      rules: [
+        {
+          action: 'clickCenter',
+          matches: '[text="同时删除源文件"]',
+          actionDelay: 350,
+          quickFind: true,
+          actionMaximum: 1,
+          matchDelay: 200,
+          resetMatch: 'activity',
+        },
+      ],
+    },
   ],
 });

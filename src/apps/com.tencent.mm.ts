@@ -481,21 +481,27 @@ export default defineAppConfig({
           activityIds:
             'com.tencent.mm.plugin.brandservice.ui.timeline.BizTimeLineUI',
           matches: '[text="展开更早的消息"] < [id="com.tencent.mm:id/aqc"]',
+          action: 'clickNode',
           snapshotUrls: 'https://i.gkd.li/import/13790550',
+          exampleUrls:
+            'https://m.gkd.li/110102406/17a9fdcd-0e38-4fd2-b11b-7f1974aabd30',
         },
         {
           key: 1,
           name: '8.0.44',
           matches: '[desc="展开更早的消息"]',
+          action: 'clickNode',
           snapshotUrls: 'https://i.gkd.li/import/13790949',
+          exampleUrls:
+            'https://m.gkd.li/110102406/01b01a88-8de2-4835-b1bf-1c2b3a89fa4c',
         },
       ],
     },
     //20已弃用
     {
       key: 21,
-      name: '局部广告-公众号推文内评论区上方广告',
-      desc: '体验较差，建议关闭',
+      name: '分段广告-订阅号文章内广告',
+      desc: '',
       activityIds:
         'com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI',
       rules: [

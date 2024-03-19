@@ -13,5 +13,22 @@ export default defineAppConfig({
       rules: '[desc="账号注册说明"] +2 [desc="我知道了"]',
       snapshotUrls: 'https://i.gkd.li/import/13379070',
     },
+    {
+      name: '功能类-追剧模式',
+      key: 2,
+      desc: '每次进入app时点击继续观看xxx',
+      rules: [
+        {
+          matches: ['[desc^="继续观看"]'],
+          actionMaximum: 1,
+          resetMatch: 'app',
+          snapshotUrls: ['https://i.gkd.li/import/13825341'],
+          exampleUrls: [
+            'https://m.gkd.li/110102406/4c89164f-663f-4594-9297-6cc832688a5d',
+          ],
+          activityIds: ['lab.vie.two.MainActivity'],
+        },
+      ],
+    },
   ],
 });

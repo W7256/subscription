@@ -54,5 +54,20 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 2,
+      name: '全屏广告-2',
+      rules: [
+        {
+          key: 1,
+          activityIds: '',
+          matches:
+            'TextView[text="查看详情"] < FrameLayout - * < FrameLayout -2 FrameLayout > ImageView',
+          exampleUrls:
+            'https://m.gkd.li/110102406/b85f2952-7bec-453b-859a-0d31bcd00c35',
+          snapshotUrls: 'https://i.gkd.li/import/14548770',
+        },
+      ],
+    },
   ],
 });

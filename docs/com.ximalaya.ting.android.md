@@ -1,6 +1,6 @@
 # 喜马拉雅
 
-存在 13 规则组 - [com.ximalaya.ting.android](/src/apps/com.ximalaya.ting.android.ts)
+存在 14 规则组 - [com.ximalaya.ting.android](/src/apps/com.ximalaya.ting.android.ts)
 
 ## 播放页面-播放控制区域的广告
 
@@ -28,6 +28,26 @@
 - [快照-2](https://i.gkd.li/import/12506225)
 - [快照-3](https://i.gkd.li/import/12701414)
 - [快照-4](https://i.gkd.li/import/13314183)
+
+## 分段广告-首页推荐列表广告
+
+默认禁用 - 点击关闭-点击屏蔽
+
+- [快照-0](https://i.gkd.li/import/12506253)
+- [快照-1](https://i.gkd.li/import/12701374)
+- [快照-2](https://i.gkd.li/import/12506258)
+- [快照-3](https://i.gkd.li/import/13260487)
+- [快照-4](https://i.gkd.li/import/13275928)
+
+## 分段广告-详情页广告
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/ee619260-7184-41ba-bc6a-be79a3b214be)
+- [示例-1](https://m.gkd.li/110102406/309ae81e-c32b-47b2-9201-de39a2c53899)
+
+- [快照-0](https://i.gkd.li/import/14549083)
+- [快照-1](https://i.gkd.li/import/14549090)
 
 ## 关闭更新弹窗
 
@@ -61,16 +81,6 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12869426)
-
-## 首页-推荐列表广告
-
-默认禁用 - 点击关闭-点击屏蔽
-
-- [快照-0](https://i.gkd.li/import/12506253)
-- [快照-1](https://i.gkd.li/import/12701374)
-- [快照-2](https://i.gkd.li/import/12506258)
-- [快照-3](https://i.gkd.li/import/13260487)
-- [快照-4](https://i.gkd.li/import/13275928)
 
 ## 首页-专辑订阅推荐弹窗
 

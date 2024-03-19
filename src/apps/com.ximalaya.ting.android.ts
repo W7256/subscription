@@ -86,7 +86,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      name: '首页-推荐列表广告',
+      name: '分段广告-首页推荐列表广告',
       desc: '点击关闭-点击屏蔽',
       activityIds: [
         'com.ximalaya.ting.android.host.activity.MainActivity',
@@ -110,7 +110,7 @@ export default defineAppConfig({
           name: '点击关闭原因【屏蔽】',
           quickFind: true,
           matches:
-            '@[name="android.widget.RelativeLayout" || name="android.widget.LinearLayout"] > [text="屏蔽"]',
+            'TextView[id="com.ximalaya.ting.android:id/main_text"][text="直接关闭"]',
           snapshotUrls: [
             'https://i.gkd.li/import/12506258',
             'https://i.gkd.li/import/13260487',
@@ -232,6 +232,31 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/33366298/f6ac028a-509b-49d8-959a-7da90fb4d9df',
           snapshotUrls: 'https://i.gkd.li/import/13389145',
+        },
+      ],
+    },
+    {
+      key: 13,
+      name: '分段广告-详情页广告',
+      activityIds: 'com.ximalaya.ting.android.host.activity.MainActivity',
+      rules: [
+        {
+          key: 1,
+          matches: 'TextView[text="广告" || text="推广"] < ViewGroup',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/ee619260-7184-41ba-bc6a-be79a3b214be',
+          snapshotUrls: 'https://i.gkd.li/import/14549083',
+        },
+        {
+          quickFind: true,
+          matches:
+            'TextView[id="com.ximalaya.ting.android:id/main_text"][text="直接关闭"]',
+          key: 2,
+          preKeys: [1],
+          exampleUrls:
+            'https://m.gkd.li/110102406/309ae81e-c32b-47b2-9201-de39a2c53899',
+          snapshotUrls: 'https://i.gkd.li/import/14549090',
         },
       ],
     },
