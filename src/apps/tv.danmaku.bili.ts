@@ -188,8 +188,8 @@ export default defineAppConfig({
           ],
           actionMaximum: 1,
           snapshotUrls: [
-            'https://i.gkd.li/i/14083540',
-            'https://i.gkd.li/i/14059876',
+            'https://i.gkd.li/import/14083540',
+            'https://i.gkd.li/import/14059876',
           ],
         },
         {
@@ -199,10 +199,10 @@ export default defineAppConfig({
           matches: ['@* > [text="不感兴趣"]'],
           order: 1,
           snapshotUrls: [
-            'https://i.gkd.li/i/13742257',
-            'https://i.gkd.li/i/13256605',
-            'https://i.gkd.li/i/14155801',
-            'https://i.gkd.li/i/13742257',
+            'https://i.gkd.li/import/13742257',
+            'https://i.gkd.li/import/13256605',
+            'https://i.gkd.li/import/14155801',
+            'https://i.gkd.li/import/13742257',
           ],
         },
         {
@@ -212,9 +212,9 @@ export default defineAppConfig({
           matches: ['@* > [text="相似内容过多"]'],
           order: 2,
           snapshotUrls: [
-            'https://i.gkd.li/i/13945597',
-            'https://i.gkd.li/i/14155272',
-            'https://i.gkd.li/i/14059882',
+            'https://i.gkd.li/import/13945597',
+            'https://i.gkd.li/import/14155272',
+            'https://i.gkd.li/import/14059882',
           ],
           exampleUrls: [
             'https://m.gkd.li/57941037/acd89b46-45fc-459f-8d17-3913d98dcbad',
@@ -226,7 +226,7 @@ export default defineAppConfig({
           preKeys: [0],
           matches: ['@* > [text="up主不感兴趣"]'],
           order: 3,
-          snapshotUrls: ['https://i.gkd.li/i/13625309'],
+          snapshotUrls: ['https://i.gkd.li/import/13625309'],
           exampleUrls: [
             'https://m.gkd.li/57941037/9c2f42d7-c262-4e06-b3c6-40f0908e7a94',
           ],
