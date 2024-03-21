@@ -109,5 +109,65 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 17,
+      name: '功能类-单车扫码后自动确认开锁',
+      activityIds:
+        'com.hellobike.flutter.platform.android.flutterboost.FlutterHostFragmentActivity',
+      rules: [
+        {
+          action: 'clickNode',
+          matchDelay: 500,
+          matches: 'View[desc="确认开锁"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/28ffc3a5-fda0-4a63-bcdd-211385a770ad',
+          snapshotUrls: 'https://i.gkd.li/import/14686624',
+        },
+      ],
+    },
+    {
+      key: 18,
+      name: '功能类-故障问卷点\'没故障\'',
+      rules: [
+        {
+          action: 'clickNode',
+          matchDelay: 500,
+          activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
+          matches: 'View[text="没故障"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/a1eb39ef-9b7b-4d83-9e25-acec10a26350',
+          snapshotUrls: 'https://i.gkd.li/import/14686676',
+        },
+      ],
+    },
+    {
+      key: 19,
+      name: '定位提示-点击去设置',
+      rules: [
+        {
+          quickFind: true,
+          action: 'clickNode',
+          matchTime: 10000,
+          activityIds: 'com.hellobike.atlas.business.portal.PortalActivity',
+          matches: 'LinearLayout > Button[text="去设置"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/6a22bf39-7cd8-43fe-b82b-1fc50d10994d',
+          snapshotUrls: 'https://i.gkd.li/import/14694377',
+        },
+      ],
+    },
+    {
+      key: 20,
+      name: '功能类-骑行后一键收碳',
+      rules: [
+        {
+          activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
+          matches: '[text="一键收碳"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/cb270491-1f48-48cc-9408-0b0cbf14ffda',
+          snapshotUrls: 'https://i.gkd.li/import/14694352',
+        },
+      ],
+    },
   ],
 });

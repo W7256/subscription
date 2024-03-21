@@ -1,12 +1,44 @@
 # 哈啰
 
-存在 9 规则组 - [com.jingyao.easybike](/src/apps/com.jingyao.easybike.ts)
+存在 13 规则组 - [com.jingyao.easybike](/src/apps/com.jingyao.easybike.ts)
+
+## 定位提示-点击去设置
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/6a22bf39-7cd8-43fe-b82b-1fc50d10994d)
+
+- [快照-0](https://i.gkd.li/import/14694377)
 
 ## 定位提示-请求开启定位
 
 默认禁用 - 点击取消
 
 - [快照-0](https://i.gkd.li/import/13228677)
+
+## 功能类-单车扫码后自动确认开锁
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/28ffc3a5-fda0-4a63-bcdd-211385a770ad)
+
+- [快照-0](https://i.gkd.li/import/14686624)
+
+## 功能类-故障问卷点'没故障'
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/a1eb39ef-9b7b-4d83-9e25-acec10a26350)
+
+- [快照-0](https://i.gkd.li/import/14686676)
+
+## 功能类-骑行后一键收碳
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/cb270491-1f48-48cc-9408-0b0cbf14ffda)
+
+- [快照-0](https://i.gkd.li/import/14694352)
 
 ## 功能类-新人教学弹窗
 

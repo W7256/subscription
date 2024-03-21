@@ -5,6 +5,22 @@ export default defineAppConfig({
   name: 'OPPO软件商店',
   groups: [
     {
+      key: 0,
+      name: '开屏广告',
+      rules: [
+        {
+          activityIds:
+            'com.heytap.cdo.client.cards.page.main.maintab.MainTabActivity',
+          matches: 'TextView[text="跳过"] < LinearLayout',
+          action: 'clickNode',
+          matchTime: 8000,
+          snapshotUrls: 'https://i.gkd.li/import/14667247',
+          exampleUrls:
+            'https://m.gkd.li/110102406/dc1317cc-0cc6-48d6-8876-707afc734999',
+        },
+      ],
+    },
+    {
       key: 1,
       name: '版本更新',
       quickFind: true,

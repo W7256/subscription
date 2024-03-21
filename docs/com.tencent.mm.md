@@ -1,6 +1,6 @@
 # 微信
 
-存在 21 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 22 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 分段广告-订阅号文章广告
 
@@ -99,6 +99,18 @@
 默认禁用 - 自动点击允许,但由于此界面可以额外新建昵称头像,默认不启用
 
 - [快照-0](https://i.gkd.li/import/12663602)
+
+## 功能类-开水一条龙
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/cc3499ec-3b43-423c-aae5-358a07531c69)
+- [示例-1](https://m.gkd.li/110102406/03aa7521-c7d8-4a19-b55f-2560b7b40990)
+- [示例-2](https://m.gkd.li/110102406/03aa7521-c7d8-4a19-b55f-2560b7b40990)
+
+- [快照-0](https://i.gkd.li/import/14693454)
+- [快照-1](https://i.gkd.li/import/14693460)
+- [快照-2](https://i.gkd.li/import/14693460)
 
 ## 功能类-浏览器扫码微信登录自动授权
 

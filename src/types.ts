@@ -1,6 +1,17 @@
 export type IArray<T> = T | T[];
+import * as api from '@gkd-kit/api';
 
 type RawCommonProps = {
+  /**
+   * 在使用 clickCenter/longClickCenter 时的自定义点击位置
+   *
+   * 默认坐标为节点中心
+   *
+   * 如果计算出的坐标不在屏幕内部, 当作未匹配
+   *
+   * 在 position 存在的情况下, action 的默认值为 clickCenter
+   */
+  position?: api.Position;
   /**
    * 单位: 毫秒
    *

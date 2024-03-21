@@ -508,7 +508,7 @@ export default defineAppConfig({
         {
           key: 1,
           name: '点击广告按钮',
-          matches: 'TextView[text="广告"] < View',
+          matches: 'TextView[text="广告"]',
           action: 'clickNode',
           exampleUrls:
             'https://m.gkd.li/110102406/216d438d-b250-4d9f-b5d7-001a29fbcb2f',
@@ -545,6 +545,43 @@ export default defineAppConfig({
           quickFind: true,
           activityIds: 'com.tencent.mm.ui.LauncherUI',
           matches: 'TextView[text="转文字"][id="com.tencent.mm:id/blu"]',
+        },
+      ],
+    },
+    {
+      key: 23,
+      name: '功能类-开水一条龙',
+      activityIds: 'com.tencent.mm.plugin.appbrand.ui.AppBrandUI00',
+      rules: [
+        {
+          key: 1,
+          action: 'clickNode',
+          name: '洗浴',
+          matches: 'Image + @TextView[text="洗 浴"] + TextView[text="Bath"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/cc3499ec-3b43-423c-aae5-358a07531c69',
+          snapshotUrls: 'https://i.gkd.li/import/14693454',
+        },
+        {
+          key: 2,
+          name: '已关阀',
+          quickFind: true,
+          action: 'clickNode',
+          matchDelay: 500,
+          matches: '@Button[text="已关阀"] + ImageView + Button[text="未关阀"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/03aa7521-c7d8-4a19-b55f-2560b7b40990',
+          snapshotUrls: 'https://i.gkd.li/import/14693460',
+        },
+        {
+          preKeys: [1],
+          key: 3,
+          name: '开启用水',
+          action: 'clickNode',
+          matches: 'View +2 * + TextView[text="开启用水"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/03aa7521-c7d8-4a19-b55f-2560b7b40990',
+          snapshotUrls: 'https://i.gkd.li/import/14693460',
         },
       ],
     },
