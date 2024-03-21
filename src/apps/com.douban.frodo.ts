@@ -7,7 +7,7 @@ export default defineAppConfig({
   groups: [
     {
       name: '开屏广告',
-      key: 0,
+      key: -1,
       actionMaximum: 1,
       order: -10,
       matchTime: 10000,
