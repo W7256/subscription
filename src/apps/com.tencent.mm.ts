@@ -551,12 +551,14 @@ export default defineAppConfig({
     {
       key: 23,
       name: '功能类-开水一条龙',
+      desc: '广州大学城智慧热水小程序',
       activityIds: 'com.tencent.mm.plugin.appbrand.ui.AppBrandUI00',
       rules: [
         {
           key: 1,
           action: 'clickNode',
           name: '洗浴',
+          actionDelay: 550,
           matches: 'Image + @TextView[text="洗 浴"] + TextView[text="Bath"]',
           exampleUrls:
             'https://m.gkd.li/110102406/cc3499ec-3b43-423c-aae5-358a07531c69',
@@ -579,6 +581,7 @@ export default defineAppConfig({
           name: '开启用水',
           action: 'clickNode',
           matches: 'View +2 * + TextView[text="开启用水"]',
+          actionMaximum: 1,
           exampleUrls:
             'https://m.gkd.li/110102406/03aa7521-c7d8-4a19-b55f-2560b7b40990',
           snapshotUrls: 'https://i.gkd.li/import/14693460',
