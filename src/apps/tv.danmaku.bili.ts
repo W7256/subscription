@@ -175,28 +175,60 @@ export default defineAppConfig({
       ],
     },
     {
-      enable: false,
+      name: '分段广告-首页-推荐视频卡片广告',
       key: 10,
-      name: '分段广告-首页推荐视频卡片广告', // 流程与 key=4 视频底部广告 基本一致
+      enable: false,
       quickFind: true,
-      activityIds: 'tv.danmaku.bili.MainActivityV2',
+      activityIds: ['tv.danmaku.bili.MainActivityV2'],
       rules: [
         {
           key: 0,
-          name: '点击广告卡片右下角菜单按钮',
-          matches:
-            '[id="tv.danmaku.bili:id/ad_tint_frame"] [id="tv.danmaku.bili:id/more"]',
-          snapshotUrls: 'https://i.gkd.li/import/13256570',
+          matches: [
+            '[desc^="广告"] >(1,2) ViewGroup[childCount=3] > FrameLayout[vid="more"][index=2]',
+          ],
+          actionMaximum: 1,
+          snapshotUrls: [
+            'https://i.gkd.li/i/14083540',
+            'https://i.gkd.li/i/14059876',
+          ],
         },
         {
-          preKeys: 0,
-          key: 1,
           name: '点击[不感兴趣]',
-          matches: '@RelativeLayout > [text$="不感兴趣"]',
+          key: 1,
+          preKeys: [0],
+          matches: ['@* > [text="不感兴趣"]'],
+          order: 1,
           snapshotUrls: [
-            'https://i.gkd.li/import/13256605',
-            'https://i.gkd.li/import/13625309',
-            'https://i.gkd.li/import/13742257',
+            'https://i.gkd.li/i/13742257',
+            'https://i.gkd.li/i/13256605',
+            'https://i.gkd.li/i/14155801',
+            'https://i.gkd.li/i/13742257',
+          ],
+        },
+        {
+          name: '点击[相似内容过多]',
+          key: 2,
+          preKeys: [0],
+          matches: ['@* > [text="相似内容过多"]'],
+          order: 2,
+          snapshotUrls: [
+            'https://i.gkd.li/i/13945597',
+            'https://i.gkd.li/i/14155272',
+            'https://i.gkd.li/i/14059882',
+          ],
+          exampleUrls: [
+            'https://m.gkd.li/57941037/acd89b46-45fc-459f-8d17-3913d98dcbad',
+          ],
+        },
+        {
+          name: '点击[up主不感兴趣]',
+          key: 3,
+          preKeys: [0],
+          matches: ['@* > [text="up主不感兴趣"]'],
+          order: 3,
+          snapshotUrls: ['https://i.gkd.li/i/13625309'],
+          exampleUrls: [
+            'https://m.gkd.li/57941037/9c2f42d7-c262-4e06-b3c6-40f0908e7a94',
           ],
         },
       ],
