@@ -178,7 +178,7 @@ export default defineAppConfig({
     },
     {
       key: 13,
-      name: '添加快捷方式到桌面',
+      name: '广告弹窗-添加快捷方式到桌面',
       actionMaximum: 1,
       resetMatch: 'app',
       rules: [
