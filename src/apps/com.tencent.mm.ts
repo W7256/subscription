@@ -482,6 +482,7 @@ export default defineAppConfig({
             'com.tencent.mm.plugin.brandservice.ui.timeline.BizTimeLineUI',
           matches: '[text="展开更早的消息"] < [id="com.tencent.mm:id/aqc"]',
           action: 'clickNode',
+          matchDelay: 500,
           snapshotUrls: 'https://i.gkd.li/import/13790550',
           exampleUrls:
             'https://m.gkd.li/110102406/17a9fdcd-0e38-4fd2-b11b-7f1974aabd30',
@@ -491,6 +492,7 @@ export default defineAppConfig({
           name: '8.0.44',
           matches: '[desc="展开更早的消息"]',
           action: 'clickNode',
+          matchDelay: 500,
           snapshotUrls: 'https://i.gkd.li/import/13790949',
           exampleUrls:
             'https://m.gkd.li/110102406/01b01a88-8de2-4835-b1bf-1c2b3a89fa4c',
@@ -559,6 +561,7 @@ export default defineAppConfig({
           action: 'clickNode',
           name: '洗浴',
           actionDelay: 550,
+          matchTime: 10000,
           matches: 'Image + @TextView[text="洗 浴"] + TextView[text="Bath"]',
           exampleUrls:
             'https://m.gkd.li/110102406/cc3499ec-3b43-423c-aae5-358a07531c69',

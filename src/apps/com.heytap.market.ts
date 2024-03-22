@@ -47,10 +47,13 @@ export default defineAppConfig({
           action: 'clickNode',
           matches:
             'RelativeLayout[id="com.heytap.market:id/view_id_float_ad"] > ImageView[desc="关闭"]',
-          matchDelay: 500,
+          matchTime: 8000,
           activityIds: [
             'com.heytap.cdo.client.cards.page.main.maintab.MainTabActivity',
           ],
+          exampleUrls:
+            'https://m.gkd.li/110102406/5fc867ac-7c29-4f0b-b7cd-bd12e313f76b',
+          snapshotUrls: 'https://i.gkd.li/import/14720024',
         },
       ],
     },

@@ -78,10 +78,16 @@ export default defineAppConfig({
     {
       key: 4,
       name: '首页左上角广告',
+      matchTime: 10000,
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
-      rules:
-        'ViewGroup + FrameLayout[id=null] > FrameLayout[childCount=2][id!=null] > ImageView[desc="关闭"][clickable=true][id!=null]',
+      rules: {
+        action: 'clickNode',
+        matches:
+          'ViewGroup + FrameLayout[id=null] > FrameLayout[childCount=2][id!=null] > ImageView[desc="关闭"][clickable=true][id!=null]',
+      },
       snapshotUrls: 'https://i.gkd.li/import/12749276',
+      exampleUrls:
+        'https://m.gkd.li/110102406/6862b815-4007-4350-ac93-d2e047160b1a',
     },
     {
       key: 5,

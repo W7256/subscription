@@ -88,5 +88,21 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 1,
+      name: '广告弹窗',
+      rules: [
+        {
+          key: 1,
+          action: 'clickNode',
+          quickFind: true,
+          activityIds: 'cn.com.langeasy.LangEasyLexis.activity.MainActivity',
+          matches: 'ImageView[id="cn.com.langeasy.LangEasyLexis:id/close_btn"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/2b91607e-b548-4c31-8b8f-118d66f60cdc',
+          snapshotUrls: 'https://i.gkd.li/import/14717912',
+        },
+      ],
+    },
   ],
 });

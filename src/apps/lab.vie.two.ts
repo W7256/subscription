@@ -7,6 +7,7 @@ export default defineAppConfig({
     {
       key: 1,
       name: '账号注册说明弹窗',
+      matchTime: 10000,
       desc: '每次打开app的弹窗提示，本规则自动点击【我知道了】',
       actionMaximum: 1,
       resetMatch: 'app',
@@ -20,6 +21,7 @@ export default defineAppConfig({
       rules: [
         {
           matches: ['[desc^="继续观看"]'],
+          matchTime: 10000,
           actionMaximum: 1,
           resetMatch: 'app',
           snapshotUrls: ['https://i.gkd.li/import/13825341'],
