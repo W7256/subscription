@@ -77,7 +77,7 @@ export default defineAppConfig({
     },
     {
       key: 4,
-      name: '首页左上角广告',
+      name: '局部广告-首页左上角广告',
       matchTime: 10000,
       activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
       rules: {
