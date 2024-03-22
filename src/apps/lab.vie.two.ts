@@ -6,7 +6,7 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '账号注册说明弹窗',
+      name: '活动弹窗-账号注册说明弹窗',
       matchTime: 10000,
       desc: '每次打开app的弹窗提示，本规则自动点击【我知道了】',
       actionMaximum: 1,
