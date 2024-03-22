@@ -133,7 +133,7 @@
 | 比亚迪王朝             | [com.byd.aeri.caranywhere](/docs/com.byd.aeri.caranywhere.md)                                                                                                     | 1      |
 | 比翼多开               | [com.svm.hbyy](/docs/com.svm.hbyy.md)                                                                                                                             | 1      |
 | 薄荷健康               | [com.boohee.one](/docs/com.boohee.one.md)                                                                                                                         | 3      |
-| 不背单词               | [cn.com.langeasy.LangEasyLexis](/docs/cn.com.langeasy.LangEasyLexis.md)                                                                                           | 3      |
+| 不背单词               | [cn.com.langeasy.LangEasyLexis](/docs/cn.com.langeasy.LangEasyLexis.md)                                                                                           | 4      |
 | 步道乐跑               | [com.lptiyu.tanke](/docs/com.lptiyu.tanke.md)                                                                                                                     | 1      |
 | 布丁扫描               | [com.wibo.bigbang.ocr](/docs/com.wibo.bigbang.ocr.md)                                                                                                             | 1      |
 | 不厌书法               | [com.buyanchuantong.buyanshufa](/docs/com.buyanchuantong.buyanshufa.md)                                                                                           | 1      |
