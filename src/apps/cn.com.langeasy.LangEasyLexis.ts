@@ -89,7 +89,7 @@ export default defineAppConfig({
       ],
     },
     {
-      key: 1,
+      key: 4,
       name: '广告弹窗',
       rules: [
         {
