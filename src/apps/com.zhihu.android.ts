@@ -118,24 +118,28 @@ export default defineAppConfig({
     },
     {
       key: 7,
-      name: '回答底部评论顶部的任意广告推荐',
+      name: '局部广告-回答底部评论顶部的任意广告推荐',
       activityIds: [
         'com.zhihu.android.mixshortcontainer.MixShortContainerActivity',
         'com.zhihu.android.app.ui.activity.HostActivity',
+        'com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity',
       ],
       rules: [
         {
           key: 0,
+          name: 'key:0',
           matches: '@Image + TextView[text$=`的广告`]',
         },
         {
           key: 1,
+          name: 'key:1',
           matches:
             'TextView[text$=`的广告`] +n TextView[text=`×`][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/import/12864109',
         },
         {
           key: 2,
+          name: 'key:2',
           activityIds: [
             'com.zhihu.android.mix.activity.ContentMixProfileActivity',
           ],
@@ -147,10 +151,12 @@ export default defineAppConfig({
         },
         {
           key: 3,
+          name: 'key:3',
           matches: 'TextView[text*=`赞同`][text*=`评论`] + TextView[text=`×`]',
         },
         {
           key: 4,
+          name: 'key:4',
           matches: 'TextView[text*=`回答`][text*=`关注`] + TextView[text=`×`]',
         },
         // 存在误触，缺乏快照处置，暂时移除
@@ -162,6 +168,7 @@ export default defineAppConfig({
         // },
         {
           key: 6,
+          name: 'key:6',
           matches: 'TextView[text$=`的广告`] - Image[id=null]',
         },
         // {
@@ -171,15 +178,18 @@ export default defineAppConfig({
         // },
         {
           key: 8,
+          name: 'key:8',
           matches: 'TextView[text*=`点赞`][text*=`的回答`] +2 Image[id=null]', // 1687076663768 1686969672948
         },
         {
           key: 9,
+          name: 'key:9',
           matches:
             'TextView[text=""] + Image[text=""] + TextView[text="\u200b"] + Image[id=null][clickable=true]', // 1687234636980
         },
         {
           key: 10,
+          name: 'key:10',
           matches:
             '@ImageView[id=null][clickable=true] -(2) ViewGroup > [text$="广告"]',
           snapshotUrls: ['https://i.gkd.li/import/12647525'],
@@ -192,6 +202,15 @@ export default defineAppConfig({
           matches:
             '[id="com.zhihu.android:id/recycler_view"] > FrameLayout >(3) [text$="不感兴趣"]',
           snapshotUrls: ['https://i.gkd.li/import/12647541'],
+        },
+        {
+          key: 11,
+          name: 'key:11',
+          matches: 'TextView[text$="的广告"] +n ImageView',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/bff24adc-f888-41dc-92ae-e5bb3da73e3c',
+          snapshotUrls: 'https://i.gkd.li/import/14730919',
         },
       ],
     },
@@ -238,6 +257,33 @@ export default defineAppConfig({
         '[id="com.zhihu.android:id/image"] < RelativeLayout + [id="com.zhihu.android:id/dismiss"]',
       ],
       snapshotUrls: ['https://i.gkd.li/import/12707676'],
+    },
+    {
+      key: 13,
+      name: '分段广告-回答之间的广告',
+      activityIds:
+        'com.zhihu.android.feature.short_container_feature.ui.ShortContainerHostActivity',
+      rules: [
+        {
+          key: 1,
+          matches:
+            'TextView[text$="推荐的广告"] - TextView < ViewGroup +n ImageView',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/6688c48b-31b2-48ba-830a-c9cb42f11ac5',
+          snapshotUrls: 'https://i.gkd.li/import/14730985',
+        },
+        {
+          preKeys: [1],
+          key: 2,
+          quickFind: true,
+          matches:
+            'TextView[id="com.zhihu.android:id/tv_content"][text="内容不感兴趣"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/e51c39ed-ab34-4b5f-b07d-95cfd5aabe36',
+          snapshotUrls: 'https://i.gkd.li/import/14730988',
+        },
+      ],
     },
     {
       enable: false,

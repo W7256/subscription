@@ -286,5 +286,23 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 14,
+      name: '功能类-查看原图',
+      rules: [
+        {
+          key: 1,
+          quickFind: true,
+          action: 'clickNode',
+          activityIds:
+            'com.bilibili.bplus.followinglist.page.browser.ui.LightBrowserActivityV2',
+          matches:
+            'TextView[id="tv.danmaku.bili:id/view_origin"][text^="查看原图"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/70f439ce-50b2-488d-b120-ba95d767ab65',
+          snapshotUrls: 'https://i.gkd.li/import/14731587',
+        },
+      ],
+    },
   ],
 });
