@@ -127,7 +127,7 @@
 | 贝贝                   | [com.copper.length](/docs/com.copper.length.md)                                                                                                                   | 1      |
 | 倍思                   | [com.baseus.intelligent](/docs/com.baseus.intelligent.md)                                                                                                         | 1      |
 | 必剪                   | [com.bilibili.studio](/docs/com.bilibili.studio.md)                                                                                                               | 2      |
-| 哔哩哔哩               | [tv.danmaku.bili](/docs/tv.danmaku.bili.md)                                                                                                                       | 13     |
+| 哔哩哔哩               | [tv.danmaku.bili](/docs/tv.danmaku.bili.md)                                                                                                                       | 14     |
 | 哔哩哔哩HD             | [tv.danmaku.bilibilihd](/docs/tv.danmaku.bilibilihd.md)                                                                                                           | 2      |
 | 哔哩哔哩漫画           | [com.bilibili.comic](/docs/com.bilibili.comic.md)                                                                                                                 | 1      |
 | 比亚迪王朝             | [com.byd.aeri.caranywhere](/docs/com.byd.aeri.caranywhere.md)                                                                                                     | 1      |
@@ -299,6 +299,7 @@
 | 联想                   | [com.lenovo.club.app](/docs/com.lenovo.club.app.md)                                                                                                               | 1      |
 | 联想浏览器HD           | [com.lenovo.browser.hd](/docs/com.lenovo.browser.hd.md)                                                                                                           | 2      |
 | 联想应用中心           | [com.lenovo.leos.appstore](/docs/com.lenovo.leos.appstore.md)                                                                                                     | 2      |
+| 浏览器                 | [com.heytap.browser](/docs/com.heytap.browser.md)                                                                                                                 | 1      |
 | 绿洲                   | [com.sina.oasis](/docs/com.sina.oasis.md)                                                                                                                         | 1      |
 | 麦当劳                 | [com.mcdonalds.gma.cn](/docs/com.mcdonalds.gma.cn.md)                                                                                                             | 2      |
 | 埋堆堆                 | [com.tvbc.maiduidui](/docs/com.tvbc.maiduidui.md)                                                                                                                 | 1      |
@@ -588,7 +589,7 @@
 | 直播吧                 | [android.zhibo8](/docs/android.zhibo8.md)                                                                                                                         | 1      |
 | 知到                   | [com.able.wisdomtree](/docs/com.able.wisdomtree.md)                                                                                                               | 2      |
 | 支付宝                 | [com.eg.android.AlipayGphone](/docs/com.eg.android.AlipayGphone.md)                                                                                               | 7      |
-| 知乎                   | [com.zhihu.android](/docs/com.zhihu.android.md)                                                                                                                   | 13     |
+| 知乎                   | [com.zhihu.android](/docs/com.zhihu.android.md)                                                                                                                   | 14     |
 | 智慧生活               | [com.huawei.smarthome](/docs/com.huawei.smarthome.md)                                                                                                             | 1      |
 | 智慧树                 | [com.hyww.wisdomtree](/docs/com.hyww.wisdomtree.md)                                                                                                               | 2      |
 | 智慧搜索               | [com.huawei.search](/docs/com.huawei.search.md)                                                                                                                   | 1      |

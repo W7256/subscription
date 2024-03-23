@@ -1,6 +1,6 @@
 # 哔哩哔哩
 
-存在 13 规则组 - [tv.danmaku.bili](/src/apps/tv.danmaku.bili.ts)
+存在 14 规则组 - [tv.danmaku.bili](/src/apps/tv.danmaku.bili.ts)
 
 ## 分段广告-动态页推荐广告卡片
 
@@ -62,6 +62,14 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/13448905)
+
+## 功能类-查看原图
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/70f439ce-50b2-488d-b120-ba95d767ab65)
+
+- [快照-0](https://i.gkd.li/import/14731587)
 
 ## 功能类-展开简介
 

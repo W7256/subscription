@@ -1,6 +1,16 @@
 # 知乎
 
-存在 13 规则组 - [com.zhihu.android](/src/apps/com.zhihu.android.ts)
+存在 14 规则组 - [com.zhihu.android](/src/apps/com.zhihu.android.ts)
+
+## 分段广告-回答之间的广告
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/6688c48b-31b2-48ba-830a-c9cb42f11ac5)
+- [示例-1](https://m.gkd.li/110102406/e51c39ed-ab34-4b5f-b07d-95cfd5aabe36)
+
+- [快照-0](https://i.gkd.li/import/14730985)
+- [快照-1](https://i.gkd.li/import/14730988)
 
 ## 分段广告-推荐页广告卡片
 
@@ -30,16 +40,6 @@
 
 默认禁用 - 关闭回答底部其他回答
 
-## 回答底部评论顶部的任意广告推荐
-
-默认禁用
-
-- [快照-0](https://i.gkd.li/import/12864109)
-- [快照-1](https://i.gkd.li/import/12647617)
-- [快照-2](https://i.gkd.li/import/12647659)
-- [快照-3](https://i.gkd.li/import/12647525)
-- [快照-4](https://i.gkd.li/import/12647541)
-
 ## 会员页面-广告弹窗
 
 默认禁用
@@ -51,6 +51,19 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12647421)
+
+## 局部广告-回答底部评论顶部的任意广告推荐
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/bff24adc-f888-41dc-92ae-e5bb3da73e3c)
+
+- [快照-0](https://i.gkd.li/import/12864109)
+- [快照-1](https://i.gkd.li/import/12647617)
+- [快照-2](https://i.gkd.li/import/12647659)
+- [快照-3](https://i.gkd.li/import/12647525)
+- [快照-4](https://i.gkd.li/import/12647541)
+- [快照-5](https://i.gkd.li/import/14730919)
 
 ## 开屏广告
 
