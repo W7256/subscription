@@ -2,7 +2,7 @@
 
 存在 14 规则组 - [com.ss.android.ugc.aweme](/src/apps/com.ss.android.ugc.aweme.ts)
 
-## 更新提示-关闭更新弹窗
+## 更新提示-以后再说
 
 默认禁用
 
@@ -40,6 +40,8 @@
 ## 广告弹窗
 
 默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/bc2f9bc1-c8cc-4e64-8d09-b10bd7ff78b2)
 
 - [快照-0](https://i.gkd.li/import/12769137)
 

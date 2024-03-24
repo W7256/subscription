@@ -1,6 +1,6 @@
 # 哈啰
 
-存在 13 规则组 - [com.jingyao.easybike](/src/apps/com.jingyao.easybike.ts)
+存在 14 规则组 - [com.jingyao.easybike](/src/apps/com.jingyao.easybike.ts)
 
 ## 定位提示-点击去设置
 
@@ -31,6 +31,14 @@
 - [示例-0](https://m.gkd.li/110102406/a1eb39ef-9b7b-4d83-9e25-acec10a26350)
 
 - [快照-0](https://i.gkd.li/import/14686676)
+
+## 功能类-继续还车
+
+默认禁用 - 共享单车已在停车点但定位不准无法还车，自动点击继续还车
+
+- [示例-0](https://m.gkd.li/110102406/e77644a9-1eab-4352-b9ab-18a308ae8e4f)
+
+- [快照-0](https://i.gkd.li/import/14734726)
 
 ## 功能类-骑行后一键收碳
 

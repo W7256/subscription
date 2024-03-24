@@ -221,7 +221,7 @@
 | 海南航空               | [com.rytong.hnair](/docs/com.rytong.hnair.md)                                                                                                                     | 1      |
 | 海南一卡通             | [com.onecard.hainan](/docs/com.onecard.hainan.md)                                                                                                                 | 1      |
 | 海鸥加速器             | [tool.seagull.v](/docs/tool.seagull.v.md)                                                                                                                         | 2      |
-| 哈啰                   | [com.jingyao.easybike](/docs/com.jingyao.easybike.md)                                                                                                             | 13     |
+| 哈啰                   | [com.jingyao.easybike](/docs/com.jingyao.easybike.md)                                                                                                             | 14     |
 | 航旅纵横               | [com.umetrip.android.msky.app](/docs/com.umetrip.android.msky.app.md)                                                                                             | 4      |
 | 杭州公共交通           | [com.dtdream.publictransit](/docs/com.dtdream.publictransit.md)                                                                                                   | 1      |
 | 杭州市民卡             | [com.smk](/docs/com.smk.md)                                                                                                                                       | 1      |
@@ -345,7 +345,7 @@
 | 欧乐影院               | [com.xiaohu.olevodmobile](/docs/com.xiaohu.olevodmobile.md)                                                                                                       | 1      |
 | 胖乖生活               | [com.qiekj.user](/docs/com.qiekj.user.md)                                                                                                                         | 2      |
 | 澎湃新闻               | [com.wondertek.paper](/docs/com.wondertek.paper.md)                                                                                                               | 1      |
-| 拼多多                 | [com.xunmeng.pinduoduo](/docs/com.xunmeng.pinduoduo.md)                                                                                                           | 12     |
+| 拼多多                 | [com.xunmeng.pinduoduo](/docs/com.xunmeng.pinduoduo.md)                                                                                                           | 13     |
 | 皮皮搞笑               | [cn.xiaochuankeji.zuiyouLite](/docs/cn.xiaochuankeji.zuiyouLite.md)                                                                                               | 2      |
 | 皮皮喵                 | [com.gentle.ppcat](/docs/com.gentle.ppcat.md)                                                                                                                     | 1      |
 | 皮皮虾                 | [com.sup.android.superb](/docs/com.sup.android.superb.md)                                                                                                         | 4      |
