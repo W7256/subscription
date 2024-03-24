@@ -169,5 +169,25 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 21,
+      name: '功能类-继续还车',
+      desc: '共享单车已在停车点但定位不准无法还车，自动点击继续还车',
+      rules: [
+        {
+          key: 1,
+          activityIds:
+            'com.hellobike.flutter.platform.android.flutterboost.FlutterHostFragmentActivity',
+          matches: 'View[desc="继续还车"]',
+          action: 'clickNode',
+          matchDelay: 500,
+          actionMaximum: 3,
+          resetMatch: 'app',
+          exampleUrls:
+            'https://m.gkd.li/110102406/e77644a9-1eab-4352-b9ab-18a308ae8e4f',
+          snapshotUrls: 'https://i.gkd.li/import/14734726',
+        },
+      ],
+    },
   ],
 });

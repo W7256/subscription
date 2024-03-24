@@ -510,7 +510,9 @@ export default defineAppConfig({
         {
           key: 1,
           name: '点击广告按钮',
-          matches: 'TextView[text="广告"]',
+          matches: [
+            '@View[id="feedbackTagContainer"] >n TextView[text="广告"]',
+          ],
           action: 'clickNode',
           exampleUrls:
             'https://m.gkd.li/110102406/216d438d-b250-4d9f-b5d7-001a29fbcb2f',

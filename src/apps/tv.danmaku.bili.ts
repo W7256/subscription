@@ -235,7 +235,7 @@ export default defineAppConfig({
     },
     {
       key: 11,
-      name: '个性化内容推荐弹窗',
+      name: '广告弹窗-个性化内容推荐弹窗',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,

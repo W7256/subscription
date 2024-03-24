@@ -242,7 +242,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 11,
-      name: '会员页面-月卡红包',
+      name: '局部广告-会员页面-月卡红包',
       activityIds: 'com.zhihu.android.app.ui.activity.MainActivity',
       rules: [
         'ImageView[id="com.zhihu.android:id/floating_img"] + ImageView[id="com.zhihu.android:id/floating_close_btn"][clickable=true]',
@@ -251,7 +251,7 @@ export default defineAppConfig({
     },
     {
       key: 12,
-      name: '会员页面-广告弹窗',
+      name: '广告弹窗-会员页面',
       activityIds: 'com.zhihu.android.app.ui.activity.MainActivity',
       rules: [
         '[id="com.zhihu.android:id/image"] < RelativeLayout + [id="com.zhihu.android:id/dismiss"]',
@@ -288,7 +288,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 101, // 不属于广告，序号往后排
-      name: '问题回答-自动展开',
+      name: '功能类-问题回答-自动展开',
       activityIds:
         'com.zhihu.android.mixshortcontainer.MixShortContainerActivity',
       rules: [

@@ -25,7 +25,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '首页优惠弹窗',
+      name: '活动弹窗-首页优惠弹窗',
       rules: [
         {
           key: 0,
@@ -34,6 +34,8 @@ export default defineAppConfig({
           matches:
             'FrameLayout > FrameLayout > RelativeLayout[childCount=2] > @ImageView[id!=null][clickable=true][visibleToUser=true] + ImageView',
           snapshotUrls: 'https://i.gkd.li/import/12642015',
+          exampleUrls:
+            'https://m.gkd.li/110102406/eb338ccf-92a3-414b-9e79-cfbd90d4d1d6',
         },
         {
           key: 1,
@@ -42,6 +44,8 @@ export default defineAppConfig({
           matches:
             'View[id=null] > TextView + View > View +(4) View[clickable=true] > Image[id=null]',
           snapshotUrls: 'https://i.gkd.li/import/12642019',
+          exampleUrls:
+            'https://m.gkd.li/110102406/d43cc24d-119f-4d17-bf35-be90bee3a3af',
         },
         {
           key: 2,
@@ -50,6 +54,8 @@ export default defineAppConfig({
           matches:
             '@ImageView < ViewGroup[clickable=true][visibleToUser=true] < ViewGroup + ViewGroup >n [text="开心收下"]',
           snapshotUrls: 'https://i.gkd.li/import/13761182',
+          exampleUrls:
+            'https://m.gkd.li/110102406/54ae525e-a290-4d3d-9d45-83b06f7b8e35',
         },
       ],
     },
@@ -64,6 +70,8 @@ export default defineAppConfig({
           matches:
             'TextView[text="免单特权"] < View < View +(5) View[clickable=true] > Image[id=null]',
           snapshotUrls: 'https://i.gkd.li/import/12642032',
+          exampleUrls:
+            'https://m.gkd.li/110102406/b4a78456-ebde-4a52-8273-1eea979565df',
         },
         {
           key: 1,
@@ -72,6 +80,8 @@ export default defineAppConfig({
           matches:
             'TextView[text$="抽免单"] -(2) Image[id=null][clickable=true]',
           snapshotUrls: 'https://i.gkd.li/import/12642038',
+          exampleUrls:
+            'https://m.gkd.li/110102406/ebbab50c-3eb1-486d-a7f4-139d5464d1d5',
         },
         {
           key: 2,
@@ -79,6 +89,8 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
           matches: '@[text="关闭弹窗"][clickable=true] + [text$="下单成功"]',
           snapshotUrls: 'https://i.gkd.li/import/13308175',
+          exampleUrls:
+            'https://m.gkd.li/110102406/0e1d6880-cb47-47cb-8303-37f5ac81db12',
         },
       ],
     },
@@ -122,18 +134,20 @@ export default defineAppConfig({
     },
     {
       key: 6,
-      name: '多多视频悬浮窗广告',
+      name: '局部广告-多多视频悬浮窗广告',
       activityIds: ['com.xunmeng.pinduoduo.ui.activity.HomeActivity'],
       rules: [
         '@TextView[id=null][clickable=true] + Image[id=null][text="webp"]',
         '@TextView[id=null][clickable=true] + View > Image[text="webp"]',
       ],
       snapshotUrls: ['https://i.gkd.li/import/12642058'],
+      exampleUrls:
+        'https://m.gkd.li/110102406/9a722036-ad75-4dda-a359-d89d16c5aaa0',
     },
     {
       enable: false,
       key: 7,
-      name: '多多视频每日签到弹窗',
+      name: '活动弹窗-多多视频每日签到弹窗',
       activityIds: ['com.xunmeng.pinduoduo.ui.activity.HomeActivity'],
       rules: [
         '@ImageView[id=null] < ViewGroup < ViewGroup +(2) ViewGroup >(n) [text^="每日签到"]',
@@ -147,7 +161,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 8,
-      name: '商品详情页视频讲解窗口',
+      name: '局部广告-商品详情页视频讲解窗口',
       activityIds: 'com.xunmeng.pinduoduo.activity.NewPageActivity',
       rules: '[id="com.xunmeng.pinduoduo:id/iv_float_window_close"] > TextView',
       snapshotUrls: 'https://i.gkd.li/import/13178326',
@@ -155,11 +169,9 @@ export default defineAppConfig({
     {
       enable: false,
       key: 9,
-      name: '多多视频每日自动签到',
+      name: '功能类-多多视频每日自动签到',
       quickFind: true,
-      matchTime: 10000,
       actionMaximum: 1,
-
       activityIds: ['com.xunmeng.pinduoduo.ui.activity.HomeActivity'],
       rules: [
         {
@@ -185,7 +197,7 @@ export default defineAppConfig({
     {
       enable: false,
       key: 10,
-      name: '多多视频-划到广告自动跳过',
+      name: '功能类-多多视频-划到广告自动跳过',
       desc: '点击返回自动刷新，从而跳过广告',
       quickFind: true,
       activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
@@ -228,6 +240,26 @@ export default defineAppConfig({
           activityIds: 'com.xunmeng.pinduoduo.activity.NewPageMaskActivity',
           matches: '[id="com.xunmeng.pinduoduo:id/pdd"] >7 [text="关闭弹窗"]',
           snapshotUrls: 'https://i.gkd.li/import/13927594',
+          exampleUrls:
+            'https://m.gkd.li/110102406/0064ffe4-e5c1-4b69-a411-188c2e2f65cf',
+        },
+      ],
+    },
+    {
+      key: 13,
+      name: '全屏广告-首页广告',
+      rules: [
+        {
+          matchTime: 10000,
+          activityIds: 'com.xunmeng.pinduoduo.ui.activity.HomeActivity',
+          matches:
+            '@ImageView <<(1n+2) ViewGroup <<(1n+4) FrameLayout[desc="拍照搜索"]',
+          action: 'clickNode',
+          actionMaximum: 1,
+          resetMatch: 'app',
+          snapshotUrls: 'https://i.gkd.li/import/14734863',
+          exampleUrls:
+            'https://m.gkd.li/110102406/881d9974-000f-4c73-9e54-5979f9c6ad93',
         },
       ],
     },

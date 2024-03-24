@@ -51,7 +51,6 @@ export default defineAppConfig({
     },
     {
       key: 2,
-
       quickFind: true,
       activityIds: ['com.ss.android.ugc.aweme.main.MainActivity'],
       name: '功能类-关闭朋友推荐弹窗',
@@ -63,8 +62,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '更新提示-关闭更新弹窗',
-
+      name: '更新提示-以后再说',
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
@@ -96,6 +94,8 @@ export default defineAppConfig({
       rules:
         '[id="android:id/content"] >2 RelativeLayout[childCount<=5] > @ImageView[clickable=true][id!=null] - TextView[text="广告"][id!=null]',
       snapshotUrls: 'https://i.gkd.li/import/12769137',
+      exampleUrls:
+        'https://m.gkd.li/110102406/bc2f9bc1-c8cc-4e64-8d09-b10bd7ff78b2',
     },
     {
       key: 6,
