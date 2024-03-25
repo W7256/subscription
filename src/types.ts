@@ -16,6 +16,7 @@ export interface RawCommonProps extends api.RawCommonProps {}
 export interface RawGlobalApp extends api.RawGlobalApp {}
 export interface RawGlobalRule extends api.RawGlobalRule {}
 export interface RawGlobalRuleProps extends api.RawGlobalRuleProps {}
+export interface RawGlobalGroup extends api.RawGlobalGroup {}
 export interface RawSubscription extends api.RawSubscription {
   apps?: RawApp[]; //此处的Rawapp使用的是上面定义的，api里RawApp无deprecatedKeys,file.ts会报错
 }
