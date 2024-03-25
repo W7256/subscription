@@ -71,6 +71,7 @@ export default defineAppConfig({
           name: '点击右上角x按钮',
           matches:
             '[id="com.coolapk.market:id/ad_time_view"||id="com.coolapk.market:id/top_text_view"||id="com.coolapk.market:id/ad_text_view"] +n [id="com.coolapk.market:id/close_view"]',
+          action: 'clickNode',
           snapshotUrls: [
             'https://i.gkd.li/import/12707506',
             'https://i.gkd.li/import/12642094',
@@ -85,6 +86,7 @@ export default defineAppConfig({
           name: '去广告/免广告-点击不感兴趣',
           matches:
             'Button[text$="广告"] <n LinearLayout[childCount=2] > Button[text="不感兴趣"]',
+          action: 'clickNode',
           snapshotUrls: [
             'https://i.gkd.li/import/12707509',
             'https://i.gkd.li/import/12642132',
