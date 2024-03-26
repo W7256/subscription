@@ -3,6 +3,7 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.zjwh.android_wh_physicalfitness',
   name: '运动世界校园',
+  deprecatedKeys: [],
   groups: [
     {
       key: 1,
@@ -79,6 +80,32 @@ export default defineAppConfig({
       matchTime: 10000,
       rules: '@ImageView - RelativeLayout[childCount=9]',
       snapshotUrls: 'https://i.gkd.li/import/13554229',
+    },
+    {
+      key: 5,
+      name: '广告弹窗-5.7.1版本新增广告',
+      rules: [
+        {
+          key: 1,
+          activityIds:
+            'com.zjwh.android_wh_physicalfitness.activity.mine.RunHistoryDetailActivity',
+          matches:
+            'TextView[text="摇动/点击了解更多内容"] <<(2n+2) FrameLayout + FrameLayout',
+          exampleUrls:
+            'https://m.gkd.li/110102406/279e460d-602c-43a5-a742-77226be5cfda',
+          snapshotUrls: 'https://i.gkd.li/i/14755382',
+        },
+        {
+          key: 2,
+          activityIds:
+            'com.zjwh.android_wh_physicalfitness.activity.HomeActivity',
+          matches: 'TextView[text$="广告"] < ViewGroup - ViewGroup > ViewGroup',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/8dd73677-9cc2-407f-ad17-cfb4ed6489b1',
+          snapshotUrls: 'https://i.gkd.li/i/14757386',
+        },
+      ],
     },
     {
       key: 9,

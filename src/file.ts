@@ -1,9 +1,16 @@
 import _ from 'lodash';
+import isEqual from 'lodash/isEqual';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import type PkgT from '../package.json';
 import { parseSelector } from './selector';
-import type { RawApp, RawAppGroup, IArray, RawSubscription } from './types';
+import type {
+  RawApp,
+  RawAppGroup,
+  IArray,
+  RawSubscription,
+  RawGlobalGroup,
+} from './types';
 import JSON5 from 'json5';
 import { pinyin } from 'pinyin-pro';
 
@@ -11,6 +18,7 @@ const iArrayToArray = <T>(array: IArray<T> = []): T[] => {
   return Array<T>().concat(array);
 };
 
+// 定义一个指定 RawSubscription 属性顺序的数组
 const sortKeys: (keyof RawSubscription)[] = [
   'id',
   'name',
@@ -54,6 +62,8 @@ const orderdStringify5 = (
     JSON5.stringify(Object.fromEntries(map.entries()), replacer, space) + '\n'
   );
 };
+
+// 解析 package.json 文件，并将结果赋值给 pkg 变量
 const pkg: typeof PkgT = JSON.parse(
   await fs.readFile(process.cwd() + '/package.json', 'utf-8'),
 );
@@ -64,13 +74,16 @@ const versionFp = process.cwd() + '/dist/gkd.version.json';
 const oldConfig: RawSubscription = JSON5.parse(
   await fs.readFile(gkdFp, 'utf-8').catch(() => '{}'),
 );
+
+// 导出一个异步函数，用于写入新的规则配置
 export const writeConfig = async (config: RawSubscription) => {
+  // 创建新的配置对象，其中的版本号从旧的配置中获取，或者默认为 0
   const newConfig: RawSubscription = {
     ...config,
     version: oldConfig.version || 0,
   };
   newConfig.version = oldConfig.version || 0;
-  checkConfig(newConfig);
+  checkConfig(newConfig); // 检查配置的有效性
 
   const hasUpdate = !_.isEqual(newConfig, oldConfig);
   if (!hasUpdate) {
@@ -112,6 +125,7 @@ export const writeConfig = async (config: RawSubscription) => {
   );
 };
 
+// 导出一个异步生成器函数，用于遍历指定目录下的文件
 export async function* walk(dirPath: string) {
   const pathnames = (await fs.readdir(dirPath)).map((s) =>
     path.join(dirPath, s),
@@ -129,12 +143,16 @@ export async function* walk(dirPath: string) {
   }
 }
 
+// 导出一个函数，用于验证快照 URL 的有效性
 export const validSnapshotUrl = (s: string) => {
   const u = new URL(s);
-  return u.pathname.startsWith('/import/');
+  // return u.pathname.startsWith('/import/');
+  return u.pathname.startsWith('/i/');
 };
 
+// 导出一个函数，用于检查配置的有效性
 export const checkConfig = (newConfig: RawSubscription) => {
+  // 检查分类是否重复
   const categories = newConfig.categories || [];
   categories.forEach((c) => {
     if (
@@ -151,6 +169,7 @@ export const checkConfig = (newConfig: RawSubscription) => {
     }
   });
 
+  // 检查全局组是否存在重复
   const globalGroups = newConfig.globalGroups || [];
   globalGroups.forEach((g) => {
     if (globalGroups.some((g2) => g2.key == g.key && g2 !== g)) {
@@ -301,7 +320,8 @@ export const checkConfig = (newConfig: RawSubscription) => {
             groupKey: g.key,
           });
           throw new Error(
-            `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/import/12506571`,
+            // `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/import/12506571`,
+            `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/i/12506571`,
           );
         }
       });
@@ -316,7 +336,8 @@ export const checkConfig = (newConfig: RawSubscription) => {
               ruleKey: r.key,
             });
             throw new Error(
-              `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/import/12506571`,
+              // `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/import/12506571`,
+              `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/i/12506571`,
             );
           }
         });
@@ -334,7 +355,9 @@ export const checkConfig = (newConfig: RawSubscription) => {
   }
 };
 
+// 导出一个异步函数，用于更新应用的 Markdown 文件
 export const updateAppMd = async (app: RawApp) => {
+  // 生成应用的 Markdown 文本内容
   const appHeadMdText = [
     `# ${app.name}`,
     `存在 ${app.groups?.length || 0} 规则组 - [${app.id}](/src/apps/${
@@ -403,6 +426,7 @@ const getAppDiffLog = (
   oldGroups: RawAppGroup[] = [],
   newGroups: RawAppGroup[] = [],
 ) => {
+  // 根据旧应用组列表和新应用组列表，计算出被移除的应用组列表
   const removeGroups = oldGroups.filter(
     (og) => !newGroups.find((ng) => ng.key == og.key),
   );
@@ -425,11 +449,51 @@ const getAppDiffLog = (
   };
 };
 
+// 定义一个函数，用于获取全局规则的变更日志
+const getGlobalDiffLog = (
+  oldGlobalGroups: RawGlobalGroup[] = [], // 旧全局应用组列表，默认为空数组
+  newGlobalGroups: RawGlobalGroup[] = [], // 新全局应用组列表，默认为空数组
+) => {
+  // 根据旧全局应用组列表和新全局应用组列表，计算出被移除的全局应用组列表
+  const removeGlobalGroups = oldGlobalGroups.filter(
+    (og) => !newGlobalGroups.find((ng) => ng.key == og.key),
+  );
+  const addGlobalGroups: RawGlobalGroup[] = []; // 存储新增的全局应用组列表
+  const changeGlobalGroups: RawGlobalGroup[] = []; // 存储变更的全局应用组列表
+  // 遍历新全局应用组列表
+  newGlobalGroups.forEach((ng) => {
+    const oldGroup = oldGlobalGroups.find((og) => og.key == ng.key); // 查找对应的旧全局应用组
+    if (oldGroup) {
+      // 如果找到了对应的旧全局应用组
+      if (!isEqual(oldGroup, ng)) {
+        // 检查新旧全局应用组对象是否相等
+        changeGlobalGroups.push(ng); // 如果不相等，则将新全局应用组添加到变更列表中
+      }
+    } else {
+      // 如果未找到对应的旧全局应用组
+      addGlobalGroups.push(ng); // 将新全局应用组添加到新增列表中
+    }
+  });
+  return {
+    addGlobalGroups, // 返回新增的全局应用组列表
+    changeGlobalGroups, // 返回变更的全局应用组列表
+    removeGlobalGroups, // 返回被移除的全局应用组列表
+  };
+};
+
+// 定义一个类型，表示应用的变更日志
 type AppDiff = {
   app: RawApp;
   addGroups: RawAppGroup[];
   changeGroups: RawAppGroup[];
   removeGroups: RawAppGroup[];
+};
+
+// 定义一个类型，表示全局规则的变更日志
+type GlobalDiff = {
+  addGlobalGroups: RawGlobalGroup[];
+  changeGlobalGroups: RawGlobalGroup[];
+  removeGlobalGroups: RawGlobalGroup[];
 };
 
 export const updateReadMeMd = async (

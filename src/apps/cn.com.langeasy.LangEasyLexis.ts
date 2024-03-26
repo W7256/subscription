@@ -104,5 +104,60 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 5,
+      name: '功能类-开始拼写',
+      activityIds: [
+        'cn.com.langeasy.LangEasyLexis.activity.NewReviewActivity',
+        'cn.com.langeasy.LangEasyLexis.activity.NewLearnActivity',
+      ],
+      rules: [
+        {
+          key: 1,
+          quickFind: true,
+          matches: 'TextView[text="开始拼写"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/d8d672a5-444b-48ee-8041-b2c6eeb067d4',
+          snapshotUrls: 'https://i.gkd.li/i/14755345',
+        },
+      ],
+    },
+    {
+      key: 6,
+      name: '功能类-点击输入框',
+      desc: '开始拼写时点击一下输入框，方便回车到下一个单词（方便平板搭配键盘，懂得都懂）',
+      activityIds: [
+        'cn.com.langeasy.LangEasyLexis.activity.NewReviewActivity',
+        'cn.com.langeasy.LangEasyLexis.activity.NewLearnActivity',
+      ],
+      rules: [
+        {
+          quickFind: true,
+          actionMaximum: 1,
+          resetMatch: 'activity',
+          matches:
+            'EditText[id="cn.com.langeasy.LangEasyLexis:id/et_spell_input"][visibleToUser=true]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/09afebfd-7520-4ed2-ac49-165b9492138f',
+          snapshotUrls: 'https://i.gkd.li/i/14755702',
+        },
+      ],
+    },
+    {
+      key: 7,
+      name: '广告弹窗-去商店评分',
+      desc: '点击下次再说',
+      rules: [
+        {
+          quickFind: true,
+          matches: 'Button[id="android:id/button3"][text="下次再说"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/3bbcaffe-7d42-414e-9ba7-dda8303fa171',
+          snapshotUrls: 'https://i.gkd.li/i/14757351',
+        },
+      ],
+    },
   ],
 });
