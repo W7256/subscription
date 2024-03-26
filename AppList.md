@@ -133,7 +133,7 @@
 | 比亚迪王朝             | [com.byd.aeri.caranywhere](/docs/com.byd.aeri.caranywhere.md)                                                                                                     | 1      |
 | 比翼多开               | [com.svm.hbyy](/docs/com.svm.hbyy.md)                                                                                                                             | 1      |
 | 薄荷健康               | [com.boohee.one](/docs/com.boohee.one.md)                                                                                                                         | 3      |
-| 不背单词               | [cn.com.langeasy.LangEasyLexis](/docs/cn.com.langeasy.LangEasyLexis.md)                                                                                           | 4      |
+| 不背单词               | [cn.com.langeasy.LangEasyLexis](/docs/cn.com.langeasy.LangEasyLexis.md)                                                                                           | 7      |
 | 步道乐跑               | [com.lptiyu.tanke](/docs/com.lptiyu.tanke.md)                                                                                                                     | 1      |
 | 布丁扫描               | [com.wibo.bigbang.ocr](/docs/com.wibo.bigbang.ocr.md)                                                                                                             | 1      |
 | 不厌书法               | [com.buyanchuantong.buyanshufa](/docs/com.buyanchuantong.buyanshufa.md)                                                                                           | 1      |
@@ -570,7 +570,7 @@
 | 悦通行                 | [com.wwwscn.yuexingbao](/docs/com.wwwscn.yuexingbao.md)                                                                                                           | 1      |
 | 雨见                   | [com.yujian.ResideMenuDemo](/docs/com.yujian.ResideMenuDemo.md)                                                                                                   | 1      |
 | 云班课                 | [com.mosoink.teach](/docs/com.mosoink.teach.md)                                                                                                                   | 1      |
-| 运动世界校园           | [com.zjwh.android_wh_physicalfitness](/docs/com.zjwh.android_wh_physicalfitness.md)                                                                               | 5      |
+| 运动世界校园           | [com.zjwh.android_wh_physicalfitness](/docs/com.zjwh.android_wh_physicalfitness.md)                                                                               | 6      |
 | 云闪付                 | [com.unionpay](/docs/com.unionpay.md)                                                                                                                             | 9      |
 | 云听                   | [com.shinyv.cnr](/docs/com.shinyv.cnr.md)                                                                                                                         | 1      |
 | 语雀                   | [com.yuque.mobile.android.app](/docs/com.yuque.mobile.android.app.md)                                                                                             | 2      |

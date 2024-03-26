@@ -1,6 +1,6 @@
 # 运动世界校园
 
-存在 5 规则组 - [com.zjwh.android_wh_physicalfitness](/src/apps/com.zjwh.android_wh_physicalfitness.ts)
+存在 6 规则组 - [com.zjwh.android_wh_physicalfitness](/src/apps/com.zjwh.android_wh_physicalfitness.ts)
 
 ## 百度广告
 
@@ -19,6 +19,16 @@
 默认禁用
 
 - [快照-0](https://i.gkd.li/import/12673476)
+
+## 广告弹窗-5.7.1版本新增广告
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/279e460d-602c-43a5-a742-77226be5cfda)
+- [示例-1](https://m.gkd.li/110102406/8dd73677-9cc2-407f-ad17-cfb4ed6489b1)
+
+- [快照-0](https://i.gkd.li/i/14755382)
+- [快照-1](https://i.gkd.li/i/14757386)
 
 ## 快手广告
 
