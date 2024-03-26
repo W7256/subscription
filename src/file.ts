@@ -147,7 +147,12 @@ export async function* walk(dirPath: string) {
 export const validSnapshotUrl = (s: string) => {
   const u = new URL(s);
   // return u.pathname.startsWith('/import/');
-  return u.pathname.startsWith('/i/');
+
+  //new_add
+  if (u.pathname.startsWith('/i/') || u.pathname.startsWith('/import/'))
+    return true;
+  else return false;
+  //new_add
 };
 
 // 导出一个函数，用于检查配置的有效性
@@ -321,7 +326,7 @@ export const checkConfig = (newConfig: RawSubscription) => {
           });
           throw new Error(
             // `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/import/12506571`,
-            `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/i/12506571`,
+            `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/i/12506571 or https://i.gkd.li/import/12506571`,
           );
         }
       });
@@ -337,7 +342,7 @@ export const checkConfig = (newConfig: RawSubscription) => {
             });
             throw new Error(
               // `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/import/12506571`,
-              `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/i/12506571`,
+              `invalid snapshotUrls: ${u}\nit should like https://i.gkd.li/i/12506571 or https://i.gkd.li/import/12506571`,
             );
           }
         });
