@@ -1,6 +1,6 @@
 # 不背单词
 
-存在 7 规则组 - [cn.com.langeasy.LangEasyLexis](/src/apps/cn.com.langeasy.LangEasyLexis.ts)
+存在 8 规则组 - [cn.com.langeasy.LangEasyLexis](/src/apps/cn.com.langeasy.LangEasyLexis.ts)
 
 ## 功能类-点击输入框
 
@@ -9,6 +9,14 @@
 - [示例-0](https://m.gkd.li/110102406/09afebfd-7520-4ed2-ac49-165b9492138f)
 
 - [快照-0](https://i.gkd.li/i/14755702)
+
+## 功能类-复习完自动点击'Learn'板块
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/5d9dac38-f8cd-416d-8d44-1869b896974d)
+
+- [快照-0](https://i.gkd.li/i/14785284)
 
 ## 功能类-开始拼写
 

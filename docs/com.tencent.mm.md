@@ -1,29 +1,6 @@
 # 微信
 
-存在 22 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
-
-## 分段广告-订阅号文章广告
-
-默认禁用 - ⚠ 此规则有概率误触。自动点击关闭按钮，必须同时启用【订阅号文章广告反馈】规则
-
-- [快照-0](https://i.gkd.li/import/12642232)
-- [快照-1](https://i.gkd.li/import/13199281)
-- [快照-2](https://i.gkd.li/import/12646837)
-- [快照-3](https://i.gkd.li/import/12678937)
-- [快照-4](https://i.gkd.li/import/12714427)
-- [快照-5](https://i.gkd.li/import/12700183)
-- [快照-6](https://i.gkd.li/import/12701503)
-- [快照-7](https://i.gkd.li/import/12714424)
-
-## 分段广告-订阅号文章广告反馈
-
-默认禁用 - ⚠ 此规则有概率误触。自动点击反馈理由，配合【订阅号文章广告】规则使用
-
-- [快照-0](https://i.gkd.li/import/12642234)
-- [快照-1](https://i.gkd.li/import/12722301)
-- [快照-2](https://i.gkd.li/import/12722331)
-- [快照-3](https://i.gkd.li/import/12642238)
-- [快照-4](https://i.gkd.li/import/12700191)
+存在 20 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 分段广告-订阅号文章内广告
 
