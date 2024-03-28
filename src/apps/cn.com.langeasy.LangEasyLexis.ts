@@ -159,5 +159,22 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 8,
+      name: '功能类-复习完自动点击\'Learn\'板块',
+      actionMaximum: 1,
+      resetMatch: 'app',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'cn.com.langeasy.LangEasyLexis.activity.MainActivity',
+          matches:
+            '@[id="cn.com.langeasy.LangEasyLexis:id/ll_learn_band"] + [id="cn.com.langeasy.LangEasyLexis:id/ll_review_band"] > [text="0"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/5d9dac38-f8cd-416d-8d44-1869b896974d',
+          snapshotUrls: 'https://i.gkd.li/i/14785284',
+        },
+      ],
+    },
   ],
 });

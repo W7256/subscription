@@ -178,6 +178,7 @@ export default defineAppConfig({
           key: 0,
           name: '自动签到',
           action: 'clickCenter',
+          matchDelay: 500,
           matches: ['FrameLayout > TextView[text="领取今日现金"]'],
           snapshotUrls: [
             'https://i.gkd.li/import/13201422', //com.xunmeng.pinduoduo.ui.activity.HomeActivity
@@ -190,6 +191,7 @@ export default defineAppConfig({
           name: '在签到后关闭弹窗',
           action: 'clickCenter',
           matches: ['FrameLayout > TextView[text="明日继续来领"]'],
+          matchDelay: 500,
           snapshotUrls: 'https://i.gkd.li/import/13205634',
         },
       ],

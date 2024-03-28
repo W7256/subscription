@@ -58,14 +58,14 @@ export default defineAppConfig({
     {
       enable: false,
       key: 3,
-      name: '信息流广告',
+      name: '分段广告-信息流广告',
       desc: '长按【赞助】/【广告】标识的卡片-点【不感兴趣】',
       quickFind: true,
       activityIds: 'com.xingin.xhs.index.v2.IndexActivityV2',
       rules: [
         {
           key: 0,
-          action: 'longClick',
+          action: 'longClickNode',
           name: '长按【赞助】/【广告】卡片',
           matches:
             '@FrameLayout[clickable=true] > LinearLayout TextView[text="赞助"||text="广告"]',
@@ -79,6 +79,7 @@ export default defineAppConfig({
           name: '点【不感兴趣】',
           matches:
             'RecyclerView > @LinearLayout > TextView[text="不喜欢该内容"]',
+          action: 'clickNode',
           snapshotUrls: 'https://i.gkd.li/import/13455500',
         },
       ],

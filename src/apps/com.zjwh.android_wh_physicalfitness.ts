@@ -84,26 +84,39 @@ export default defineAppConfig({
     {
       key: 5,
       name: '广告弹窗-5.7.1版本新增广告',
+      activityIds: [
+        'com.zjwh.android_wh_physicalfitness.activity.mine.RunHistoryDetailActivity',
+        'com.zjwh.android_wh_physicalfitness.activity.HomeActivity',
+      ],
       rules: [
         {
           key: 1,
-          activityIds:
-            'com.zjwh.android_wh_physicalfitness.activity.mine.RunHistoryDetailActivity',
+          name: 'key:1',
           matches:
             'TextView[text="摇动/点击了解更多内容"] <<(2n+2) FrameLayout + FrameLayout',
+          matchDelay: 500,
           exampleUrls:
             'https://m.gkd.li/110102406/279e460d-602c-43a5-a742-77226be5cfda',
           snapshotUrls: 'https://i.gkd.li/i/14755382',
         },
         {
           key: 2,
-          activityIds:
-            'com.zjwh.android_wh_physicalfitness.activity.HomeActivity',
+          name: 'key:2',
           matches: 'TextView[text$="广告"] < ViewGroup - ViewGroup > ViewGroup',
           action: 'clickNode',
           exampleUrls:
             'https://m.gkd.li/110102406/8dd73677-9cc2-407f-ad17-cfb4ed6489b1',
           snapshotUrls: 'https://i.gkd.li/i/14757386',
+        },
+        {
+          key: 3,
+          name: 'key:3',
+          matches:
+            'TextView[text="摇动/点击了解更多内容"] <<(1n+2) FrameLayout -(n+1) FrameLayout',
+          matchDelay: 500,
+          exampleUrls:
+            'https://m.gkd.li/110102406/4a22e758-ec66-48ff-ad30-3e743d6d0b0d',
+          snapshotUrls: 'https://i.gkd.li/i/14757683',
         },
       ],
     },
