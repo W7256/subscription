@@ -18,5 +18,20 @@ export default defineAppConfig({
         'ImageView[id=`com.snda.wifilocating:id/feed_item_sdk_logo`] < LinearLayout + [id=`com.snda.wifilocating:id/feed_item_dislike`]',
       ],
     },
+    {
+      key: 1,
+      name: '局部广告-连接页右下角浮窗广告',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.wifitutu.ui.main.MainActivity',
+          matches: 'ImageView[id="com.snda.wifilocating:id/img_close"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/7d4966ee-949f-452b-8265-ba24d4549e08',
+          snapshotUrls: 'https://i.gkd.li/i/14806684',
+        },
+      ],
+    },
   ],
 });
