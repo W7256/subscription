@@ -3,7 +3,24 @@ import { defineAppConfig } from '../types';
 export default defineAppConfig({
   id: 'com.qq.reader',
   name: 'QQ阅读',
+  deprecatedKeys: [],
   groups: [
+    {
+      key: 1,
+      name: '全屏广告-首页广告',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: '',
+          matches:
+            '[id="com.qq.reader:id/adv_mask_container"] + [id="com.qq.reader:id/close_btn"]',
+          action: 'clickNode',
+          exampleUrls:
+            'https://m.gkd.li/110102406/f514046d-d42e-4c54-8b73-aea713d3213e',
+          snapshotUrls: 'https://i.gkd.li/i/14806300',
+        },
+      ],
+    },
     {
       key: 2,
       name: '青少年弹窗',
