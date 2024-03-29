@@ -360,6 +360,32 @@ export default defineAppConfig({
       ],
     },
     {
+      key: 16,
+      name: '全屏广告-QQ秀',
+      activityIds:
+        'com.tencent.sqshow.zootopia.recommend.main.ZPlanMainRecommendActivity',
+      exampleUrls:
+        'https://m.gkd.li/110102406/4aaba2b7-1257-40ea-aeea-a4d92ac2df64',
+      snapshotUrls: 'https://i.gkd.li/i/14806579',
+      rules: [
+        {
+          key: 1,
+          name: '今日不再展示',
+          quickFind: true,
+          matches: 'CheckBox[text="今日不再展示"]',
+          action: 'clickNode',
+        },
+        {
+          preKeys: [1],
+          key: 2,
+          name: '关闭',
+          matches:
+            'CheckBox[text="今日不再展示"] -n ImageView[id^="com.tencent.mobileqq.zplan_impl:id/0a"][clickable=true][left!=0]',
+          action: 'clickNode',
+        },
+      ],
+    },
+    {
       key: 17,
       name: '更新提示-更新弹窗',
       actionMaximum: 1,
