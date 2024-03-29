@@ -33,5 +33,19 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 2,
+      name: '局部广告-\'我的\'页面卡片广告',
+      rules: [
+        {
+          activityIds: 'com.wifitutu.ui.main.MainActivity',
+          matches:
+            'TextView[id="com.snda.wifilocating:id/native_express_ad_logo_tv"][text$="广告"] + ImageView',
+          exampleUrls:
+            'https://m.gkd.li/110102406/43654e89-a2e5-4f81-9fbb-0751768832eb',
+          snapshotUrls: 'https://i.gkd.li/i/14806808',
+        },
+      ],
+    },
   ],
 });
