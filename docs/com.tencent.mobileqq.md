@@ -1,6 +1,6 @@
 # QQ
 
-存在 20 规则组 - [com.tencent.mobileqq](/src/apps/com.tencent.mobileqq.ts)
+存在 21 规则组 - [com.tencent.mobileqq](/src/apps/com.tencent.mobileqq.ts)
 
 ## 分段广告-好友动态-广告卡片
 
@@ -150,6 +150,14 @@
 
 - [快照-0](https://i.gkd.li/import/13695087)
 - [快照-1](https://i.gkd.li/import/13699701)
+
+## 全屏广告-QQ秀
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/4aaba2b7-1257-40ea-aeea-a4d92ac2df64)
+
+- [快照-0](https://i.gkd.li/i/14806579)
 
 ## 我的等级-浮窗广告
 
