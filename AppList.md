@@ -97,7 +97,7 @@
 | U净                    | [com.midea.vm.washer](/docs/com.midea.vm.washer.md)                                                                                                               | 1      |
 | VIVO 电子书            | [com.chaozh.iReader](/docs/com.chaozh.iReader.md)                                                                                                                 | 2      |
 | WiFi万能钥匙           | [com.wifitutu](/docs/com.wifitutu.md)                                                                                                                             | 1      |
-| WiFi万能钥匙           | [com.snda.wifilocating](/docs/com.snda.wifilocating.md)                                                                                                           | 1      |
+| WiFi万能钥匙           | [com.snda.wifilocating](/docs/com.snda.wifilocating.md)                                                                                                           | 3      |
 | WiFi智能钥匙           | [com.bjsk.intelligent](/docs/com.bjsk.intelligent.md)                                                                                                             | 1      |
 | X(推特)                | [com.twitter.android](/docs/com.twitter.android.md)                                                                                                               | 5      |
 | 爱企查                 | [com.baidu.xin.aiqicha](/docs/com.baidu.xin.aiqicha.md)                                                                                                           | 3      |
