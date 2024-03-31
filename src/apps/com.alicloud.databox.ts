@@ -14,6 +14,8 @@ export default defineAppConfig({
           name: '自动签到',
           matches: ['[id="com.alicloud.databox:id/tvTaskAction"][text="领取"]'],
           snapshotUrls: 'https://i.gkd.li/import/12929318',
+          exampleUrls:
+            'https://m.gkd.li/110102406/fd8585ec-0107-4afc-b278-16fe25197d85',
           quickFind: true,
         },
         {
@@ -22,6 +24,8 @@ export default defineAppConfig({
           name: '在签到后，关闭弹窗',
           matches: ['[id="com.alicloud.databox:id/ivClose"]'],
           snapshotUrls: 'https://i.gkd.li/import/13038304',
+          exampleUrls:
+            'https://m.gkd.li/110102406/34448d6b-3257-4e8a-98c1-1a8c5265d166',
           quickFind: true,
         },
       ],

@@ -16,6 +16,8 @@ export default defineAppConfig({
           matches:
             '[id="com.m4399.gamecenter:id/image"] + [id="com.m4399.gamecenter:id/close"]',
           snapshotUrls: 'https://i.gkd.li/import/13297551',
+          exampleUrls:
+            'https://m.gkd.li/110102406/fd8585ec-0107-4afc-b278-16fe25197d85',
         },
         {
           key: 1,

@@ -18,6 +18,8 @@ export default defineAppConfig({
           matches:
             '[id="com.baidu.netdisk:id/cl_content"] - [id="com.baidu.netdisk:id/iv_close"]',
           snapshotUrls: ['https://i.gkd.li/import/12642505'],
+          exampleUrls:
+            'https://m.gkd.li/110102406/b3b6e31e-65a9-4e8f-ba7a-e71c81c991b4',
         },
         {
           key: 2,
@@ -26,6 +28,8 @@ export default defineAppConfig({
           matches:
             '[id="com.baidu.netdisk:id/view_content_bg2"] - [id="com.baidu.netdisk:id/iv_close"]',
           snapshotUrls: ['https://i.gkd.li/import/12923937'],
+          exampleUrls:
+            'https://m.gkd.li/110102406/7a0c9a76-e000-4937-8cf8-8e5d495a3107',
         },
       ],
     },
@@ -36,6 +40,8 @@ export default defineAppConfig({
       quickFind: true,
       rules: '[id="com.baidu.netdisk:id/banner_item_close"]',
       snapshotUrls: 'https://i.gkd.li/import/12706544',
+      exampleUrls:
+        'https://m.gkd.li/110102406/4116b682-391b-4c80-a208-0c44240462b7',
     },
     {
       key: 3,
@@ -45,6 +51,8 @@ export default defineAppConfig({
       rules:
         '[id="com.baidu.netdisk:id/vf_content"] + [id="com.baidu.netdisk:id/close"]',
       snapshotUrls: 'https://i.gkd.li/import/12706544',
+      exampleUrls:
+        'https://m.gkd.li/110102406/4116b682-391b-4c80-a208-0c44240462b7',
     },
     {
       key: 4,
@@ -64,15 +72,19 @@ export default defineAppConfig({
       rules:
         '@ImageView[id="com.baidu.netdisk:id/close_btn"] + ImageView[id="com.baidu.netdisk:id/bg_image"]',
       snapshotUrls: 'https://i.gkd.li/import/12648987',
+      exampleUrls:
+        'https://m.gkd.li/110102406/5d65727d-822f-458a-b21d-8f185116ee4b',
     },
     {
       key: 6,
-      name: '更新弹窗',
+      name: '更新提示',
       quickFind: true,
       actionMaximum: 1,
       resetMatch: 'app',
       rules: '[text="立即更新"] -n [text="下次再说"]', //使用ID会导致误触（例如删除确认https://i.gkd.li/import/13069049）
       snapshotUrls: 'https://i.gkd.li/import/12863984',
+      exampleUrls:
+        'https://m.gkd.li/110102406/00f33325-bd53-4526-8c6f-f6b81212011a',
     },
     {
       key: 7,
