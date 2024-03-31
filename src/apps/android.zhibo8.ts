@@ -17,6 +17,8 @@ export default defineAppConfig({
           matches:
             '@[id="android.zhibo8:id/iv_tip"] - [id="android.zhibo8:id/tv_app_download_2"]',
           snapshotUrls: 'https://i.gkd.li/import/12841134',
+          exampleUrls:
+            'https://m.gkd.li/110102406/ad5d8171-39fe-43ed-b1ff-db07cbe904c5',
         },
         {
           key: 1, //不重叠不需要preKeys
@@ -24,6 +26,8 @@ export default defineAppConfig({
           matches:
             '@LinearLayout > [id="android.zhibo8:id/tv_title"][text="不感兴趣"]', // issues/1656, 直接指向text可能不工作
           snapshotUrls: 'https://i.gkd.li/import/12841135',
+          exampleUrls:
+            'https://m.gkd.li/110102406/a2811e16-e0cb-4eb4-b384-12f70401648b',
         },
         {
           key: 2,
@@ -31,6 +35,8 @@ export default defineAppConfig({
           matches:
             '[text="广告"] <3 LinearLayout +2 [visibleToUser=true][id="android.zhibo8:id/iv_tip"]',
           snapshotUrls: 'https://i.gkd.li/import/13786148',
+          exampleUrls:
+            'https://m.gkd.li/110102406/c6d03652-9845-47e3-a24e-0b6529cbf970',
         },
       ],
     },

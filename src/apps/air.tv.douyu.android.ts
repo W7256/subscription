@@ -14,6 +14,8 @@ export default defineAppConfig({
         'com.douyu.module.home.pages.main.MainActivity',
       ],
       snapshotUrls: 'https://i.gkd.li/import/12472598',
+      exampleUrls:
+        'https://m.gkd.li/110102406/9cd5ee0e-fb26-4849-8689-dbde5ee060a6',
       rules: [
         '[text="开启青少年模式"] + [text=\'我知道了\']', // 1686970236642
       ],
@@ -29,7 +31,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '直播间广告',
+      name: '局部广告-直播间广告',
       activityIds: 'tv.douyu.view.activity.PlayerActivity',
       rules: [
         {
@@ -40,6 +42,8 @@ export default defineAppConfig({
             'https://i.gkd.li/import/12892825',
             'https://i.gkd.li/import/13037239',
           ],
+          exampleUrls:
+            'https://m.gkd.li/110102406/dc8e927b-8138-4764-a8de-ed5e4d86aad5',
         },
         {
           key: 1,
@@ -51,6 +55,8 @@ export default defineAppConfig({
           matches:
             'RelativeLayout[childCount=3] > ViewPager + @View + ImageView',
           snapshotUrls: 'https://i.gkd.li/import/13056107',
+          exampleUrls:
+            'https://m.gkd.li/110102406/a6ee567d-0193-4eb5-9f75-6efd59abf505',
         },
         {
           key: 3,
