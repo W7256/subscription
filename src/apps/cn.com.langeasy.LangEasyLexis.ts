@@ -136,6 +136,7 @@ export default defineAppConfig({
           quickFind: true,
           actionMaximum: 1,
           resetMatch: 'activity',
+          action: 'clickCenter',
           matches:
             'EditText[id="cn.com.langeasy.LangEasyLexis:id/et_spell_input"][visibleToUser=true]',
           exampleUrls:
