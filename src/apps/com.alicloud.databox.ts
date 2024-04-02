@@ -15,7 +15,7 @@ export default defineAppConfig({
           matches: ['[id="com.alicloud.databox:id/tvTaskAction"][text="领取"]'],
           snapshotUrls: 'https://i.gkd.li/import/12929318',
           exampleUrls:
-            'https://m.gkd.li/110102406/fd8585ec-0107-4afc-b278-16fe25197d85',
+            'https://m.gkd.li/110102406/bee33ce8-66e7-4ccb-b7a7-152e445096b2',
           quickFind: true,
         },
         {
