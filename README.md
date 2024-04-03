@@ -8,7 +8,7 @@
 https://registry.npmmirror.com/@wenbux/gkd_subscription/latest/files
 ```
 
-当前版本: v21
+当前版本: v22
 
 当前订阅文件已适配 621 个 APP, 共有 1420 规则组
 
@@ -18,4 +18,4 @@ https://registry.npmmirror.com/@wenbux/gkd_subscription/latest/files
 
 ## 感谢以下开发者的贡献
 
-![img](https://contrib.rocks/image?repo=gkd-kit/subscription&_v=21)
+![img](https://contrib.rocks/image?repo=gkd-kit/subscription&_v=22)
