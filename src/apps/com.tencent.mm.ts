@@ -514,7 +514,7 @@ export default defineAppConfig({
           key: 3,
           name: '开启用水',
           action: 'clickNode',
-          matches: 'View +2 * + TextView[text="开启用水"]',
+          matches: 'TextView[text="开启用水"]',
           actionMaximum: 1,
           exampleUrls:
             'https://m.gkd.li/110102406/03aa7521-c7d8-4a19-b55f-2560b7b40990',
