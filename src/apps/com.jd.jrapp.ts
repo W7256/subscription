@@ -6,24 +6,16 @@ export default defineAppConfig({
   groups: [
     {
       key: 1,
-      name: '通知提醒',
-      quickFind: true,
-      actionMaximum: 1,
-      activityIds: [
-        'com.jd.jrapp.bm.mainbox.main.MainActivity',
-        'com.jd.jrapp.bm.common.web.ui.WebActivity',
-      ],
+      name: '通知提示',
+      activityIds: ['com.jd.jrapp.bm.common.web.ui.WebActivity'],
       rules: [
         {
-          activityIds: 'com.jd.jrapp.bm.mainbox.main.MainActivity',
-          matches:
-            'TextView[text^="打开通知"] +2 [id="com.jd.jrapp:id/iv_close"]',
-          snapshotUrls: 'https://i.gkd.li/import/13249998',
-        },
-        {
-          activityIds: 'com.jd.jrapp.bm.common.web.ui.WebActivity',
-          matches: 'View[text="开启并订阅通知"] < View + View[clickable=true]',
-          snapshotUrls: 'https://i.gkd.li/import/13255656',
+          key: 1,
+          matches: 'TextView[text="开启系统通知"] - TextView',
+          action: 'clickNode',
+          snapshotUrls: 'https://i.gkd.li/i/14896436',
+          exampleUrls:
+            'https://m.gkd.li/110102406/0fc51cd6-23bd-4de9-99b5-212de59353db',
         },
       ],
     },
