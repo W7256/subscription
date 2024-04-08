@@ -180,6 +180,8 @@ export default defineAppConfig({
       activityIds: 'com.tencent.mm.ui.chatting.gallery.ImageGalleryUI',
       rules: 'Button[text^="查看原图"][clickable=true]',
       snapshotUrls: 'https://i.gkd.li/import/13523031',
+      exampleUrls:
+        'https://m.gkd.li/110102406/c6c75b8d-28a7-4da4-8ee7-4a27bfa3e6d2',
     },
     {
       key: 10,
@@ -222,6 +224,8 @@ export default defineAppConfig({
       activityIds: 'com.tencent.mm.ui.LauncherUI',
       rules: '[text="打开网页版文件传输助手"] + * > Button[text="打开"]',
       snapshotUrls: 'https://i.gkd.li/import/12793745',
+      exampleUrls:
+        'https://m.gkd.li/110102406/a9580dcc-f1f6-4ced-822d-543912bee9f2',
     },
     {
       enable: false,
@@ -270,6 +274,8 @@ export default defineAppConfig({
             'FrameLayout[childCount=5] + FrameLayout[childCount=2] >2 FrameLayout[childCount=1]',
           ],
           snapshotUrls: 'https://i.gkd.li/import/12926021',
+          exampleUrls:
+            'https://m.gkd.li/110102406/15ae2d38-7662-40b9-84ce-504a6adec888',
         },
         {
           key: 1,
@@ -278,6 +284,8 @@ export default defineAppConfig({
             'FrameLayout[childCount=6] + FrameLayout[childCount=2] > FrameLayout > FrameLayout > ImageView',
           ],
           snapshotUrls: 'https://i.gkd.li/import/13459614',
+          exampleUrls:
+            'https://m.gkd.li/110102406/b2358b46-8db7-409f-94b2-7a6005a26a06',
         },
       ],
     },
@@ -299,12 +307,18 @@ export default defineAppConfig({
             'https://i.gkd.li/import/13199282', // [childCount=3]避免在点击展开菜单后重复点击
             'https://i.gkd.li/import/13407275', // excludeMatches中添加key10中规则，避免误触
           ],
+          exampleUrls: [
+            'https://m.gkd.li/110102406/ecf0a584-c5cc-4fe6-9999-a0dd4cf184d2',
+            'https://m.gkd.li/110102406/e0da6477-6232-4df4-a3a2-bd1baf80999f',
+          ],
         },
         {
           key: 1,
           name: '【广告】1',
           matches: 'Image[text="feedback_icon"] - [text="广告"]',
           snapshotUrls: 'https://i.gkd.li/import/13378208',
+          exampleUrls:
+            'https://m.gkd.li/110102406/bc977f0e-5544-4fb0-aedd-81d1eb07560b',
         },
         {
           preKeys: [0, 1],
@@ -312,6 +326,8 @@ export default defineAppConfig({
           name: '点击原因【不感兴趣】',
           matches: '[text="不感兴趣"][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/import/13200044',
+          exampleUrls:
+            'https://m.gkd.li/110102406/60805d2a-629f-4e91-a709-a06dc94917b1',
         },
         {
           preKeys: 11,
@@ -319,6 +335,8 @@ export default defineAppConfig({
           name: '点击原因【与我无关】',
           matches: '[text="与我无关"][visibleToUser=true]',
           snapshotUrls: 'https://i.gkd.li/import/13200048',
+          exampleUrls:
+            'https://m.gkd.li/110102406/e8003aa4-851a-424e-ae60-4883d22e2d7b',
         },
       ],
     },
@@ -334,6 +352,8 @@ export default defineAppConfig({
         matches: '@Image -n * > View[text="可横向滚动"]',
         action: 'clickCenter',
         snapshotUrls: ['https://i.gkd.li/import/13298294'],
+        exampleUrls:
+          'https://m.gkd.li/110102406/fe2393cc-8118-4ff1-9350-39ab5f815d29',
       },
     },
     {
@@ -351,6 +371,9 @@ export default defineAppConfig({
       snapshotUrls: [
         'https://i.gkd.li/import/13538145',
         'https://i.gkd.li/import/13575195', //activityIds: 'com.tencent.mm.plugin.finder.ui.FinderHomeAffinityUI'
+      ],
+      exampleUrls: [
+        'https://m.gkd.li/110102406/cfad313d-00b6-4f2d-9e38-f787a2c63fad',
       ],
     },
     {
@@ -419,6 +442,8 @@ export default defineAppConfig({
           matches:
             'ImageView - TextView[text="廣告"][clickable=true][id!=null]',
           snapshotUrls: 'https://i.gkd.li/import/13791200',
+          exampleUrls:
+            'https://m.gkd.li/110102406/bba41f09-b71b-4c73-b72c-ff03c1cc9a57',
         },
         {
           preKeys: 0,
@@ -426,6 +451,8 @@ export default defineAppConfig({
           name: '点击[關閉此廣告]',
           matches: 'RelativeLayout[childCount=6] > TextView[text="關閉此廣告"]',
           snapshotUrls: 'https://i.gkd.li/import/13791202',
+          exampleUrls:
+            'https://m.gkd.li/110102406/58cd23af-cbb4-4e42-82d3-745cd344f273',
         },
       ],
     },
