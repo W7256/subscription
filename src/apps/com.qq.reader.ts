@@ -29,6 +29,8 @@ export default defineAppConfig({
       resetMatch: 'app',
       rules: '[id="com.qq.reader:id/tv_i_know"]',
       snapshotUrls: 'https://i.gkd.li/import/13194867',
+      exampleUrls:
+        'https://m.gkd.li/110102406/b60d06ad-a254-465a-b8d3-76843b1a4d6b',
     },
   ],
 });
