@@ -21,7 +21,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '版本更新',
+      name: '版本提示',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
@@ -35,7 +35,7 @@ export default defineAppConfig({
     },
     {
       key: 3,
-      name: '满意度打分弹窗',
+      name: '广告弹窗-满意度打分',
       actionMaximum: 1,
       resetMatch: 'activity',
       rules: '[text*="满意度打几分"] + ImageView',
