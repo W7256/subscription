@@ -36,6 +36,8 @@ export default defineAppConfig({
       activityIds: 'com.alicloud.databox.MainActivity',
       rules: '[text^="好运盲盒"] >n View > Image + TextView[clickable=true]',
       snapshotUrls: 'https://i.gkd.li/import/13228610',
+      exampleUrls:
+        'https://m.gkd.li/110102406/3e998863-c64e-44e6-8ad8-34d991c5af53',
     },
     {
       key: 2,
@@ -47,6 +49,8 @@ export default defineAppConfig({
       matchTime: 10000,
       rules: 'View[childCount=9] > @Image -2 View[childCount=5]',
       snapshotUrls: 'https://i.gkd.li/import/13596924',
+      exampleUrls:
+        'https://m.gkd.li/110102406/c672bb88-4695-4c48-aa42-384e50f9fa05',
     },
     {
       key: 3,
@@ -60,6 +64,8 @@ export default defineAppConfig({
         {
           matches: '[text^="立即了解"] -3 View[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/import/13806865',
+          exampleUrls:
+            'https://m.gkd.li/110102406/4e9bedb8-e7f2-402f-b6e9-6aedbf5694f2',
         },
       ],
     },
