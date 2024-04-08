@@ -21,7 +21,7 @@ export default defineAppConfig({
     },
     {
       key: 2,
-      name: '版本提示',
+      name: '更新提示',
       quickFind: true,
       matchTime: 10000,
       actionMaximum: 1,
