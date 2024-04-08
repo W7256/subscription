@@ -96,6 +96,8 @@ export default defineAppConfig({
         {
           matches: 'View[desc="续费"] + ImageView',
           snapshotUrls: 'https://i.gkd.li/import/12924036',
+          exampleUrls:
+            'https://m.gkd.li/110102406/eb1a64b7-de20-4f17-b57c-8a12eda995a4',
         },
       ],
     },
@@ -108,6 +110,8 @@ export default defineAppConfig({
       activityIds: 'com.baidu.netdisk.ui.MainActivity',
       rules: 'ImageView[id="com.baidu.netdisk:id/dialog_cancel"]', //单独使用ID会导致误触（例如删除确认https://i.gkd.li/import/13069049）
       snapshotUrls: ['https://i.gkd.li/import/12923936'],
+      exampleUrls:
+        'https://m.gkd.li/110102406/13ef17dc-6777-4932-9952-e066390cc8c5',
     },
     {
       enable: false,
@@ -119,6 +123,8 @@ export default defineAppConfig({
       rules:
         'ViewGroup > [id="com.baidu.netdisk:id/background_image"] +n [id="com.baidu.netdisk:id/iv_close"]',
       snapshotUrls: 'https://i.gkd.li/import/12783106',
+      exampleUrls:
+        'https://m.gkd.li/110102406/b1b6697b-716f-41c4-9d76-cae4543652fc',
     },
     {
       key: 11,
@@ -131,6 +137,8 @@ export default defineAppConfig({
           matches:
             '[id="com.baidu.netdisk:id/tv_title"][text^="恭喜获得"] -3 ImageView[clickable=true]',
           snapshotUrls: 'https://i.gkd.li/import/13806852',
+          exampleUrls:
+            'https://m.gkd.li/110102406/e754bbc1-4554-4606-8498-3ec953890903',
         },
       ],
     },
