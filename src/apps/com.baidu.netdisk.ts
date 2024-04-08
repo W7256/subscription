@@ -62,6 +62,8 @@ export default defineAppConfig({
       quickFind: true,
       rules: '@TextView + [text="专属福利"]',
       snapshotUrls: 'https://i.gkd.li/import/12706549',
+      exampleUrls:
+        'https://m.gkd.li/110102406/9d1d70d1-4408-4d71-9f40-438807e33abc',
     },
     {
       key: 5,
