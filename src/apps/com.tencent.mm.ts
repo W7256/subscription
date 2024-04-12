@@ -574,5 +574,19 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 25,
+      name: '功能类-查看原视频',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.tencent.mm.ui.chatting.gallery.ImageGalleryUI',
+          matches: 'Button[text^="查看原视频"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/5c0ce129-0d48-462e-8ab4-a08a85addb65',
+          snapshotUrls: 'https://i.gkd.li/i/14956252',
+        },
+      ],
+    },
   ],
 });
