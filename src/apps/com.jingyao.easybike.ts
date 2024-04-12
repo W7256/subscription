@@ -70,7 +70,8 @@ export default defineAppConfig({
     {
       key: 13,
       name: '广告弹窗-骑行订单完成时的广告',
-      forcedTime: 5000,
+      forcedTime: 10000,
+      matchDelay: 2000,
       activityIds: ['com.alipay.mobile.nebulacore.ui.H5Activity'],
       rules:
         '[text="订单完成"] >(2) View[childCount=2] > Image[id=null][clickable=true]',
@@ -132,7 +133,8 @@ export default defineAppConfig({
       rules: [
         {
           action: 'clickNode',
-          matchDelay: 500,
+          forcedTime: 10000,
+          matchDelay: 2000,
           activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
           matches: 'View[text="没故障"]',
           exampleUrls:
@@ -164,7 +166,8 @@ export default defineAppConfig({
         {
           activityIds: 'com.alipay.mobile.nebulacore.ui.H5Activity',
           matches: '[text="一键收碳"]',
-          forcedTime: 45000,
+          forcedTime: 10000,
+          matchDelay: 2000,
           exampleUrls:
             'https://m.gkd.li/110102406/cb270491-1f48-48cc-9408-0b0cbf14ffda',
           snapshotUrls: 'https://i.gkd.li/import/14694352',
@@ -182,7 +185,8 @@ export default defineAppConfig({
             'com.hellobike.flutter.platform.android.flutterboost.FlutterHostFragmentActivity',
           matches: 'View[desc="继续还车"]',
           action: 'clickNode',
-          forcedTime: 45000,
+          forcedTime: 10000,
+          matchDelay: 2000,
           actionMaximum: 3,
           resetMatch: 'app',
           exampleUrls:
