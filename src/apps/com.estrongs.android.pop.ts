@@ -27,6 +27,13 @@ export default defineAppConfig({
             'https://m.gkd.li/110102406/b79b4e3d-df86-423c-a020-7e3846e07907',
           snapshotUrls: 'https://i.gkd.li/import/14506950',
         },
+        {
+          matches:
+            'TextView[text="点击了解更多内容"] < LinearLayout < LinearLayout < FrameLayout -2 FrameLayout',
+          exampleUrls:
+            'https://m.gkd.li/110102406/981cbbaf-5115-4da6-a532-dd0d0c2bd397',
+          snapshotUrls: 'https://i.gkd.li/i/15024760',
+        },
       ],
     },
     {
