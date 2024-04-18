@@ -551,31 +551,6 @@ export default defineAppConfig({
     },
     {
       key: 24,
-      name: '功能类-广州大学图书馆预约签到并返回',
-      desc: '广州大学学生专用',
-      activityIds: 'com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI',
-      rules: [
-        {
-          key: 1,
-          matches: 'TextView[text*=" - 图书馆"] +n Button[text="预约签到"]',
-          action: 'clickNode',
-          exampleUrls:
-            'https://m.gkd.li/110102406/6b3e5199-5d6b-4e4f-b393-372bf4ab7234',
-          snapshotUrls: 'https://i.gkd.li/i/14915124',
-        },
-        {
-          preKeys: [1],
-          key: 2,
-          matches: '[text*="签到成功"]',
-          action: 'back',
-          exampleUrls:
-            'https://m.gkd.li/110102406/65bbdbd3-6298-4fb4-868d-0ac36e4903e4',
-          snapshotUrls: 'https://i.gkd.li/i/14915154',
-        },
-      ],
-    },
-    {
-      key: 25,
       name: '功能类-查看原视频',
       rules: [
         {
