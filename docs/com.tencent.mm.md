@@ -1,6 +1,6 @@
 # 微信
 
-存在 20 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
+存在 21 规则组 - [com.tencent.mm](/src/apps/com.tencent.mm.ts)
 
 ## 分段广告-订阅号文章内广告
 
@@ -62,6 +62,14 @@
 - [快照-2](https://i.gkd.li/import/13378208)
 - [快照-3](https://i.gkd.li/import/13200044)
 - [快照-4](https://i.gkd.li/import/13200048)
+
+## 功能类-查看原视频
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/5c0ce129-0d48-462e-8ab4-a08a85addb65)
+
+- [快照-0](https://i.gkd.li/i/14956252)
 
 ## 功能类-电脑微信快捷自动登录
 
