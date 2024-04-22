@@ -1,6 +1,6 @@
 # 美团
 
-存在 8 规则组 - [com.sankuai.meituan](/src/apps/com.sankuai.meituan.ts)
+存在 9 规则组 - [com.sankuai.meituan](/src/apps/com.sankuai.meituan.ts)
 
 ## 订单调查弹窗
 
@@ -30,6 +30,16 @@
 - [快照-0](https://i.gkd.li/import/12614559)
 - [快照-1](https://i.gkd.li/import/12673132)
 - [快照-2](https://i.gkd.li/import/13292635)
+
+## 功能类-自动开启号码保护
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/714971f3-629e-489f-a358-66b7f7434853)
+- [示例-1](https://m.gkd.li/110102406/30687350-836d-4601-82a2-fb2ba843b517)
+
+- [快照-0](https://i.gkd.li/i/15062668)
+- [快照-1](https://i.gkd.li/i/15062953)
 
 ## 广告弹窗
 
