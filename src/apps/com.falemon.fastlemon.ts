@@ -7,7 +7,7 @@ export default defineAppConfig({
     {
       key: 1,
       matchTime: 10000,
-      name: '每日签到',
+      name: '功能类-每日签到',
       activityIds: 'com.faultyworld.walkthrough.MainActivity',
       rules: [
         {
