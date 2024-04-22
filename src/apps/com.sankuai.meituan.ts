@@ -170,5 +170,32 @@ export default defineAppConfig({
       rules: '[id="shareNav"] > [text=""]',
       snapshotUrls: 'https://i.gkd.li/import/13800691',
     },
+    {
+      key: 11,
+      name: '功能类-自动开启号码保护',
+      actionMaximum: 1,
+      resetMatch: 'activity',
+      matchDelay: 350,
+      rules: [
+        {
+          name: '外卖',
+          activityIds:
+            'com.sankuai.waimai.bussiness.order.confirm.OrderConfirmActivity',
+          matches:
+            'TextView[text="号码保护"] < * + * > FrameLayout[desc="未选中，按钮"] > ImageView',
+          exampleUrls:
+            'https://m.gkd.li/110102406/714971f3-629e-489f-a358-66b7f7434853',
+          snapshotUrls: 'https://i.gkd.li/i/15062668',
+        },
+        {
+          name: '拼好饭',
+          activityIds: 'com.meituan.msc.modules.container.MSCActivity',
+          matches: 'View[childCount=5] > TextView[text="号码保护"] +2 Image',
+          exampleUrls:
+            'https://m.gkd.li/110102406/30687350-836d-4601-82a2-fb2ba843b517',
+          snapshotUrls: 'https://i.gkd.li/i/15062953',
+        },
+      ],
+    },
   ],
 });
