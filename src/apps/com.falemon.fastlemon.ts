@@ -13,6 +13,8 @@ export default defineAppConfig({
         {
           key: 1,
           matches: 'Button[desc="每日签到"]',
+          actionMaximum: 1,
+          resetMatch: 'app',
           action: 'clickNode',
           exampleUrls:
             'https://m.gkd.li/110102406/f27b4391-d810-4b97-891b-b9fbf795e9d3',
@@ -35,6 +37,15 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/110102406/da6de5a7-dcc8-4c60-9b70-3305b5025bc6',
           snapshotUrls: 'https://i.gkd.li/i/15061136',
+        },
+        {
+          key: 4,
+          activityIds: '',
+          preKeys: 1,
+          matches: 'Button[desc="好的"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/ddd970ce-d86c-417a-aadb-38292765610f',
+          snapshotUrls: 'https://i.gkd.li/i/15064314',
         },
       ],
     },
