@@ -40,7 +40,7 @@ export default defineAppConfig({
         },
         {
           key: 4,
-          activityIds: '',
+          activityIds: ['com.faultyworld.walkthrough.MainActivity', ''],
           preKeys: 1,
           matches: 'Button[desc="好的"]',
           exampleUrls:
