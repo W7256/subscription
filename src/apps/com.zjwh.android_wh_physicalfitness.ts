@@ -91,7 +91,6 @@ export default defineAppConfig({
       rules: [
         {
           key: 1,
-          name: '1',
           matches:
             'TextView[text="摇动/点击了解更多内容"] <<(2n+2) FrameLayout + FrameLayout',
           matchDelay: 500,
@@ -101,7 +100,6 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          name: '2',
           matches: 'TextView[text$="广告"] < ViewGroup - ViewGroup > ViewGroup',
           action: 'clickNode',
           exampleUrls:
@@ -110,7 +108,6 @@ export default defineAppConfig({
         },
         {
           key: 3,
-          name: '3',
           matches:
             'TextView[text="摇动/点击了解更多内容"] <<(1n+2) FrameLayout -(n+1) FrameLayout',
           matchDelay: 500,
@@ -120,7 +117,6 @@ export default defineAppConfig({
         },
         {
           key: 4,
-          name: '4',
           quickFind: true,
           matches: '[id="com.zjwh.android_wh_physicalfitness:id/ad_close"]',
           exampleUrls:
@@ -129,7 +125,6 @@ export default defineAppConfig({
         },
         {
           key: 5,
-          name: '5',
           matches:
             'TextView[text^="应​用​名​称"][text*="​备​案​号​"] < LinearLayout - * > FrameLayout > FrameLayout[index=1]',
           exampleUrls:
