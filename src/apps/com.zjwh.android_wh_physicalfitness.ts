@@ -91,7 +91,7 @@ export default defineAppConfig({
       rules: [
         {
           key: 1,
-          name: 'key:1',
+          name: '1',
           matches:
             'TextView[text="摇动/点击了解更多内容"] <<(2n+2) FrameLayout + FrameLayout',
           matchDelay: 500,
@@ -101,7 +101,7 @@ export default defineAppConfig({
         },
         {
           key: 2,
-          name: 'key:2',
+          name: '2',
           matches: 'TextView[text$="广告"] < ViewGroup - ViewGroup > ViewGroup',
           action: 'clickNode',
           exampleUrls:
@@ -110,7 +110,7 @@ export default defineAppConfig({
         },
         {
           key: 3,
-          name: 'key:3',
+          name: '3',
           matches:
             'TextView[text="摇动/点击了解更多内容"] <<(1n+2) FrameLayout -(n+1) FrameLayout',
           matchDelay: 500,
@@ -120,12 +120,21 @@ export default defineAppConfig({
         },
         {
           key: 4,
-          name: 'key4',
+          name: '4',
           quickFind: true,
           matches: '[id="com.zjwh.android_wh_physicalfitness:id/ad_close"]',
           exampleUrls:
             'https://m.gkd.li/110102406/9469922a-6e8c-48cd-a2cc-fda9142ab8b9',
           snapshotUrls: 'https://i.gkd.li/i/15145690',
+        },
+        {
+          key: 5,
+          name: '5',
+          matches:
+            'TextView[text^="应​用​名​称"][text*="​备​案​号​"] < LinearLayout - * > FrameLayout > FrameLayout[index=1]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/f5f08706-2232-4d87-b747-a663e2d1a497',
+          snapshotUrls: 'https://i.gkd.li/i/15145708',
         },
       ],
     },
