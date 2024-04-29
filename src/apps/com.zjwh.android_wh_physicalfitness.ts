@@ -83,7 +83,7 @@ export default defineAppConfig({
     },
     {
       key: 5,
-      name: '广告弹窗-5.7.1版本新增广告',
+      name: '全屏广告',
       activityIds: [
         'com.zjwh.android_wh_physicalfitness.activity.mine.RunHistoryDetailActivity',
         'com.zjwh.android_wh_physicalfitness.activity.HomeActivity',
@@ -117,6 +117,15 @@ export default defineAppConfig({
           exampleUrls:
             'https://m.gkd.li/110102406/4a22e758-ec66-48ff-ad30-3e743d6d0b0d',
           snapshotUrls: 'https://i.gkd.li/i/14757683',
+        },
+        {
+          key: 4,
+          name: 'key4',
+          quickFind: true,
+          matches: '[id="com.zjwh.android_wh_physicalfitness:id/ad_close"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/9469922a-6e8c-48cd-a2cc-fda9142ab8b9',
+          snapshotUrls: 'https://i.gkd.li/i/15145690',
         },
       ],
     },
