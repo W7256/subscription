@@ -23,5 +23,22 @@ export default defineAppConfig({
         },
       ],
     },
+    {
+      key: 2,
+      name: '全屏广告',
+      rules: [
+        {
+          quickFind: true,
+          activityIds:
+            'com.boc.bocsoft.mobile.bocmobile.buss.system.main.ui.MainActivity',
+          matches: '[id="com.chinamworld.bocmbci:id/btn_action"]',
+          exampleUrls: [
+            'https://m.gkd.li/110102406/d6723d8a-e53b-4a67-9c5d-e330d394138a',
+            'https://m.gkd.li/110102406/54f1e7b9-8fb5-4103-89f1-2b18445e74b5',
+          ],
+          snapshotUrls: 'https://i.gkd.li/i/15183441',
+        },
+      ],
+    },
   ],
 });
