@@ -82,6 +82,25 @@ export default defineAppConfig({
             '@[clickable=true] > [id="com.zmzx.college.search:id/tt_reward_full_count_down_after_close"]',
           snapshotUrls: 'https://i.gkd.li/import/12893408',
         },
+        {
+          key: 6,
+          activityIds:
+            'com.zmzx.college.search.activity.main.activity.MainActivity',
+          matches:
+            'TextView[text^="应​用​名​称​："][text*="备​案​号​：​"] < LinearLayout - FrameLayout > FrameLayout[index=1]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/3cde49f3-1b83-4081-b25e-e5adda57b9d5',
+          snapshotUrls: 'https://i.gkd.li/i/15234305',
+        },
+        {
+          key: 7,
+          quickFind: true,
+          activityIds: 'com.mercury.sdk.activity.InterstitialPortraitActivity',
+          matches: 'ImageView[id="com.zmzx.college.search:id/iv_itr_close"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/0df8b382-fba3-44f3-9a81-13890c203fe2',
+          snapshotUrls: 'https://i.gkd.li/i/15234293',
+        },
       ],
     },
     {
