@@ -125,11 +125,21 @@ export default defineAppConfig({
         },
         {
           key: 5,
-          matches:
+          matches: [
             'TextView[text^="应​用​名​称"][text*="​备​案​号​"] < LinearLayout - * > FrameLayout > FrameLayout[index=1]',
+            'TextView[text^="应​用​名​称"][text*="​备​案​号​"] < LinearLayout - * > FrameLayout[index=1]',
+            'TextView[text^="应​用​名​称"][text*="​备​案​号​"] < LinearLayout < * - FrameLayout > FrameLayout[index=1]',
+          ], //此写法待测试
           exampleUrls:
             'https://m.gkd.li/110102406/f5f08706-2232-4d87-b747-a663e2d1a497',
           snapshotUrls: 'https://i.gkd.li/i/15145708',
+        },
+        {
+          key: 6,
+          matches: 'TextView[text="广告"] - * < ViewGroup -2 * > ViewGroup',
+          exampleUrls:
+            'https://m.gkd.li/110102406/43f31259-f8b1-4608-abd6-40605c1703d9',
+          snapshotUrls: 'https://i.gkd.li/i/15147248',
         },
       ],
     },
