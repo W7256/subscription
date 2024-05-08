@@ -119,6 +119,15 @@ export default defineAppConfig({
       rules: [
         {
           action: 'clickNode',
+          matchDelay: 350,
+          matches:
+            'View[desc="还车请在手机上点击“我要还车”"] +n View[desc="继续开锁"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/5673b1db-013c-463b-8daf-d54d838562cf',
+          snapshotUrls: 'https://i.gkd.li/i/15246099',
+        },
+        {
+          action: 'clickNode',
           matchDelay: 500,
           matches: 'View[desc="确认开锁"]',
           exampleUrls:
