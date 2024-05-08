@@ -101,6 +101,24 @@ export default defineAppConfig({
             'https://m.gkd.li/110102406/0df8b382-fba3-44f3-9a81-13890c203fe2',
           snapshotUrls: 'https://i.gkd.li/i/15234293',
         },
+        {
+          key: 8,
+          activityIds:
+            'com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity',
+          matches: 'TextView[text="反馈"] -2 View',
+          exampleUrls:
+            'https://m.gkd.li/110102406/f028ffee-7184-48eb-8975-c4b35c9b2312',
+          snapshotUrls: 'https://i.gkd.li/i/15246126',
+        },
+        {
+          key: 9,
+          activityIds: 'com.baidu.mobads.sdk.api.MobRewardVideoActivity',
+          matches:
+            'TextView[text="摇动手机  了解更多"] <<4 RelativeLayout - * < RelativeLayout - ImageView',
+          exampleUrls:
+            'https://m.gkd.li/110102406/4e44b827-6894-4537-bd1c-333e4334a905',
+          snapshotUrls: 'https://i.gkd.li/i/15246154',
+        },
       ],
     },
     {
