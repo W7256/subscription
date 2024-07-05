@@ -160,11 +160,16 @@ export default defineAppConfig({
     {
       enable: false,
       key: 10,
-      name: '请求通知权限弹窗',
-      desc: '自动点击【取消】',
-      activityIds: 'com.dragon.read.widget.ConfirmDialogBuilder',
-      rules: '@[text="取消"] < * -2 * > [text="开启推送提醒"]',
-      snapshotUrls: 'https://i.gkd.li/import/12716592',
+      name: '权限提示-开启推送提醒',
+      desc: '',
+      activityIds: [
+        'com.dragon.read.widget.ConfirmDialogBuilder',
+        'com.dragon.read.pages.main.MainFragmentActivity',
+      ],
+      rules: '@TextView[text="取消"] +n TextView[text="去开启"]',
+      snapshotUrls: 'https://i.gkd.li/i/16109962',
+      exampleUrls:
+        'https://m.gkd.li/110102406/adb922a2-40fc-4881-a282-350104ad96cd',
     },
     {
       key: 12,
