@@ -213,5 +213,22 @@ export default defineAppConfig({
       rules: '@[text="不感兴趣"][clickable=true] + [text="去商城搜索更多"]',
       snapshotUrls: 'https://i.gkd.li/import/13800207',
     },
+    {
+      key: 16,
+      name: '权限提示-访问通讯录',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
+          matches: '@Button[text="拒绝"] +n Button[text="继续"]',
+          exampleUrls:
+            'https://m.gkd.li/110102406/24a81233-6ce3-4da9-b6c6-e747c3b7964a',
+          snapshotUrls: 'https://i.gkd.li/i/16110031',
+        },
+      ],
+      matchTime: 10000,
+      resetMatch: 'app',
+      actionMaximum: 1,
+    },
   ],
 });
