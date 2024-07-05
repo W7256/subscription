@@ -22,6 +22,8 @@ jobs:
 
       - run: pnpm install
 
+      - run: npm update -g pnpm
+
       - run: pnpm run check
 
       - run: pnpm run format
