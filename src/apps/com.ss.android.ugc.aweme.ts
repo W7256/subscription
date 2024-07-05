@@ -219,6 +219,9 @@ export default defineAppConfig({
       rules: [
         {
           quickFind: true,
+          matchTime: 10000,
+          resetMatch: 'app',
+          actionMaximum: 1,
           activityIds: 'com.ss.android.ugc.aweme.main.MainActivity',
           matches: '@Button[text="拒绝"] +n Button[text="继续"]',
           exampleUrls:
@@ -226,9 +229,6 @@ export default defineAppConfig({
           snapshotUrls: 'https://i.gkd.li/i/16110031',
         },
       ],
-      matchTime: 10000,
-      resetMatch: 'app',
-      actionMaximum: 1,
     },
   ],
 });

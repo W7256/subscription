@@ -1,6 +1,8 @@
 name: build_release
 
-on: push
+on:
+  push:
+  workflow_dispatch:
 
 jobs:
   build_release:
