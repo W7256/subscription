@@ -1,6 +1,6 @@
 # 抖音
 
-存在 14 规则组 - [com.ss.android.ugc.aweme](/src/apps/com.ss.android.ugc.aweme.ts)
+存在 15 规则组 - [com.ss.android.ugc.aweme](/src/apps/com.ss.android.ugc.aweme.ts)
 
 ## 更新提示-以后再说
 
@@ -73,6 +73,14 @@
 - [示例-0](https://m.gkd.li/110102406/6862b815-4007-4350-ac93-d2e047160b1a)
 
 - [快照-0](https://i.gkd.li/import/12749276)
+
+## 权限提示-访问通讯录
+
+默认禁用
+
+- [示例-0](https://m.gkd.li/110102406/24a81233-6ce3-4da9-b6c6-e747c3b7964a)
+
+- [快照-0](https://i.gkd.li/i/16110031)
 
 ## 设置无声进入抖音
 

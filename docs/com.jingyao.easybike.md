@@ -20,9 +20,11 @@
 
 默认禁用
 
-- [示例-0](https://m.gkd.li/110102406/28ffc3a5-fda0-4a63-bcdd-211385a770ad)
+- [示例-0](https://m.gkd.li/110102406/5673b1db-013c-463b-8daf-d54d838562cf)
+- [示例-1](https://m.gkd.li/110102406/28ffc3a5-fda0-4a63-bcdd-211385a770ad)
 
-- [快照-0](https://i.gkd.li/import/14686624)
+- [快照-0](https://i.gkd.li/i/15246099)
+- [快照-1](https://i.gkd.li/import/14686624)
 
 ## 功能类-故障问卷点'没故障'
 
